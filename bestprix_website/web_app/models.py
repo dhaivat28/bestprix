@@ -4,5 +4,5 @@ from django.db import models
 
 # Create your models here.
 class flipkart(models.Model):
-	name = models.CharField(max_length=200)
-	url = models.TextField()
+	p_name = models.CharField(max_length=200)
+	p_url = models.TextField()
