@@ -14,7 +14,7 @@ class flipkart(scrapy.Spider):
 			url=response.urljoin(href)
 			if url not in url_list:
 				url_list.append(url)
-				with open('/home/sid/Development/allurl.txt', 'ab') as f:
+				with open('/home/sid/Development/allurl2.txt', 'ab') as f:
 					f.write(url+"\n")
 					f.close()
 				yield scrapy.Request(url, callback=self.parse)
