@@ -1,0 +1,444 @@
+https://www.flipkart.com/mobiles?otracker=nmenu_sub_Electronics_0_Mobiles
+https://www.flipkart.com/mobiles/samsung~brand/pr?sid=tyy,4io&otracker=nmenu_sub_Electronics_0_Samsung
+https://www.flipkart.com/lenovo-k5note?otracker=nmenu_sub_Electronics_0_Lenovo
+https://www.flipkart.com/mobiles/mi~brand/pr?sid=tyy,4io&p%5B%5D=facets.filter_standard%255B%255D%3D1&otracker=nmenu_sub_Electronics_0_Mi
+https://www.flipkart.com/mobiles/motorola~brand/pr?sid=tyy,4io&otracker=nmenu_sub_Electronics_0_Motorola
+https://www.flipkart.com/le-2?otracker=nmenu_sub_Electronics_0_LeEco
+https://www.flipkart.com/search?p[]=facets.brand%255B%255D%3DApple&sid=tyy%2F4io&otracker=nmenu_sub_Electronics_0_Apple
+https://www.flipkart.com/zenfone-3-laser?otracker=nmenu_sub_Electronics_0_Asus
+https://www.flipkart.com/mobiles/~micromax-phons/pr?sid=tyy%2C4io&otracker=nmenu_sub_Electronics_0_Micromax
+https://www.flipkart.com/mobiles/~mobileexclusives/pr?sid=tyy,4io&otracker=nmenu_sub_Electronics_0_FK Exclusive Mobiles
+https://www.flipkart.com/lenovo-p2-store?otracker=nmenu_sub_Electronics_0_Lenovo P2
+https://www.flipkart.com/lenovo-z2-plus-store?otracker=nmenu_sub_Electronics_0_Lenovo Z2 Plus
+https://www.flipkart.com/redmi-note-4-store?otracker=nmenu_sub_Electronics_0_Redmi Note 4
+https://www.flipkart.com/mobile-accessories/pr?sid=tyy,4mr&otracker=nmenu_sub_Electronics_0_Mobile Accessories
+https://www.flipkart.com/mobile-accessories/cases-and-covers/pr?sid=tyy,4mr,q2u&otracker=nmenu_sub_Electronics_0_Mobile Cases
+https://www.flipkart.com/headphones-store?otracker=nmenu_sub_Electronics_0_Headphones and Headsets
+https://www.flipkart.com/power-banks-store?otracker=nmenu_sub_Electronics_0_Power Banks
+https://www.flipkart.com/mobile-accessories/screen-guards/pr?sid=tyy,4mr,lrv&otracker=nmenu_sub_Electronics_0_Screenguards
+https://www.flipkart.com/mobile-accessories/memory-cards-readers/memory-cards/pr?sid=tyy,4mr,zzf,7y7&otracker=nmenu_sub_Electronics_0_Memory Cards
+https://www.flipkart.com/wearable-smart-devices/smart-headphones/pr?sid=ajy,vam&otracker=nmenu_sub_Electronics_0_Smart Headphones
+https://www.flipkart.com/mobile-accessories/cables/pr?sid=tyy,4mr,3nu&otracker=nmenu_sub_Electronics_0_Cables
+https://www.flipkart.com/mobile-accessories/chargers/pr?sid=tyy,4mr,tp2&otracker=nmenu_sub_Electronics_0_Chargers
+https://www.flipkart.com/mobile-accessories/selfie-sticks/pr?sid=tyy,4mr,nkm&otracker=nmenu_sub_Electronics_0_Selfie Sticks
+https://www.flipkart.com/smart-wearables-store?otracker=nmenu_sub_Electronics_0_Smart Wearable Tech
+https://www.flipkart.com/wearable-smart-devices/smart-watches/pr?otracker=categorytree&otracker=nmenu_sub_Electronics_0_Smart+Watches&p%5B%5D=facets.price_range.from%3D5000&p%5B%5D=facets.price_range.to%3DMax&sid=ajy%2Fbuh&otracker=nmenu_sub_Electronics_0_Smart Watches
+https://www.flipkart.com/wearable-smart-devices/smart-glasses/pr?sid=ajy%2Ctcy&otracker=nmenu_sub_Electronics_0_Smart Glasses (VR)
+https://www.flipkart.com/wearable-smart-devices/smart-bands/pr?sid=ajy%2Cq7p&otracker=nmenu_sub_Electronics_0_Smart Bands
+https://www.flipkart.com/laptops-store?otracker=nmenu_sub_Electronics_0_Laptops
+https://www.flipkart.com/laptop-accessories/pr?sid=6bo%2Cai3&otracker=nmenu_sub_Electronics_0_Computer Accessories
+https://www.flipkart.com/computers/storage/external-hard-disks?otracker=nmenu_sub_Electronics_0_External Hard Disks
+https://www.flipkart.com/computers/storage/pen-drives/pr?sid=6bo,jdy,uar&otracker=nmenu_sub_Electronics_0_Pendrives
+https://www.flipkart.com/laptop-accessories/bags/pr?sid=6bo,ai3,qq9&otracker=nmenu_sub_Electronics_0_Laptop Bags
+https://www.flipkart.com/laptop-accessories/mouse/pr?sid=6bo,ai3,2ay&otracker=nmenu_sub_Electronics_0_Mouse
+https://www.flipkart.com/laptop-accessories/keyboards/pr?sid=6bo,ai3,3oe&otracker=nmenu_sub_Electronics_0_Keyboards
+https://www.flipkart.com/peripherals-store?otracker=nmenu_sub_Electronics_0_Computer Peripherals
+https://www.flipkart.com/printer-inks-store?otracker=nmenu_sub_Electronics_0_Printers and Ink Cartridges
+https://www.flipkart.com/monitors-store?otracker=nmenu_sub_Electronics_0_Monitors
+https://www.flipkart.com/computers/network-components?otracker=nmenu_sub_Electronics_0_Network Components
+https://www.flipkart.com/computers/network-components/routers/pr?sid=6bo%2F70k%2F2a2&otracker=nmenu_sub_Electronics_0_Routers
+https://www.flipkart.com/computers/network-components/data-cards/pr?sid=6bo%2F70k%2Fo47&otracker=nmenu_sub_Electronics_0_Data Cards
+https://www.flipkart.com/televisions?otracker=nmenu_sub_Electronics_0_TVs
+https://www.flipkart.com/home-entertainment-store?otracker=nmenu_sub_Electronics_0_Home Entertainment
+https://www.flipkart.com/computers/audio-players/mp3-players/pr?sid=6bo,ord,h2k&otracker=nmenu_sub_Electronics_0_iPods and MP3 Players
+https://www.flipkart.com/home-entertainment/video-players-accessories/home-theaters/pr?sid=ckf%2Csee%2Cmi3&otracker=nmenu_sub_Electronics_0_Home Theatres
+https://www.flipkart.com/all/~speaker-systems/pr?sid=all&otracker=nmenu_sub_Electronics_0_Speakers
+https://www.flipkart.com/smart-home-automation-store?otracker=nmenu_sub_Appliances_0_Smart%20Home%20Automation&otracker=nmenu_sub_Electronics_0_Smart Home Automation
+https://www.flipkart.com/cameras?otracker=nmenu_sub_Electronics_0_Camera
+https://www.flipkart.com/cameras/dslr~type/pr?sid=jek%2Cp31&otracker=nmenu_sub_Electronics_0_DSLR
+https://www.flipkart.com/cameras/point-shoot~type/pr?sid=jek%2Cp31&otracker=nmenu_sub_Electronics_0_Point and Shoot
+https://www.flipkart.com/cameras/pr?p%5B%5D=facets.type%255B%255D%3DCamcorder&p%5B%5D=facets.type%255B%255D%3DSports%2B%2526%2BAction&p%5B%5D=facets.type%255B%255D%3DInstant%2BCamera&sid=jek%2Cp31&filterNone=true&otracker=nmenu_sub_Electronics_0_Sports and Lifestyle Cameras
+https://www.flipkart.com/cameras/accessories?otracker=nmenu_sub_Electronics_0_Camera Accessories
+https://www.flipkart.com/camera-accessories/memory-cards/pr?sid=jek%2C6l2%2C7y6&otracker=nmenu_sub_Electronics_0_Memory Cards
+https://www.flipkart.com/tablets?otracker=nmenu_sub_Electronics_0_Tablets
+https://www.flipkart.com/flipkart-smartbuy-store?otracker=nmenu_sub_Electronics_0_Flipkart SmartBuy
+https://www.flipkart.com/games/~sony-play-station/pr?facets.availability=Exclude%20Out%20of%20Stock&sid=4rr%2Ctg9&p%5B%5D=facets.filter_standard%255B%255D%3D1&facets.availability[]=Exclude+Out+of+Stock&otracker=nmenu_sub_Electronics_0_Sony PS4 Pro and Slim
+https://www.flipkart.com/fliptech-store?otracker=nmenu_sub_Electronics_0_Fliptech - The Gadget Store
+https://www.flipkart.com/apple-products-store?otracker=nmenu_sub_Electronics_0_Apple Products
+https://www.flipkart.com/mobiles-accessories/~lenovo-phab-series1/pr?sid=tyy&otracker=nmenu_sub_Electronics_0_Lenovo Phab Series
+https://www.flipkart.com/mobiles/~exchange-offers/pr?sid=tyy%2C4io&otracker=nmenu_sub_Electronics_0_Mobile Exchange Offers
+https://www.flipkart.com/laptops/pr?&p%5B%5D=facets.offer_type%255B%255D%3DExchange%2BOffer&p%5B%5D=sort%3Dpopularity&sid=6bo%2Fb5g&otracker=nmenu_sub_Electronics_0_Laptop Exchange Offers
+https://www.flipkart.com/huawei-watch?otracker=clp_wearable-smart-devices_NewMerchandisingHorizontalUnit_2-1_merchandisinghorizontal_Huawei&otracker=nmenu_sub_Electronics_0_Huawei Smart Watch
+https://www.flipkart.com/boses-brand-store?otracker=nmenu_sub_Electronics_0_Bose
+https://www.flipkart.com/all/audio-video/jbl~brand/pr?otracker=categorytree&p%5B%5D=facets.availability%255B%255D%3DExclude%2BOut%2Bof%2BStock&p%5B%5D=facets.brand%255B%255D%3DJBL&sid=all%2F0pm&otracker=nmenu_sub_Electronics_0_JBL Speakers
+https://www.flipkart.com/televisions?otracker=nmenu_sub_Appliances_0_TVs
+https://www.flipkart.com/search?p[]=facets.screen_size%255B%255D%3D24%2B%2526%2BBelow&sid=ckf%2Fczl&otracker=nmenu_sub_Appliances_0_24 and below
+https://www.flipkart.com/search?otracker=CLP_filters&p%5B%5D=facets.availability%255B%255D%3DExclude%2BOut%2Bof%2BStock&p%5B%5D=facets.screen_size%255B%255D%3D32&sid=ckf%2Fczl&otracker=nmenu_sub_Appliances_0_32
+https://www.flipkart.com/search?otracker=CLP_filters&p%5B%5D=facets.availability%255B%255D%3DExclude%2BOut%2Bof%2BStock&p%5B%5D=facets.screen_size%255B%255D%3D39%2B-%2B43&sid=ckf%2Fczl&otracker=nmenu_sub_Appliances_0_39-43
+https://www.flipkart.com/search?otracker=CLP_filters&p%5B%5D=facets.availability%255B%255D%3DExclude%2BOut%2Bof%2BStock&p%5B%5D=facets.screen_size%255B%255D%3D48%2B-%2B50&sid=ckf%2Fczl&otracker=nmenu_sub_Appliances_0_48-50
+https://www.flipkart.com/search?otracker=CLP_filters&p%5B%5D=facets.availability%255B%255D%3DExclude%2BOut%2Bof%2BStock&p%5B%5D=facets.screen_size%255B%255D%3D55%2B%2526%2BAbove&sid=ckf%2Fczl&otracker=nmenu_sub_Appliances_0_55 and above
+https://www.flipkart.com/search?otracker=CLP_filters&p%5B%5D=facets.availability%255B%255D%3DExclude%2BOut%2Bof%2BStock&p%5B%5D=facets.brand%255B%255D%3DSony&sid=ckf%2Fczl&otracker=nmenu_sub_Appliances_0_Sony
+https://www.flipkart.com/search?otracker=CLP_filters&p%5B%5D=facets.availability%255B%255D%3DExclude%2BOut%2Bof%2BStock&p%5B%5D=facets.brand%255B%255D%3DSAMSUNG&sid=ckf%2Fczl&otracker=nmenu_sub_Appliances_0_Samsung
+https://www.flipkart.com/search?otracker=CLP_filters&p%5B%5D=facets.availability%255B%255D%3DExclude%2BOut%2Bof%2BStock&p%5B%5D=facets.brand%255B%255D%3DLG&sid=ckf%2Fczl&otracker=nmenu_sub_Appliances_0_LG
+https://www.flipkart.com/search?otracker=CLP_filters&p%5B%5D=facets.availability%255B%255D%3DExclude%2BOut%2Bof%2BStock&p%5B%5D=facets.brand%255B%255D%3DVu&sid=ckf%2Fczl&otracker=nmenu_sub_Appliances_0_VU
+https://www.flipkart.com/search?otracker=CLP_filters&p%5B%5D=facets.availability%255B%255D%3DExclude%2BOut%2Bof%2BStock&p%5B%5D=facets.brand%255B%255D%3DBPL&sid=ckf%2Fczl&otracker=nmenu_sub_Appliances_0_BPL
+https://www.flipkart.com/home-kitchen/home-appliances/washing-machines?otracker=nmenu_sub_Appliances_0_Washing Machine
+https://www.flipkart.com/home-kitchen/home-appliances/washing-machines/fully-automatic-front-load~function/pr?sid=j9e%2Cabm%2C8qx&otracker=nmenu_sub_Appliances_0_Fully Automatic Front Load
+https://www.flipkart.com/home-kitchen/home-appliances/washing-machines/semi-automatic-top-load~function/pr?sid=j9e%2Cabm%2C8qx&otracker=nmenu_sub_Appliances_0_Semi Automatic Top Load
+https://www.flipkart.com/home-kitchen/home-appliances/washing-machines/fully-automatic-top-load~function/pr?sid=j9e%2Cabm%2C8qx&otracker=nmenu_sub_Appliances_0_Fully Automatic Top Load
+https://www.flipkart.com/home-kitchen/home-appliances/refrigerators?otracker=nmenu_sub_Appliances_0_Refrigerators
+https://www.flipkart.com/home-kitchen/home-appliances/refrigerators/single-door~type/pr?sid=j9e%2Cabm%2Chzg&otracker=nmenu_sub_Appliances_0_Single Door
+https://www.flipkart.com/home-kitchen/home-appliances/refrigerators/double-door~type/pr?sid=j9e%2Cabm%2Chzg&otracker=nmenu_sub_Appliances_0_Double Door
+https://www.flipkart.com/home-kitchen/home-appliances/refrigerators/triple-door~type/pr?sid=j9e,abm,hzg&otracker=nmenu_sub_Appliances_0_Triple door
+https://www.flipkart.com/home-kitchen/home-appliances/refrigerators/pr?otracker=categorytree&p%5B%5D=facets.type%255B%255D%3DSide%2Bby%2BSide&sid=j9e%2Fabm%2Fhzg&otracker=nmenu_sub_Appliances_0_Side by Side
+https://www.flipkart.com/air-conditioners-store?otracker=nmenu_sub_Appliances_0_Air Conditioners
+https://www.flipkart.com/home-kitchen/home-appliances/air-conditioners/split~type/pr?sid=j9e,abm,c54&otracker=nmenu_sub_Appliances_0_Split ACs
+https://www.flipkart.com/home-kitchen/home-appliances/air-conditioners/window~type/pr?sid=j9e%2Cabm%2Cc54&otracker=nmenu_sub_Appliances_0_Window ACs
+https://www.flipkart.com/home-kitchen/home-appliances/water-geysers/pr?sid=j9e%2Cabm%2Cbfm&filterNone=true&q=geysers&otracker=nmenu_sub_Appliances_0_Geysers
+https://www.flipkart.com/kitchen-appliances-store?otracker=nmenu_sub_Appliances_0_Kitchen Appliances
+https://www.flipkart.com/home-kitchen/kitchen-appliances/microwave-ovens?otracker=nmenu_sub_Appliances_0_Microwave Ovens
+https://www.flipkart.com/home-kitchen/kitchen-appliances/mixer-juicer-grinders/pr?sid=j9e,m38,7ek&otracker=nmenu_sub_Appliances_0_Mixer/Juicer/Grinder
+https://www.flipkart.com/home-kitchen/home-appliances/water-purifiers/pr?sid=j9e,abm,i45&otracker=nmenu_sub_Appliances_0_Water Purifiers
+https://www.flipkart.com/home-kitchen/kitchen-appliances/induction-cooktops/pr?sid=j9e,m38,575&otracker=nmenu_sub_Appliances_0_Induction Cooktops
+https://www.flipkart.com/home-kitchen/kitchen-appliances/sandwich-roti-maker/pr?sid=j9e,m38,1vj&otracker=nmenu_sub_Appliances_0_Sandwich Makers
+https://www.flipkart.com/home-kitchen/kitchen-appliances/pop-up-toasters/pr?sid=j9e,m38,txh&otracker=nmenu_sub_Appliances_0_Popup Toasters
+https://www.flipkart.com/home-kitchen/kitchen-appliances/hand-blenders/pr?sid=j9e,m38,u7m&otracker=nmenu_sub_Appliances_0_Hand Blender
+https://www.flipkart.com/home-kitchen/kitchen-appliances/electric-jug-heater-travel-kettles/pr?sid=j9e,m38,xrv&otracker=nmenu_sub_Appliances_0_Electric Kettle
+https://www.flipkart.com/home-kitchen/kitchen-appliances/air-fryers/pr?sid=j9e,m38,j1e&otracker=nmenu_sub_Appliances_0_Air Fryers
+https://www.flipkart.com/home-kitchen/kitchen-appliances/coffee-makers/pr?sid=j9e,m38,wqo&otracker=nmenu_sub_Appliances_0_Coffee Makers
+https://www.flipkart.com/home-kitchen/kitchen-appliances/electric-cookers/pr?sid=j9e,m38,9m9&otracker=nmenu_sub_Appliances_0_Electric Cookers
+https://www.flipkart.com/home-kitchen/kitchen-appliances/dish-washers/pr?sid=j9e%2Cm38%2C58n&filterNone=true&otracker=nmenu_sub_Appliances_0_Dishwashers
+https://www.flipkart.com/home-appliance-store?otracker=nmenu_sub_Appliances_0_Small Home Appliances
+https://www.flipkart.com/home-kitchen/home-appliances/iron/pr?sid=j9e,abm,a0u&otracker=nmenu_sub_Appliances_0_Irons&otracker=nmenu_sub_Appliances_0_Irons
+https://www.flipkart.com/home-kitchen/home-appliances/fans/pr?sid=j9e,abm,lbz&otracker=categorytree&otracker=nmenu_sub_Appliances_0_Fans
+https://www.flipkart.com/home-kitchen/home-appliances/air-coolers/pr?sid=j9e,abm,52j&otracker=categorytree&otracker=nmenu_sub_Appliances_0_Air Coolers
+https://www.flipkart.com/home-kitchen/home-appliances/air-purifiers/pr?sid=j9e,abm,3o4&otracker=nmenu_sub_Appliances_0_Air%20Purifiers&otracker=nmenu_sub_Appliances_0_Air Purifiers
+https://www.flipkart.com/landline-phones/pr?sid=j9e%2Cabm%2Cn0f&otracker=nmenu_sub_Appliances_0_Landline%20Phones&otracker=nmenu_sub_Appliances_0_Landline Phones
+https://www.flipkart.com/home-kitchen/home-appliances/lightings/pr?otracker=categorytree&p%5B%5D=facets.type%255B%255D%3DEmergency%2BLights&sid=j9e%2Fabm%2Ff6f&otracker=nmenu_sub_Appliances_0_Emergency%20Lights&otracker=nmenu_sub_Appliances_0_Emergency Lights
+https://www.flipkart.com/home-kitchen/home-appliances/vacuum-cleaners/pr?sid=j9e,abm,ul2&otracker=nmenu_sub_Appliances_0_Vacuum%20Cleaners&otracker=nmenu_sub_Appliances_0_Vacuum Cleaners
+https://www.flipkart.com/home-kitchen/pr?otracker=categorytree&p%5B%5D=facets.brand%255B%255D%3DKenstar&sid=j9e&otracker=nmenu_sub_Appliances_0_Kenstar Appliances
+https://www.flipkart.com/home-kitchen/pr?p%5B%5D=facets.brand%255B%255D%3DPhilips&p%5B%5D=facets.fulfilled_by%255B%255D%3DFlipkart%2BAssured&sid=j9e&otracker=nmenu_sub_Appliances_0_Philips Appliances
+https://www.flipkart.com/smart-home-automation-store?otracker=nmenu_sub_Appliances_0_Smart Home Automation
+https://www.flipkart.com/beauty-and-personal-care/health-care/health-care-devices?otracker=nmenu_sub_Appliances_0_Health Care Appliances
+https://www.flipkart.com/buying-guide/tvs?sid=ckf,czl&otracker=nmenu_sub_Appliances_0_Televisions
+https://www.flipkart.com/buying-guide/washing-machines-dryers?sid=j9e,abm,8qx&otracker=nmenu_sub_Appliances_0_Washing Machines
+https://www.flipkart.com/buying-guide/refrigerators?sid=j9e,abm,hzg&otracker=nmenu_sub_Appliances_0_Refrigerators
+https://www.flipkart.com/buying-guide/air-conditioners?sid=j9e,abm,c54&otracker=nmenu_sub_Appliances_0_Air Conditioners
+https://www.flipkart.com/buying-guide/water-purifiers?sid=j9e,abm,i45&otracker=nmenu_sub_Appliances_0_Water Purifiers
+https://www.flipkart.com/search?otracker=CLP_filters&p%5B%5D=facets.availability%255B%255D%3DExclude%2BOut%2Bof%2BStock&p%5B%5D=facets.brand%255B%255D%3DMicromax&p%5B%5D=facets.fulfilled_by%255B%255D%3DFlipkart%2BAssured&sid=ckf%2Fczl&otracker=nmenu_sub_Appliances_0_Micromax TVs
+https://www.flipkart.com/search?otracker=CLP_filters&p%5B%5D=facets.availability%255B%255D%3DExclude%2BOut%2Bof%2BStock&p%5B%5D=facets.brand%255B%255D%3DPanasonic&p%5B%5D=facets.fulfilled_by%255B%255D%3DFlipkart%2BAssured&sid=ckf%2Fczl&otracker=nmenu_sub_Appliances_0_Panasonic TVs
+https://www.flipkart.com/search?otracker=CLP_filters&p%5B%5D=facets.availability%255B%255D%3DExclude%2BOut%2Bof%2BStock&p%5B%5D=facets.brand%255B%255D%3DOnida&p%5B%5D=facets.fulfilled_by%255B%255D%3DFlipkart%2BAssured&sid=ckf%2Fczl&otracker=nmenu_sub_Appliances_0_Onida TVs
+https://www.flipkart.com/search?otracker=CLP_filters&p%5B%5D=facets.availability%255B%255D%3DExclude%2BOut%2Bof%2BStock&p%5B%5D=facets.brand%255B%255D%3DPhilips&p%5B%5D=facets.fulfilled_by%255B%255D%3DFlipkart%2BAssured&sid=ckf%2Fczl&otracker=nmenu_sub_Appliances_0_Philips TVs
+https://www.flipkart.com/search?otracker=CLP_filters&p%5B%5D=facets.availability%255B%255D%3DExclude%2BOut%2Bof%2BStock&p%5B%5D=facets.brand%255B%255D%3DKodak&p%5B%5D=facets.fulfilled_by%255B%255D%3DFlipkart%2BAssured&sid=ckf%2Fczl&otracker=nmenu_sub_Appliances_0_Kodak TVs
+https://www.flipkart.com/home-kitchen/home-appliances/washing-machines/ifb~brand/pr?sid=j9e,abm,8qx&otracker=nmenu_sub_Appliances_0_IFB Washing Machines
+https://www.flipkart.com/mens-footwear?otracker=nmenu_sub_Men_0_Footwear
+https://www.flipkart.com/mens-footwear/sports-shoes/pr?sid=osp,cil,1cu&otracker=nmenu_sub_Men_0_Sports Shoes
+https://www.flipkart.com/mens-shoes-store?otracker=nmenu_sub_Men_0_Casual Shoes
+https://www.flipkart.com/mens-footwear/formal-shoes/pr?sid=osp,cil,ssb&otracker=nmenu_sub_Men_0_Formal Shoes
+https://www.flipkart.com/mens-footwear/sandals-floaters/pr?sid=osp,cil,e83&otracker=nmenu_sub_Men_0_Sandals and Floaters
+https://www.flipkart.com/mens-footwear/slippers-flip-flops/pr?sid=osp,cil,e1r&otracker=nmenu_sub_Men_0_Flip- Flops
+https://www.flipkart.com/mens-footwear/casual-shoes/loafers~type/pr?sid=osp%2Ccil%2Ce1f&otracker=nmenu_sub_Men_0_Loafers
+https://www.flipkart.com/mens-footwear/casual-shoes/boots~type/pr?sid=osp%2Ccil%2Ce1f&otracker=nmenu_sub_Men_0_Boots
+https://www.flipkart.com/mens-footwear/sports-shoes/running-shoes~type/pr?sid=osp,cil,1cu&otracker=nmenu_sub_Men_0_Running Shoes
+https://www.flipkart.com/mens-footwear/casual-shoes/sneakers~type/pr?sid=osp%2Ccil%2Ce1f&otracker=nmenu_sub_Men_0_Sneakers
+https://www.flipkart.com/mens-clothing-store?otracker=nmenu_sub_Men_0_Clothing
+https://www.flipkart.com/mens-tshirts-store?otracker=nmenu_sub_Men_0_T-Shirts
+https://www.flipkart.com/mens-shirts-store?otracker=nmenu_sub_Men_0_Shirts
+https://www.flipkart.com/mens-denim-store?otracker=nmenu_sub_Men_0_Jeans
+https://www.flipkart.com/mens-clothing/trousers/pr?sid=2oq,s9b,9uj&otracker=nmenu_sub_Men_0_Trousers
+https://www.flipkart.com/mens-winter-wear-store?otracker=nmenu_sub_Men_0_Winter Wear
+https://www.flipkart.com/mens-clothing/sports-wear/pr?sid=2oq,s9b,6gr&otracker=nmenu_sub_Men_0_Sports Wear
+https://www.flipkart.com/mens-clothing/suits-blazers/pr?sid=2oq,s9b,q9f&otracker=nmenu_sub_Men_0_Suits and Blazers
+https://www.flipkart.com/mens-clothing/inner-wear-sleep-wear/pr?sid=2oq,s9b,b1a&otracker=nmenu_sub_Men_0_Innerwear and Loungewear
+https://www.flipkart.com/mens-clothing/ethnic-wear/pr?sid=2oq,s9b,3a0&otracker=nmenu_sub_Men_0_Ethnic Wear
+https://www.flipkart.com/mens-clothing/accessories-combo-sets/pr?sid=2oq,s9b,8jf&otracker=nmenu_sub_Men_0_Accessories
+https://www.flipkart.com/mens-clothing/cargos-shorts-3-4ths/pr?sid=2oq,s9b,vde&otracker=nmenu_sub_Men_0_Shorts, 3/4ths and Cargos
+https://www.flipkart.com/mens-watches-store?otracker=nmenu_sub_Men_0_Watches
+https://www.flipkart.com/watches/pr?p%5B%5D=facets.brand%255B%255D%3DFastrack&p%5B%5D=facets.ideal_for%255B%255D%3DMen&sid=r18&otracker=nmenu_sub_Men_0_Fastrack
+https://www.flipkart.com/watches/pr?p%5B%5D=facets.brand%255B%255D%3DCasio&p%5B%5D=facets.ideal_for%255B%255D%3DMen&sid=r18&otracker=nmenu_sub_Men_0_Casio
+https://www.flipkart.com/watches/pr?p%5B%5D=facets.brand%255B%255D%3DTitan&p%5B%5D=facets.ideal_for%255B%255D%3DMen&sid=r18&otracker=nmenu_sub_Men_0_Titan
+https://www.flipkart.com/watches/pr?p%5B%5D=facets.brand%255B%255D%3DFossil&p%5B%5D=facets.ideal_for%255B%255D%3DMen&sid=r18&otracker=nmenu_sub_Men_0_Fossil
+https://www.flipkart.com/watches/pr?p%5B%5D=facets.brand%255B%255D%3DSonata&p%5B%5D=facets.ideal_for%255B%255D%3DMen&sid=r18&otracker=nmenu_sub_Men_0_Sonata
+https://www.flipkart.com/mens-bags-wallet-store?otracker=nmenu_sub_Men_0_Accessories
+https://www.flipkart.com/bags-wallets-belts/bags/~men/pr?p%5B%5D=facets.ideal_for%255B%255D%3DMen&sid=reh,ihu&otracker=nmenu_sub_Men_0_Backpacks
+https://www.flipkart.com/bags-wallets-belts/wallets-clutches/wallets/~men/pr?sid=reh,cca,h76&otracker=nmenu_sub_Men_0_Wallets
+https://www.flipkart.com/bags-wallets-belts/belts/~men/pr?sid=reh,wq9&otracker=nmenu_sub_Men_0_Belts
+https://www.flipkart.com/sunglasses-men-store?otracker=nmenu_sub_Men_0_Sunglasses and Frames
+https://www.flipkart.com/bags-wallets-belts/luggage-travel/~men/pr?sid=reh,plk&otracker=nmenu_sub_Men_0_Luggage and Travel
+https://www.flipkart.com/jewellery/pr?p%5B%5D=facets.ideal_for%255B%255D%3DMen&p%5B%5D=facets.ideal_for%255B%255D%3DBoys&sid=mcr&otracker=nmenu_sub_Men_0_Jewellery
+https://www.flipkart.com/wearable-smart-devices/smart-watches/pr?sid=ajy,buh&p%5B%5D=facets.filter_standard%255B%255D%3D1&facets.availability%5b%5d=Exclude+Out+of+Stock&otracker=CLP_lhs&otracker=nmenu_sub_Men_0_Smart Watches
+https://www.flipkart.com/wearable-smart-devices/smart-bands/pr?sid=ajy,q7p&otracker=nmenu_sub_Men_0_Smart Bands
+https://www.flipkart.com/personal-care-appliances-men-store?otracker=nmenu_sub_Men_0_Personal Care Appliances
+https://www.flipkart.com/health-personal-care-appliances/personal-care-appliances/trimmers/pr?sid=zlw,79s,by3&otracker=nmenu_sub_Men_0_Trimmers
+https://www.flipkart.com/health-personal-care-appliances/personal-care-appliances/shavers/pr?sid=zlw,79s,u3j&otracker=nmenu_sub_Men_0_Shavers
+https://www.flipkart.com/health-personal-care-appliances/personal-care-appliances/trimmers/~shaverstrimmersmen/pr?p%5B%5D=facets.trimmer_type%255B%255D%3DGrooming%2BKit&sid=zlw%2C79s%2Cby3&otracker=nmenu_sub_Men_0_Grooming Kits
+https://www.flipkart.com/mens-grooming-store?otracker=nmenu_sub_Men_0_Men's Grooming
+https://www.flipkart.com/beauty-and-personal-care/fragrances/deodorants/pr?sid=t06,r3o,347&otracker=nmenu_sub_Men_0_Deodorants
+https://www.flipkart.com/beauty-and-personal-care/fragrances/perfumes/pr?otracker=categorytree&p%5B%5D=facets.ideal_for%255B%255D%3DBoys&p%5B%5D=facets.ideal_for%255B%255D%3DMen&sid=t06%2Fr3o%2Faa1&otracker=nmenu_sub_Men_0_Perfumes
+https://www.flipkart.com/mens-tshirts-store?otracker=nmenu_sub_Men_0_T-shirts Store
+https://www.flipkart.com/mens-watches-store?otracker=nmenu_sub_Men_0_Watches Store
+https://www.flipkart.com/mens-shoes-store?otracker=nmenu_sub_Men_0_Casual Shoes Store
+https://www.flipkart.com/mens-footwear/pr?p%5B%5D=facets.brand%255B%255D%3DAdidas&p%5B%5D=facets.brand%255B%255D%3DAdidas%2BOriginals&sid=osp%2Ccil&otracker=nmenu_sub_Men_0_Adidas
+https://www.flipkart.com/mens-denim-store?otracker=nmenu_sub_Men_0_Denim Store
+https://www.flipkart.com/mens-shirts-store?otracker=nmenu_sub_Men_0_Shirts Store
+https://www.flipkart.com/mens-winter-wear-store?otracker=nmenu_sub_Men_0_Winterwear Store
+https://www.flipkart.com/mens-bags-wallet-store?otracker=nmenu_sub_Men_0_Bags and Wallets
+https://www.flipkart.com/mens-clothing/jack-jones~brand/pr?sid=2oq,s9b&otracker=nmenu_sub_Men_0_Jack and Jones
+https://www.flipkart.com/mens-clothing/lee~brand/pr?sid=2oq,s9b&otracker=nmenu_sub_Men_0_Lee
+https://www.flipkart.com/mens-clothing/united-colors-of-benetton~brand/pr?sid=2oq,s9b&otracker=nmenu_sub_Men_0_UCB
+https://www.flipkart.com/mens-footwear/puma~brand/pr?sid=osp,cil&otracker=nmenu_sub_Men_0_PUMA
+https://www.flipkart.com/womens-clothing-store?cmpid=SEO_DEEPLINKING&otracker=nmenu_sub_Women_0_Clothing
+https://www.flipkart.com/women-western-store?otracker=nmenu_sub_Women_0_Western Wear
+https://www.flipkart.com/womens-clothing/western-wear/shirts-tops-tunics/pr?sid=2oq,c1r,ha6,cck&otracker=nmenu_sub_Women_0_Top, T-Shirts and Shirts
+https://www.flipkart.com/womens-clothing/western-wear/dresses-skirts/dresses/pr?sid=2oq,c1r,ha6,xzt,3y0&otracker=nmenu_sub_Women_0_Dresses
+https://www.flipkart.com/womens-clothing/western-wear/jeans-shorts/jeans/pr?sid=2oq,c1r,ha6,uuk,q02&otracker=nmenu_sub_Women_0_Jeans
+https://www.flipkart.com/western-wear/trousers-capris/pr?sid=ha6,uo8&otracker=nmenu_sub_Women_0_Trousers and Capris
+https://www.flipkart.com/womens-clothing/western-wear/leggings-jeggings/pr?sid=2oq,c1r,ha6,q7g&otracker=categorytree&otracker=nmenu_sub_Women_0_Leggings and Jeggings
+https://www.flipkart.com/western-wear/dresses-skirts/skirts/pr?sid=ha6,xzt,u0w&otracker=nmenu_sub_Women_0_Skirts
+https://www.flipkart.com/womens-winter-wear-store?otracker=nmenu_sub_Women_0_Winter Wear
+https://www.flipkart.com/womens-clothing/winter-seasonal-wear/shrugs-jackets/pr?sid=2oq,c1r,67x,pyo&otracker=nmenu_sub_Women_0_Shrugs and Jackets
+https://www.flipkart.com/womens-clothing/winter-seasonal-wear/sweatshirts/pr?sid=2oq,c1r,67x,vek&otracker=nmenu_sub_Women_0_Sweatshirts
+https://www.flipkart.com/womens-clothing/winter-seasonal-wear/sweaters-pullovers/pr?sid=2oq,c1r,67x,t0o&otracker=nmenu_sub_Women_0_Sweaters and Pullovers
+https://www.flipkart.com/womens-clothing/sports-gym-wear/pr?sid=2oq,c1r,6p8&otracker=nmenu_sub_Women_0_Sports Wear
+https://www.flipkart.com/womens-ethnic-store?otracker=nmenu_sub_Women_0_Ethnic Wear
+https://www.flipkart.com/sarees-store?otracker=nmenu_sub_Women_0_Sarees
+https://www.flipkart.com/kurta-kurti-store?otracker=nmenu_sub_Women_0_Kurtas and Kurtis
+https://www.flipkart.com/womens-clothing/ethnic-wear/dress-materials/pr?sid=2oq,c1r,3pj,5ji&otracker=nmenu_sub_Women_0_Dress Material
+https://www.flipkart.com/womens-clothing/ethnic-wear/lehenga-cholis/pr?sid=2oq,c1r,3pj,t5i&otracker=nmenu_sub_Women_0_Lehenga Choli
+https://www.flipkart.com/womens-clothing/ethnic-wear/salwar-suits/pr?sid=2oq,c1r,3pj,qlq&otracker=nmenu_sub_Women_0_Salwar Suits
+https://www.flipkart.com/womens-clothing/ethnic-wear/blouses/pr?sid=2oq,c1r,3pj,vx5&otracker=nmenu_sub_Women_0_Blouse
+https://www.flipkart.com/womens-clothing/ethnic-wear/ethnic-bottoms/pr?sid=2oq,c1r,3pj,9l3&otracker=nmenu_sub_Women_0_Salwars and Churidars
+https://www.flipkart.com/womens-clothing/lingerie-sleep-swimwear/pr?sid=2oq,c1r,tbt&otracker=nmenu_sub_Women_0_Lingerie and Sleepwear
+https://www.flipkart.com/womens-clothing/lingerie-sleep-swimwear/bras/pr?sid=2oq,c1r,tbt,3o8&otracker=nmenu_sub_Women_0_Bras
+https://www.flipkart.com/womens-clothing/lingerie-sleep-swimwear/panties/pr?sid=2oq%2Cc1r%2Ctbt%2C8sc&pincode=560034&filterNone=true&otracker=nmenu_sub_Women_0_Panties
+https://www.flipkart.com/womens-clothing/lingerie-sleep-swimwear/night-dresses-nighties/pr?sid=2oq%2Cc1r%2Ctbt%2C25w&otracker=nmenu_sub_Women_0_Nightsuits and Nightdresses
+https://www.flipkart.com/search?otracker=CLP_filters&otracker=nmenu_sub_Women_0_New+in+Clothing&otracker=nmenu_sub_Women_0_New+in+Clothing&otracker=nmenu_sub_Women_0_New+in+Clothing&p%5B%5D=facets.brand%255B%255D%3DAnouk&p%5B%5D=facets.brand%255B%255D%3DBiba&p%5B%5D=facets.brand%255B%255D%3DDressberry&p%5B%5D=facets.brand%255B%255D%3DFabAlley&p%5B%5D=facets.brand%255B%255D%3DGerua&p%5B%5D=facets.brand%255B%255D%3DKalinda&p%5B%5D=facets.brand%255B%255D%3DMS%2BTAKEN&p%5B%5D=facets.brand%255B%255D%3DW&sid=2oq%2Fc1r&otracker=nmenu_sub_Women_0_New in Clothing
+https://www.flipkart.com/women-footwear-store?otracker=nmenu_sub_Women_0_Footwear
+https://www.flipkart.com/womens-footwear/flats/pr?sid=osp,iko,9d5&otracker=nmenu_sub_Women_0_Flats
+https://www.flipkart.com/womens-footwear/heels/pr?sid=osp,iko,6q1&otracker=nmenu_sub_Women_0_Heels
+https://www.flipkart.com/womens-footwear/wedges/pr?sid=osp,iko,jpm&otracker=nmenu_sub_Women_0_Wedges
+https://www.flipkart.com/womens-footwear/sports-shoes/pr?sid=osp,iko,d20&otracker=nmenu_sub_Women_0_Sports Shoes
+https://www.flipkart.com/womens-footwear/casual-shoes/pr?sid=osp,iko,sx7&otracker=nmenu_sub_Women_0_Casual Shoes
+https://www.flipkart.com/womens-footwear/ballerinas/pr?sid=osp,iko,974&otracker=nmenu_sub_Women_0_Ballerinas
+https://www.flipkart.com/womens-footwear/boots/pr?sid=osp%2Ciko%2Cxgp&otracker=nmenu_sub_Women_0_Boots
+https://www.flipkart.com/womens-footwear/slippers-flip-flops/pr?sid=osp,iko,iz7&otracker=nmenu_sub_Women_0_Slippers and Flip- Flop's
+https://www.flipkart.com/womens-watches-store?otracker=nmenu_sub_Women_0_Watches
+https://www.flipkart.com/wearable-smart-devices/smart-watches/pr?sid=ajy,buh&p%5B%5D=facets.filter_standard%255B%255D%3D1&facets.availability[]=Exclude+Out+of+Stock&otracker=CLP_lhs&otracker=nmenu_sub_Women_0_Smart Watches
+https://www.flipkart.com/personal-care-appliances-women-store?otracker=nmenu_sub_Women_0_Personal Care Appliances
+https://www.flipkart.com/health-personal-care-appliances/personal-care-appliances/hair-straighteners/pr?sid=zlw,79s,dk5&otracker=nmenu_sub_Women_0_Hair Straightners
+https://www.flipkart.com/health-personal-care-appliances/personal-care-appliances/hair-dryers/pr?sid=zlw,79s,mh8&otracker=nmenu_sub_Women_0_Hair Dryers
+https://www.flipkart.com/beauty-store?otracker=nmenu_sub_Women_0_Beauty and Grooming
+https://www.flipkart.com/beauty-and-personal-care/makeup/pr?sid=t06,fy9&otracker=nmenu_sub_Women_0_Make Up
+https://www.flipkart.com/beauty-and-personal-care/body-and-skin-care/pr?otracker=nmenu_sub_Women_0_Skin+Care&p%5B%5D=facets.ideal_for%255B%255D%3DMen%2B%2526%2BWomen&p%5B%5D=facets.ideal_for%255B%255D%3DWomen&sid=t06%2Fiqb&otracker=nmenu_sub_Women_0_Skin Care
+https://www.flipkart.com/beauty-and-personal-care/hair-care/pr?otracker=nmenu_sub_Women_0_Hair+Care&p%5B%5D=facets.ideal_for%255B%255D%3DGirls&p%5B%5D=facets.ideal_for%255B%255D%3DMen%2B%2526%2BWomen&p%5B%5D=facets.ideal_for%255B%255D%3DWomen&sid=t06%2Fb7e&otracker=nmenu_sub_Women_0_Hair Care
+https://www.flipkart.com/beauty-and-personal-care/fragrances/pr?otracker=categorytree&p%5B%5D=facets.ideal_for%255B%255D%3DBaby%2BGirls&p%5B%5D=facets.ideal_for%255B%255D%3DGirls&p%5B%5D=facets.ideal_for%255B%255D%3DWomen&sid=t06%2Fr3o&otracker=nmenu_sub_Women_0_Deodorants and Perfumes
+https://www.flipkart.com/womens-jewellery-store?otracker=nmenu_sub_Women_0_Jewellery
+https://www.flipkart.com/jewellery/precious-jewellery/pr?sid=mcr,ykh&otracker=nmenu_sub_Women_0_Precious Jewellery
+https://www.flipkart.com/fashion-jewellery-store?otracker=nmenu_sub_Women_0_Artificial Jewellery
+https://www.flipkart.com/jewellery/silver-jewellery/pr?sid=mcr,tfz&otracker=nmenu_sub_Women_0_Silver Jewellery
+https://www.flipkart.com/women-handbags-store?otracker=nmenu_sub_Women_0_Accessories
+https://www.flipkart.com/wearable-smart-devices/smart-bands/pr?sid=ajy,q7p&otracker=categorytree&otracker=nmenu_sub_Women_0_Smart Bands
+https://www.flipkart.com/women-handbags-store?otracker=nmenu_sub_Women_0_Handbags and Totes
+https://www.flipkart.com/bags-wallets-belts/~wallets-belts/pr?p[]=facets.ideal_for%255B%255D=Women&p[]=sort=popularity&sid=reh&otracker=nmenu_sub_Women_0_Wallets and Belts
+https://www.flipkart.com/sunglasses/pr?p[]=facets.ideal_for%255B%255D%3DWomen&p[]=sort%3Dpopularity&sid=26x&facetOrder[]=ideal_for&otracker=nmenu_sub_Women_0_Sunglasses and Frames
+https://www.flipkart.com/womens-clothing/pr?otracker=categorytree&p%5B%5D=facets.brand%255B%255D%3DVero%2BModa&sid=2oq%2Fc1r&otracker=nmenu_sub_Women_0_Vero Moda
+https://www.flipkart.com/womens-clothing/pr?otracker=categorytree&p%5B%5D=facets.brand%255B%255D%3DLibas&sid=2oq%2Fc1r&otracker=nmenu_sub_Women_0_Libas
+https://www.flipkart.com/all/~womens-footwear-and-handbag/pr?p%5B%5D=facets.brand%255B%255D%3DChemistry&sid=all&otracker=nmenu_sub_Women_0_Chemistry
+https://www.flipkart.com/womens-footwear/pr?otracker=categorytree&p%5B%5D=facets.brand%255B%255D%3DCatwalk&sid=osp%2Fiko&otracker=nmenu_sub_Women_0_Catwalk
+https://www.flipkart.com/watches/pr?otracker=product_breadCrumbs_Watches&p%5B%5D=facets.brand%255B%255D%3DTitan&p%5B%5D=facets.ideal_for%255B%255D%3DWomen&sid=r18&otracker=nmenu_sub_Women_0_Titan-Raga
+https://www.flipkart.com/all/pr?sid=all&p[]=facets.brand%255B%255D%3DFastrack&otracker=nmenu_sub_Women_0_Fastrack
+https://www.flipkart.com/watches/women~idealfor/pr?otracker=nmenu_sub_Women_0_Watches&p%5B%5D=facets.brand%255B%255D%3DGiordano&p%5B%5D=facets.ideal_for%255B%255D%3DBoys%2B%2526%2BGirls&p%5B%5D=facets.ideal_for%255B%255D%3DGirls&p%5B%5D=facets.ideal_for%255B%255D%3DMen%2B%2526%2BWomen&p%5B%5D=facets.ideal_for%255B%255D%3DWomen&sid=r18&otracker=nmenu_sub_Women_0_Giordano
+https://www.flipkart.com/watches/women~idealfor/pr?otracker=nmenu_sub_Women_0_Watches&p%5B%5D=facets.brand%255B%255D%3DDaniel%2BKlein&p%5B%5D=facets.ideal_for%255B%255D%3DBoys%2B%2526%2BGirls&p%5B%5D=facets.ideal_for%255B%255D%3DGirls&p%5B%5D=facets.ideal_for%255B%255D%3DMen%2B%2526%2BWomen&p%5B%5D=facets.ideal_for%255B%255D%3DWomen&sid=r18&otracker=nmenu_sub_Women_0_Daniel Klein
+https://www.flipkart.com/womens-clothing/~shades-of-red/pr?sid=2oq%2Cc1r&otracker=nmenu_sub_Women_0_Shades Of Red
+https://www.flipkart.com/womens-clothing/western-wear/pr?otracker=categorytree&p%5B%5D=facets.theme%255B%255D%3DOff%2BShoulder%2BDresses&p%5B%5D=facets.theme%255B%255D%3DOff%2BShoulder%2BTops&sid=2oq%2Fc1r%2Fha6&otracker=nmenu_sub_Women_0_Off Shoulder Tops and Dresses
+https://www.flipkart.com/womens-clothing/~lace-dresses-wc/pr?sid=2oq%2Cc1r&otracker=nmenu_sub_Women_0_Lace Dresses
+https://www.flipkart.com/kids-clothing-store?otracker=nmenu_sub_Baby and Kids_0_Kids Clothing
+https://www.flipkart.com/kids-clothing/boys-wear/pr?sid=2oq,mpf,u6l&otracker=nmenu_sub_Baby and Kids_0_Boys' Clothing
+https://www.flipkart.com/kids-clothing/boys-wear/polos-tshirts/pr?sid=2oq,mpf,u6l,yj5&otracker=nmenu_sub_Baby and Kids_0_Polos and T-Shirts
+https://www.flipkart.com/kids-clothing/boys-wear/ethnic-wear/pr?sid=2oq,mpf,u6l,et9&otracker=nmenu_sub_Baby and Kids_0_Ethnic Wear
+https://www.flipkart.com/kids-clothing/boys-wear/winter-seasonal-wear/pr?sid=2oq,mpf,u6l,tim&otracker=nmenu_sub_Baby and Kids_0_Winter Wear
+https://www.flipkart.com/kids-clothing/girls-wear/pr?sid=2oq,mpf,acr&otracker=nmenu_sub_Baby and Kids_0_Girls' Clothing
+https://www.flipkart.com/kids-clothing/girls-wear/dresses-skirts/pr?sid=2oq,mpf,acr,ot6&otracker=nmenu_sub_Baby and Kids_0_Dresses and Skirts
+https://www.flipkart.com/kids-clothing/girls-wear/ethnic-wear/pr?sid=2oq,mpf,acr,6rr&otracker=nmenu_sub_Baby and Kids_0_Ethnic Wear
+https://www.flipkart.com/kids-clothing/girls-wear/winter-seasonal-wear/pr?sid=2oq,mpf,acr,c3a&otracker=nmenu_sub_Baby and Kids_0_Winter Wear
+https://www.flipkart.com/kids-clothing/infants-wear/baby-boys/pr?sid=2oq,mpf,cki,exf&otracker=nmenu_sub_Baby and Kids_0_Baby Boy Clothing
+https://www.flipkart.com/infants-wear/baby-boys/bodysuits-sleepsuits/pr?sid=2oq,mpf,cki,exf,cgw&otracker=nmenu_sub_Baby and Kids_0_Body Suits
+https://www.flipkart.com/kids-clothing/infants-wear/baby-boys/polos-tshirts/pr?sid=2oq,mpf,cki,exf,b2d&otracker=nmenu_sub_Baby and Kids_0_Polos and T-Shirts
+https://www.flipkart.com/kids-clothing/infants-wear/baby-girls/pr?sid=2oq,mpf,cki,kzp&otracker=nmenu_sub_Baby and Kids_0_Baby Girl Clothing
+https://www.flipkart.com/kids-clothing/infants-wear/baby-girls/bodysuits-sleepsuits/pr?sid=2oq,mpf,cki,kzp,3gw&otracker=nmenu_sub_Baby and Kids_0_Body Suits
+https://www.flipkart.com/kids-clothing/infants-wear/baby-girls/dresses-skirts/dresses/pr?sid=2oq,mpf,cki,kzp,rf8,l8b&otracker=nmenu_sub_Baby and Kids_0_Dresses
+https://www.flipkart.com/kids-footwear-store?otracker=nmenu_sub_Baby and Kids_0_Kids Footwear
+https://www.flipkart.com/footwear/kids-infant-footwear/for-boys/pr?sid=osp,mba,o3t&otracker=nmenu_sub_Baby and Kids_0_Boys' Footwear
+https://www.flipkart.com/footwear/kids-infant-footwear/for-boys/sandals/pr?sid=osp,mba,o3t,wqv&otracker=nmenu_sub_Baby and Kids_0_Sandals
+https://www.flipkart.com/footwear/kids-infant-footwear/for-boys/sports-shoes/pr?sid=osp,mba,o3t,aua&otracker=nmenu_sub_Baby and Kids_0_Sport Shoes
+https://www.flipkart.com/footwear/kids-infant-footwear/for-girls/pr?sid=osp,mba,erx&otracker=nmenu_sub_Baby and Kids_0_Girls' Footwear
+https://www.flipkart.com/footwear/kids-infant-footwear/for-girls/flats-bellies/pr?sid=osp,mba,erx,6yc&otracker=nmenu_sub_Baby and Kids_0_Flats and Bellies
+https://www.flipkart.com/footwear/kids-infant-footwear/for-girls/sports-shoes/pr?sid=osp,mba,erx,9oc&otracker=nmenu_sub_Baby and Kids_0_Sport Shoes
+https://www.flipkart.com/footwear/kids-infant-footwear/infants/pr?p%5B%5D=facets.age_group%255B%255D%3D4%2B-%2B6%2BMonths&p%5B%5D=facets.age_group%255B%255D%3D7%2B-%2B9%2BMonths&p%5B%5D=facets.age_group%255B%255D%3D12%2B-%2B18%2BMonths&sid=osp%2Cmba%2Cqzr&pincode=110001&filterNone=true&otracker=nmenu_sub_Baby and Kids_0_Baby Footwear
+https://www.flipkart.com/footwear/kids-infant-footwear/infants/booties/pr?sid=osp,mba,qzr,jbz&otracker=nmenu_sub_Baby and Kids_0_Booties
+https://www.flipkart.com/all/footwear/kids-infant-footwear/pr?p%5B%5D=facets.brand%255B%255D%3DBarbie&p%5B%5D=facets.brand%255B%255D%3DDisney&p%5B%5D=facets.brand%255B%255D%3DSpiderman&sid=all%2Cosp%2Cmba&pincode=110001&filterNone=true&otracker=nmenu_sub_Baby and Kids_0_Character Shoes
+https://www.flipkart.com/school-supplies-store?otracker=nmenu_sub_Baby and Kids_0_School Supplies
+https://www.flipkart.com/toys/school-supplies/school-bags/pr?sid=mgl,thr,wsp&otracker=nmenu_sub_Baby and Kids_0_School Bags
+https://www.flipkart.com/toys/school-supplies/school-sets/pr?sid=mgl%2Cthr%2Cscm&otracker=nmenu_sub_Baby and Kids_0_School Combo Sets
+https://www.flipkart.com/toys/school-supplies/lunch-boxes/pr?sid=mgl%2Cthr%2Cvzp&otracker=nmenu_sub_Baby and Kids_0_Lunch Box
+https://www.flipkart.com/watches/pr?otracker=nmenu_sub_Baby+and+Kids_0_Kids%27+Watches&p%5B%5D=facets.ideal_for%255B%255D%3DBoys&p%5B%5D=facets.ideal_for%255B%255D%3DBoys%2B%2526%2BGirls&p%5B%5D=facets.ideal_for%255B%255D%3DGirls&p%5B%5D=sort%3Dpopularity&sid=r18&otracker=nmenu_sub_Baby and Kids_0_Kids' Watches
+https://www.flipkart.com/toys-store?otracker=nmenu_sub_Baby and Kids_0_Toys
+https://www.flipkart.com/toys/remote-control-toys/pr?sid=mgl,56m&otracker=nmenu_sub_Baby and Kids_0_Remote Control Toys
+https://www.flipkart.com/toys/educational-toys/learning-toys/pr?sid=mgl,u35&otracker=nmenu_sub_Baby and Kids_0_Educational Toys
+https://www.flipkart.com/toys/stuffed-toys/pr?sid=mgl,1zt&otracker=nmenu_sub_Baby and Kids_0_Soft Toys
+https://www.flipkart.com/toys/vehicle-action-toys/vehicle-pull-along/pr?sid=mgl%2Cj6q&otracker=nmenu_sub_Baby and Kids_0_Cars and Die-cast Vehicles
+https://www.flipkart.com/toys/outdoor-toys/pr?sid=mgl%2C1k9&otracker=nmenu_sub_Baby and Kids_0_Outdoor Toys
+https://www.flipkart.com/toys/vehicle-action-toys/action-figures/pr?sid=mgl,k00&otracker=nmenu_sub_Baby and Kids_0_Action Figures
+https://www.flipkart.com/toys/puzzles-board-games/card-games/pr?sid=mgl,qet&otracker=nmenu_sub_Baby and Kids_0_Board Games
+https://www.flipkart.com/toys/musical-toys/pr?p%5B%5D=sort%3Dfeatured&sid=mgl,pz4&otracker=nmenu_sub_Baby and Kids_0_Musical Toys
+https://www.flipkart.com/toys/dolls-doll-houses/pr?sid=mgl,fnw&otracker=nmenu_sub_Baby and Kids_0_Dolls and Doll Houses
+https://www.flipkart.com/toys/puzzles/pr?sid=mgl%2Clu4&otracker=nmenu_sub_Baby and Kids_0_Puzzles
+https://www.flipkart.com/toys/pr?p[]=facets.age_group[]%3D0%2B-%2B6%2BMonths&p[]=facets.age_group[]%3D6%2B-%2B12%2BMonths&p[]=facets.age_group[]%3D12%2B-%2B18%2BMonths&p[]=facets.age_group[]%3D18%2B-%2B24%2BMonths&p[]=sort%3Dpopularity&sid=mgl&otracker=nmenu_sub_Baby and Kids_0_S.T.E.M Toys
+https://www.flipkart.com/baby-care-store?otracker=nmenu_sub_Baby and Kids_0_Baby Care
+https://www.flipkart.com/automation-robotics/surveillance-devices/baby-monitors/pr?sid=igc,j69,qvf&p%5B%5D=facets.filter_standard%255B%255D%3D1&facets.availability[]=Exclude+Out+of+Stock&otracker=CLP_lhs&otracker=nmenu_sub_Baby and Kids_0_Smart Baby Monitors
+https://www.flipkart.com/baby-care/diapering-potty-training/diapers/pr?otracker=categorytree&p%5B%5D=facets.fulfilled_by%255B%255D%3DFlipkart%2BAssured&sid=kyh%2Ffdp%2Fyvf&otracker=nmenu_sub_Baby and Kids_0_Diapers
+https://www.flipkart.com/baby-care/diapering-potty-training/pr?sid=kyh%2Cfdp&otracker=nmenu_sub_Baby and Kids_0_Diapers and Potty Training
+https://www.flipkart.com/baby-care/strollers-activity-gear/pr?sid=kyh,5mt&otracker=nmenu_sub_Baby and Kids_0_Strollers and activity Gear
+https://www.flipkart.com/baby-care/baby-bedding/pr?sid=kyh,7j3&otracker=nmenu_sub_Baby and Kids_0_Baby Bedding
+https://www.flipkart.com/baby-care/feeding-nursing/pr?sid=kyh,wpw&otracker=nmenu_sub_Baby and Kids_0_Feeding and Nursing
+https://www.flipkart.com/baby-care/bath-care/pr?sid=kyh,qst&otracker=nmenu_sub_Baby and Kids_0_Baby Bath Skin Care
+https://www.flipkart.com/baby-care/baby-grooming/pr?sid=kyh%2Ctyn&filterNone=true&otracker=nmenu_sub_Baby and Kids_0_Baby Grooming
+https://www.flipkart.com/baby-care/health-safety/pr?sid=kyh%2Cejd&filterNone=true&otracker=nmenu_sub_Baby and Kids_0_Baby Health and Safety
+https://www.flipkart.com/baby-care/baby-kids-gifts/pr?sid=kyh%2Cutp&otracker=nmenu_sub_Baby and Kids_0_Baby Gifting Sets
+https://www.flipkart.com/baby-care/maternity-care/pr?sid=kyh%2Cbrd&otracker=nmenu_sub_Baby and Kids_0_Maternity Care
+https://www.flipkart.com/baby-care/furniture-decoration/pr?sid=kyh%2Co3h&otracker=nmenu_sub_Baby and Kids_0_Furniture 
+https://www.flipkart.com/toys/infant-toddler-toys/pr?sid=mgl,166&otracker=nmenu_sub_Baby and Kids_0_Baby Toys
+https://www.flipkart.com/kids-clothing/pr?p%5B%5D=facets.brand%255B%255D%3DAVENGER&p%5B%5D=facets.brand%255B%255D%3DAvenger&p%5B%5D=facets.brand%255B%255D%3DCHERISH&p%5B%5D=facets.brand%255B%255D%3DCherish&p%5B%5D=facets.brand%255B%255D%3DCHERISHKNITS&p%5B%5D=facets.brand%255B%255D%3DDisney&p%5B%5D=facets.brand%255B%255D%3DDISNEY&p%5B%5D=facets.brand%255B%255D%3DDisney%2BFrozen&p%5B%5D=facets.brand%255B%255D%3DFrozen&p%5B%5D=facets.brand%255B%255D%3DMarvel&p%5B%5D=facets.brand%255B%255D%3DMickey%2B%2526%2BFriends&p%5B%5D=facets.brand%255B%255D%3DMickey%2BMouse&p%5B%5D=facets.brand%255B%255D%3DMinnie%2BMouse&sid=2oq%2Cmpf&filterNone=true&otracker=nmenu_sub_Baby and Kids_0_Disney
+https://www.flipkart.com/kids-clothing/pr?p%5B%5D=facets.brand%255B%255D%3DUnited%2BColors%2Bof%2BBenetton&p%5B%5D=facets.brand%255B%255D%3DUCB&sid=2oq%2Cmpf&filterNone=true&otracker=nmenu_sub_Baby and Kids_0_United Colors of Benetton
+https://www.flipkart.com/childrens-place-store?otracker=nmenu_sub_Baby and Kids_0_The Children's Place
+https://www.flipkart.com/kids-clothing/pr?p%5B%5D=facets.brand%255B%255D%3DGini%2B%2526%2BJony&p%5B%5D=facets.brand%255B%255D%3Dgini%2Band%2Bjony&p%5B%5D=facets.brand%255B%255D%3DGini%2Band%2BJony&p%5B%5D=facets.brand%255B%255D%3DGJ%2BJeans%2BUnltd&p%5B%5D=facets.brand%255B%255D%3DPalm%2BTree&sid=2oq%2Cmpf&filterNone=true&otracker=nmenu_sub_Baby and Kids_0_Gini and Jony
+https://www.flipkart.com/footwear/kids-infant-footwear/pr?p%5B%5D=facets.brand%255B%255D%3DCrocs&p%5B%5D=facets.brand%255B%255D%3DCROCS&sid=osp%2Cmba&filterNone=true&otracker=nmenu_sub_Baby and Kids_0_Crocs
+https://www.flipkart.com/footwear/kids-infant-footwear/pr?p%5B%5D=facets.brand%255B%255D%3DPuma&sid=osp%2Cmba&otracker=nmenu_sub_Baby and Kids_0_Puma
+https://www.flipkart.com/toys/dolls-doll-houses/pr?p%5B%5D=facets.brand%255B%255D%3DBarbie&sid=mgl%2Cfnw&filterNone=true&q=barbie&otracker=nmenu_sub_Baby and Kids_0_Barbie
+https://www.flipkart.com/toys/funskool~brand/pr?sid=mgl&otracker=nmenu_sub_Baby and Kids_0_Funskool
+https://www.flipkart.com/toys/pr?p%5B%5D=facets.brand%255B%255D%3DLego&p%5B%5D=facets.brand%255B%255D%3DLEGO%2BDUPLO%2BCreative%2BPlay&p%5B%5D=facets.brand%255B%255D%3DLEGO%2Bthe%2BMovie&p%5B%5D=facets.brand%255B%255D%3DLEGO%2BGalaxy%2BSquad&sid=mgl&filterNone=true&otracker=nmenu_sub_Baby and Kids_0_Lego
+https://www.flipkart.com/baby-care/luvlap~brand/pr?sid=kyh&otracker=nmenu_sub_Baby and Kids_0_Luvlap
+https://www.flipkart.com/kids-clothing/pr?p%5B%5D=facets.brand%255B%255D%3DMothercare&sid=2oq%2Cmpf&otracker=nmenu_sub_Baby and Kids_0_Mothercare
+https://www.flipkart.com/search?p[]=facets.brand%255B%255D%3DMee%2BMee&p[]=facets.brand%255B%255D%3DMeeMee&sid=kyh&otracker=nmenu_sub_Baby and Kids_0_Mee Mee
+https://www.flipkart.com/kitchen-dining-store?otracker=nmenu_sub_Home and Furniture_0_Kitchen and Dining
+https://www.flipkart.com/household/cookware/pots-pans/pr?sid=r4l,c7t,qov&otracker=nmenu_sub_Home and Furniture_0_Pots and Pans
+https://www.flipkart.com/household/pressure-cookers-pans/pr?sid=r4l,u3r&p[]=facets.availability%255B%255D%3DExclude%2BOut%2Bof%2BStock&otracker=nmenu_sub_Home and Furniture_0_Pressure Cookers
+https://www.flipkart.com/household/kitchen-tools/pr?sid=r4l,gs0&p[]=facets.availability%255B%255D%3DExclude%2BOut%2Bof%2BStock&otracker=categorytree&otracker=nmenu_sub_Home and Furniture_0_Kitchen Tools
+https://www.flipkart.com/gas-stove-store?otracker=nmenu_sub_Home and Furniture_0_Gas Stoves
+https://www.flipkart.com/household/coffee-mugs/pr?sid=r4l,ajv&otracker=nmenu_sub_Home and Furniture_0_Coffee Mugs
+https://www.flipkart.com/household/dinnerware-crockery/pr?sid=r4l,afn&p[]=facets.availability%255B%255D%3DExclude%2BOut%2Bof%2BStock&otracker=nmenu_sub_Home and Furniture_0_Dinnerware and Crockery
+https://www.flipkart.com/household/bar-glassware/pr?sid=r4l,wpg&p[]=facets.availability%255B%255D%3DExclude%2BOut%2Bof%2BStock&otracker=nmenu_sub_Home and Furniture_0_Bar and Glassware
+https://www.flipkart.com/household/containers-bottles/lunch-boxes/pr?sid=r4l,v2a,bgj&otracker=nmenu_sub_Home and Furniture_0_Lunch Boxes
+https://www.flipkart.com/household/flasks-casseroles/pr?sid=r4l%2Cp4d&otracker=nmenu_sub_Home and Furniture_0_Flasks and Casseroles
+https://www.flipkart.com/kitchen-dining/containers/pr?sid=r4l,v2a,29e,4cf&otracker=nmenu_sub_Home and Furniture_0_Containers and Bottles
+https://www.flipkart.com/furniture-store?otracker=nmenu_sub_Home and Furniture_0_Furniture
+https://www.flipkart.com/furniture/bedroom-furniture/beds/pr?sid=anx%2Cbaj%2Cnfe&otracker=nmenu_sub_Home and Furniture_0_Beds
+https://www.flipkart.com/furniture/living-room-furniture/sofas-sectionals/pr?sid=anx%2C70t%2Cnku&otracker=nmenu_sub_Home and Furniture_0_Sofas
+https://www.flipkart.com/furniture/kitchen-dining-furniture/dining-tables-chairs-sets/dining-sets/pr?sid=anx,0eh,2kp,gut&otracker=nmenu_sub_Home and Furniture_0_Dining tables
+https://www.flipkart.com/furniture/living-room-furniture/tv-entertainment-units/pr?sid=anx,70t,x1f&otracker=nmenu_sub_Home and Furniture_0_TV Cabinets
+https://www.flipkart.com/mattress-store?otracker=nmenu_sub_Home and Furniture_0_Mattresses
+https://www.flipkart.com/furniture/living-room-furniture/coffee-centre-tables/pr?sid=anx,70t,khj&otracker=nmenu_sub_Home and Furniture_0_Coffee and Centre Tables
+https://www.flipkart.com/furniture/study-home-office-furniture/pr?sid=anx,z6g&otracker=nmenu_sub_Home and Furniture_0_Office and Study Furniture
+https://www.flipkart.com/furniture/storage-furniture/pr?sid=anx,v0z&otracker=nmenu_sub_Home and Furniture_0_Storage
+https://www.flipkart.com/furniture/seating-furniture/bean-bag-with-beans/pr?sid=anx,wyb,1or&otracker=nmenu_sub_Home and Furniture_0_Bean Bags
+https://www.flipkart.com/furniture/storage-furniture/collapsible-wardrobes/pr?sid=anx,v0z,w2h&otracker=nmenu_sub_Home and Furniture_0_Collapsible Wardrobes
+https://www.flipkart.com/furniture/inflatable-furniture/inflatable-sofas/pr?sid=anx,oph,61o&otracker=nmenu_sub_Home and Furniture_0_Inflatable Sofas
+https://www.flipkart.com/household/housekeeping-laundry/pr?sid=r4l,gdi&otracker=nmenu_sub_Home and Furniture_0_House Keeping and Laundry
+https://www.flipkart.com/home-furnishing-store?otracker=nmenu_sub_Home and Furniture_0_Furnishing
+https://www.flipkart.com/home-furnishing/bed-linen/bedsheets/pr?sid=vdm,uj4,64i&otracker=nmenu_sub_Home and Furniture_0_Bedsheets
+https://www.flipkart.com/home-furnishing/curtains-accessories/pr?sid=vdm,lb9&otracker=nmenu_sub_Home and Furniture_0_Curtains
+https://www.flipkart.com/home-furnishing/cushions-pillows-covers/pr?sid=vdm%2Cv2y&otracker=nmenu_sub_Home and Furniture_0_Cushion and Pillow Covers
+https://www.flipkart.com/home-furnishing/bed-linen/blankets-quilts-dohars/pr?sid=vdm,uj4,9co&otracker=nmenu_sub_Home and Furniture_0_Blankets, Quilts and Dohars
+https://www.flipkart.com/home-furnishing/bath/bath-towels/pr?sid=vdm,v28,zs1&otracker=nmenu_sub_Home and Furniture_0_Towels
+https://www.flipkart.com/home-furnishing/kitchen-dining-linen/pr?sid=vdm,ow3&otracker=nmenu_sub_Home and Furniture_0_Kitchen and Dining Linen
+https://www.flipkart.com/home-furnishing/floor-coverings/pr?sid=vdm,l9m&otracker=nmenu_sub_Home and Furniture_0_Mats and Carpets
+https://www.flipkart.com/smart-home-automation-store?otracker=nmenu_sub_Appliances_0_Smart%20Home%20Automation&otracker=nmenu_sub_Home and Furniture_0_Smart Home Automation
+https://www.flipkart.com/automation-robotics/surveillance-devices/security-cameras/pr?otracker=categorytree&p%5B%5D=facets.brand%255B%255D%3DCELESTECH&p%5B%5D=facets.brand%255B%255D%3DCP%2BPlus&p%5B%5D=facets.brand%255B%255D%3DCP-PLUS&p%5B%5D=facets.brand%255B%255D%3DCP-Plus&p%5B%5D=facets.brand%255B%255D%3DCp%2BPlus&p%5B%5D=facets.brand%255B%255D%3DCpplus&p%5B%5D=facets.brand%255B%255D%3DCrocon&p%5B%5D=facets.brand%255B%255D%3DFocus&p%5B%5D=facets.brand%255B%255D%3DGodrej&p%5B%5D=facets.brand%255B%255D%3DHIK%2BVISION&p%5B%5D=facets.brand%255B%255D%3DHIKVISION&p%5B%5D=facets.brand%255B%255D%3DHik%2BVision&p%5B%5D=facets.brand%255B%255D%3DHik%2Bvision&p%5B%5D=facets.brand%255B%255D%3DHikvision&p%5B%5D=facets.brand%255B%255D%3DHoneywell&p%5B%5D=facets.brand%255B%255D%3DSAMSUNG&p%5B%5D=facets.brand%255B%255D%3Dcp%2Bplus&p%5B%5D=facets.brand%255B%255D%3Dhoneywell&sid=igc%2Fj69%2Fagd&otracker=nmenu_sub_Home and Furniture_0_Smart Security System
+https://www.flipkart.com/automation-robotics/smart-door-locks/pr?sid=igc,u0f&p%5B%5D=facets.filter_standard%255B%255D%3D1&facets.availability[]=Exclude+Out+of+Stock&otracker=nmenu_sub_Home and Furniture_0_Smart Door Locks
+https://www.flipkart.com/homeimprovementtools-store?otracker=nmenu_sub_Home and Furniture_0_Tools and Hardware
+https://www.flipkart.com/tools-hardware/tools/hand-tools/pr?sid=amz,qrp,ez4&otracker=nmenu_sub_Home and Furniture_0_Hand Tools
+https://www.flipkart.com/tools-hardware/tools/power-tools/pr?sid=amz,qrp,7yd&otracker=nmenu_sub_Home and Furniture_0_Power Tools
+https://www.flipkart.com/tools-hardware/tools/gardening-tools/pr?sid=amz,qrp,h0o&otracker=nmenu_sub_Home and Furniture_0_Gardening Tools
+https://www.flipkart.com/home-decor-store?otracker=nmenu_sub_Home and Furniture_0_Home Decor
+https://www.flipkart.com/home-decor/wall-decor-clocks/paintings/pr?sid=1m7,att,0ea&otracker=nmenu_sub_Home and Furniture_0_Paintings
+https://www.flipkart.com/home-decor/wall-decor-clocks/clocks/pr?sid=1m7,att,2it&otracker=nmenu_sub_Home and Furniture_0_Clocks
+https://www.flipkart.com/home-decor/wall-decor-clocks/wall-shelves/pr?sid=1m7,att,j4u&otracker=nmenu_sub_Home and Furniture_0_Wall Shelves
+https://www.flipkart.com/wall-decals-store?otracker=nmenu_sub_Home and Furniture_0_Wall Decals
+https://www.flipkart.com/home-decor/showpiece/pr?sid=1m7,zqy&otracker=nmenu_sub_Home and Furniture_0_Showpieces
+https://www.flipkart.com/automation-robotics/smart-lighting/pr?sid=igc,b4q&otracker=nmenu_sub_Home and Furniture_0_Smart Lighting
+https://www.flipkart.com/kitchen-dining/bulbs/pr?sid=r4l,paf,m99&otracker=nmenu_sub_Home and Furniture_0_LED and CFL
+https://www.flipkart.com/home-decor/decorative-lighting-lamps/pr?sid=1m7,sat&otracker=nmenu_sub_Home and Furniture_0_Decorative Lighting and Lamps
+https://www.flipkart.com/pet-supplies/pr?sid=n2a&otracker=nmenu_sub_Home and Furniture_0_Pet Supplies
+https://www.flipkart.com/food-nutrition/pr?p%5B%5D=sort%3Dprice_asc&sid=7jv&otracker=nmenu_sub_Home and Furniture_0_Gourmet and Specialty Foods
+https://www.flipkart.com/home-decor/festive-decor/festive-day-decorations/gift-sets/pr?%5C&sid=1m7%2Ffja%2Fon2%2F4ip&otracker=nmenu_sub_Home and Furniture_0_Gifts Sets
+https://www.flipkart.com/home/store?otracker=nmenu_sub_Home and Furniture_0_The Home Store
+https://www.flipkart.com/home-styler?otracker=nmenu_sub_Home and Furniture_0_Home Styler Store
+https://www.flipkart.com/all/~flipkart-smartbuy1/pr?sid=all&otracker=nmenu_sub_Home and Furniture_0_Flipkart SmartBuy
+https://www.flipkart.com/pet-supplies/pr?otracker=nmenu_sub_Home+and+Furniture_0_Pet+Supplies&p%5B%5D=facets.brand%255B%255D%3DPedigree&p%5B%5D=facets.brand%255B%255D%3DWhiskas&sid=n2a&otracker=nmenu_sub_Home and Furniture_0_Pedigree and Whiskas
+https://www.flipkart.com/home-furnishing/bombay-dyeing~brand/pr?sid=vdm&otracker=nmenu_sub_Home and Furniture_0_Bombay Dyeing
+https://www.flipkart.com/furniture/pr?p%5B%5D=facets.brand%255B%255D%3DRoyal%2BOak&sid=anx&filterNone=true&q=royal+oak&otracker=nmenu_sub_Home and Furniture_0_Royal Oak
+https://www.flipkart.com/tools-hardware/bosch~brand/pr?sid=amz&otracker=nmenu_sub_Home and Furniture_0_Bosch
+https://www.flipkart.com/furniture/hometown~brand/pr?sid=anx&otracker=nmenu_sub_Home and Furniture_0_HomeTown
+https://www.flipkart.com/home-decor/ajanta~brand/pr?sid=1m7&otracker=nmenu_sub_Home and Furniture_0_Ajanta
+https://www.flipkart.com/home-furnishing/spaces-by-welspun~brand/pr?sid=vdm&otracker=nmenu_sub_Home and Furniture_0_Spaces by Welspun
+https://www.flipkart.com/household/prestige~brand/pr?sid=r4l&otracker=nmenu_sub_Home and Furniture_0_Prestige
+https://www.flipkart.com/books-store?otracker=nmenu_sub_Books and More_0_Books
+https://www.flipkart.com/exam-preparation-books-store?otracker=nmenu_sub_Books and More_0_Entrance Exams
+https://www.flipkart.com/books/educational-and-professional/academic-and-professional?otracker=nmenu_sub_Books and More_0_Academic
+https://www.flipkart.com/books/fiction-non-fiction/literature-fiction?otracker=nmenu_sub_Books and More_0_Literature and Fiction
+https://www.flipkart.com/books/indian-writing-books/pr?sid=bks,97s&otracker=nmenu_sub_Books and More_0_Indian Writing
+https://www.flipkart.com/books/fiction-non-fiction-books/biographies-autobiographies-books/pr?sid=bks%2Cfnf%2Cd19&otracker=nmenu_sub_Books and More_0_Biographies
+https://www.flipkart.com/children-books-store?otracker=nmenu_sub_Books and More_0_Children
+https://www.flipkart.com/books/fiction-non-fiction-books/business-investing-and-management-books/pr?sid=bks%2Cfnf%2C22j&otracker=nmenu_sub_Books and More_0_Business
+https://www.flipkart.com/books/self-help-books/pr?sid=bks%2Ckeq&otracker=nmenu_sub_Books and More_0_Self Help
+https://www.flipkart.com/books/comic?otracker=nmenu_sub_Books and More_0_Comics
+https://www.flipkart.com/pens-category-store?otracker=nmenu_sub_Books and More_0_Pens
+https://www.flipkart.com/pens-office-supplies/diaries-notebook?otracker=nmenu_sub_Books and More_0_Diaries
+https://www.flipkart.com/pens-stationery/office-supplies/key-chains/pr?sid=dgv,tkw,amn&otracker=nmenu_sub_Books and More_0_Key Chains
+https://www.flipkart.com/pens-office-supplies/office-supplies/desk-organizers?otracker=nmenu_sub_Books and More_0_Desk Organisers
+https://www.flipkart.com/calculators-category-store?otracker=nmenu_sub_Books and More_0_Calculators 
+https://www.flipkart.com/games-store?otracker=nmenu_sub_Books and More_0_Gaming
+https://www.flipkart.com/games/ps3/pr?p%5B%5D=sort%3Dpopularity&sid=4rr%2Ctg9%2Coca&pincode=560068&filterNone=true&otracker=nmenu_sub_Books and More_0_PS3
+https://www.flipkart.com/games/ps4/pr?p%5B%5D=sort%3Dpopularity&sid=4rr%2Ctg9%2Cweu&pincode=560068&filterNone=true&otracker=nmenu_sub_Books and More_0_PS4
+https://www.flipkart.com/games/pr?p[]=facets.platform%255B%255D%3DXbox%2BOne&p[]=sort%3Dpopularity&sid=4rr%2Ctg9&otracker=nmenu_sub_Books and More_0_Xbox One
+https://www.flipkart.com/games/xbox-360/pr?p%5B%5D=sort%3Dpopularity&sid=4rr%2Ctg9%2Cqds&filterNone=true&&otracker=nmenu_sub_Books and More_0_Xbox 360
+https://www.flipkart.com/gaming/gaming-consoles?otracker=nmenu_sub_Books and More_0_Gaming Consoles
+https://www.flipkart.com/gaming/gaming-consoles?otracker=nmenu_sub_Books and More_0_Smart Glasses(VR)
+https://www.flipkart.com/music/pr?sid=p2c&otracker=nmenu_sub_Books and More_0_Music
+https://www.flipkart.com/music/pr?p%5B%5D=facets.availability%255B%255D%3DExclude%2BOut%2Bof%2BStock&p%5B%5D=facets.genre%255B%255D%3DRock&p%5B%5D=facets.genre%255B%255D%3DPop&p%5B%5D=facets.genre%255B%255D%3DMetal&p%5B%5D=facets.genre%255B%255D%3DElectronic%2BMusic&p%5B%5D=facets.genre%255B%255D%3DHollywood%2BOST&p%5B%5D=facets.genre%255B%255D%3DRap&p%5B%5D=facets.genre%255B%255D%3DRock%252C%2BPop&sid=p2c&filterNone=true&otracker=nmenu_sub_Books and More_0_International Music
+https://www.flipkart.com/music/pr?p[]=facets.genre%255B%255D%3DBollywood%2BOST&sid=p2c&filterNone=true&otracker=nmenu_sub_Books and More_0_Bollywood Music
+https://www.flipkart.com/movies?otracker=nmenu_sub_Books and More_0_Movies and TV Shows
+https://www.flipkart.com/movies/pr?p[]=facets.language[]=English&sid=4kt,3lz&otracker=nmenu_sub_Books and More_0_Hollywood Movies
+https://www.flipkart.com/movies/pr?p[]=facets.language[]=Hindi&sid=4kt,3lz&otracker=nmenu_sub_Books and More_0_Bollywood Movies
+https://www.flipkart.com/musical-instruments-store?otracker=nmenu_sub_Books and More_0_Musical Instruments
+https://www.flipkart.com/automotive/automobile/pr?sid=0hx,3ww&otracker=nmenu_sub_Books and More_0_Automobiles
+https://www.flipkart.com/automotive/automobile/electric-scooter-boards/pr?sid=0hx%2C3ww%2Cafh&filterNone=true&otracker=nmenu_sub_Books and More_0_Electric Scooter Boards
+https://www.flipkart.com/automotive/pr?sid=0hx&otracker=nmenu_sub_Books and More_0_For your car
+https://www.flipkart.com/automotive/car-bike-accessories/car-bike-care/car-bike-covers/car-body-covers/pr?sid=0hx%2Cbwd%2Cbyn%2C2pg%2Ctun&otracker=nmenu_sub_Books and More_0_Car Body Covers
+https://www.flipkart.com/automotive/car-bike-accessories/car-interior-exterior/pr?sid=0hx%2Cbwd%2Cnu0&otracker=nmenu_sub_Books and More_0_Car Interior and Exterior
+https://www.flipkart.com/automotive/car-bike-accessories/car-electronics-accessories/car-mobile-accessories/pr?sid=0hx%2Cbwd%2Ctko%2Cav1&otracker=nmenu_sub_Books and More_0_Mobile Holders and Chargers
+https://www.flipkart.com/automotive/car-bike-accessories/car-electronics-accessories/car-audio-video/pr?sid=0hx%2Cbwd%2Ctko%2Cjxo&otracker=nmenu_sub_Books and More_0_Car Audio and Video
+https://www.flipkart.com/automotive/car-bike-accessories/car-bike-styling/car-styling/pr?sid=0hx%2Cbwd%2Cri1%2C677&otracker=nmenu_sub_Books and More_0_Car Styling
+https://www.flipkart.com/automotive/car-bike-accessories/helmets-riding-gear/pr?sid=0hx,bwd,bgt&otracker=nmenu_sub_Books and More_0_For your bike
+https://www.flipkart.com/automotive/accessories-spare-parts/helmets-riding-gear/pr?p%5B%5D=facets.availability%255B%255D%3DExclude%2BOut%2Bof%2BStock&sid=0hx%2Cbwd%2Cbgt&filterNone=true&otracker=nmenu_sub_Books and More_0_Helmets and Riding Gear
+https://www.flipkart.com/automotive/car-bike-accessories/car-bike-care/car-bike-covers/bike-body-covers/pr?sid=0hx%2Cbwd%2Cbyn%2C2pg%2Cbo6&otracker=nmenu_sub_Books and More_0_Bike Covers
+https://www.flipkart.com/automotive/car-bike-accessories/tyres/tyres/bike-tyres/pr?sid=0hx%2Cbwd%2Ctsp%2Cqeo%2Cmej&otracker=nmenu_sub_Books and More_0_Bike Tyres
+https://www.flipkart.com/automotive/~bike-spares-lubricants/pr?sid=0hx&otracker=nmenu_sub_Books and More_0_Bike Spares and Lubricants
+https://www.flipkart.com/automotive/car-bike-accessories/helmets-riding-gear/riding-gear/bike-riding-face-mask/pr?sid=0hx,bwd,bgt,aga,te6&otracker=nmenu_sub_Books and More_0_Biker Face Mask
+https://www.flipkart.com/wearable-smart-devices/smart-trackers/pr?sid=ajy,7rp&otracker=nmenu_sub_Books and More_0_Smart Trackers
+https://www.flipkart.com/sports-store?otracker=nmenu_sub_Books and More_0_Sports
+https://www.flipkart.com/sports-fitness/team-sports/cricket/pr?sid=dep,v5l,w5e&otracker=nmenu_sub_Books and More_0_Cricket
+https://www.flipkart.com/sports-fitness/racquet-sports/badminton/pr?sid=dep,9ge,cbh&otracker=nmenu_sub_Books and More_0_Badminton
+https://www.flipkart.com/sports-fitness/team-sports/football/pr?sid=dep,v5l,szk&otracker=nmenu_sub_Books and More_0_Football
+https://www.flipkart.com/sports-fitness/other-sports/skating/pr?sid=dep,p0d,boy&otracker=nmenu_sub_Books and More_0_Skating
+https://www.flipkart.com/sports-fitness/outdoor-adventure/cycling/pr?sid=dep,nlv,p20&otracker=nmenu_sub_Books and More_0_Cycling
+https://www.flipkart.com/sports-fitness/outdoor-adventure/camping-hiking/pr?sid=dep%2Cnlv%2Cd7e&filterNone=true&otracker=nmenu_sub_Books and More_0_Camping and Hiking
+https://www.flipkart.com/sports-fitness/swimming-kits/pr?sid=dep,p0d,xdp,yeq&otracker=nmenu_sub_Books and More_0_Swimming
+https://www.flipkart.com/sports-fitness/racquet-sports/table-tennis/pr?sid=dep,9ge,kgj&otracker=nmenu_sub_Books and More_0_Table Tennis
+https://www.flipkart.com/sports-fitness/racquet-sports/tennis/pr?sid=dep,9ge,m4z&otracker=nmenu_sub_Books and More_0_Tennis
+https://www.flipkart.com/fitness-store?otracker=nmenu_sub_Books and More_0_Exercise and Fitness
+https://www.flipkart.com/sports-fitness/fitness-accessories/gloves/pr?sid=dep%2Cxnh%2Ch47&filterNone=true&otracker=nmenu_sub_Books and More_0_Gloves
+https://www.flipkart.com/sports-fitness/fitness-accessories/ab-exercisers/pr?sid=dep%2Cxnh%2Cabo&filterNone=true&otracker=nmenu_sub_Books and More_0_AB Exercisers
+https://www.flipkart.com/sports-fitness/fitness-accessories/mats/pr?sid=dep,xnh,vhe&otracker=nmenu_sub_Books and More_0_Yoga Mats
+https://www.flipkart.com/sports-fitness/fitness-accessories/kits/~minimum-40/pr?otracker=clp_metro_tile3_1_FitnessAccessoriesCLP_fitness-store_ca7c86f1-76a6-4ea3-b437-0c1920dbb73a_wp1&p%5B%5D=facets.brand%255B%255D%3DDock&p%5B%5D=facets.brand%255B%255D%3DFITZON&p%5B%5D=facets.brand%255B%255D%3DHeadly&p%5B%5D=facets.brand%255B%255D%3DKRX&p%5B%5D=facets.discount_range_v1%255B%255D%3D40%2525%2Bor%2BMore&sid=dep%2Fxnh%2Fyeq&otracker=nmenu_sub_Books and More_0_Homegyms
+https://www.flipkart.com/sports-fitness/fitness-accessories/cardio-equipments/pr?sid=dep%2Cxnh%2C78k&otracker=nmenu_sub_Books and More_0_Cardio Equipment
+https://www.flipkart.com/books/~pre-order/pr?sid=bks&otracker=nmenu_sub_Books and More_0_Books on Pre-Order
+https://www.flipkart.com/music-movies-posters/~pre-order-/pr?sid=4kt&otracker=nmenu_sub_Books and More_0_Movies on Pre-order
+https://www.flipkart.com/books/~new-releases-limited/pr?sid=bks&otracker=nmenu_sub_Books and More_0_New Releases in Books
+https://www.flipkart.com/something/~best-selling-books/pr?sid=bks&otracker=nmenu_sub_Books and More_0_Bestsellers in Books
+https://www.flipkart.com/royal-enfield-accessories?otracker=nmenu_sub_Books and More_0_Royal Enfield Accessories
+https://www.flipkart.com/games/~pre-order/pr?sid=4rr,tg9&otracker=nmenu_sub_Books and More_0_Games on Pre-order
+https://www.flipkart.com/automotive/car-bike-accessories/car-bike-care/vehicle-washing-cleaning/car-pressure-washers/pr?sid=0hx,bwd,byn,t0i,ahf&q=bosch+pressure+washer&p[]=facets.brand%255B%255D%3DBosch&p[]=facets.brand%255B%255D%3DBosch%2BAccessory&otracker=nmenu_sub_Books and More_0_Bosch Pressure Washers
+https://www.flipkart.com/automotive/car-bike-accessories/helmets-riding-gear/helmets-locks/helmets/pr?sid=0hx%2Cbwd%2Cbgt%2Cc0x%2Cwnn&p%5B%5D=facets.brand%255B%255D%3DVEGA&p%5B%5D=facets.brand%255B%255D%3DVega&otracker=nmenu_sub_Books and More_0_Vega Helmets
+https://www.flipkart.com/automotive/car-bike-accessories/car-bike-care/car-fresheners/car-perfume/pr?p%5B%5D=facets.brand%255B%255D%3DGodrej&p%5B%5D=facets.brand%255B%255D%3DGodrej%2Baer&sid=0hx%2Cbwd%2Cbyn%2C02f%2C3gl&otracker=nmenu_sub_Books and More_0_Godrej Car Perfumes
+https://www.flipkart.com/health-category-store?otracker=nmenu_sub_Books and More_0_Health and Nutrition
