@@ -4,5 +4,12 @@ from django.db import models
 
 # Create your models here.
 class flipkart(models.Model):
-	p_name = models.CharField(max_length=200)
-	p_url = models.TextField()
+	name = models.CharField(max_length=200)
+	url = models.TextField(null=False)
+	price = models.IntegerField(null=False)
+
+class infibeam(models.Model):
+	name = models.CharField(max_length=200)
+	url = models.TextField(null=False)
+	price = models.IntegerField(null=False)
+	
