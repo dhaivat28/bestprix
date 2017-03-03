@@ -1,7 +1,7 @@
 import scrapy
 import MySQLdb
 
-#url_list=[]
+url_list=set()
 class flipkart(scrapy.Spider):
 	name = "infibeam"
 	start_urls = [
@@ -25,15 +25,15 @@ class flipkart(scrapy.Spider):
 		db.close()
 
 	def parse(self, response):
-#		global url_list
-		urls=response.xpath('//a/@href').extract()
-		for href in urls:
-			url=response.urljoin(href)
-#			if url not in url_list:
-#				url_list.append(url)
-			if response.xpath('//*[@id="price-after-discount"]/span[2]') and response.xpath('//*[@id="title-mob"]/h1'):
-				self.db_ops(response)
-			else:
-				yield scrapy.Request(url, callback=self.parse)
+		global url_list
+		if response.xpath('//*[@id="price-after-discount"]/span[2]') and response.xpath('//*[@id="title-mob"]/h1'):
+			self.db_ops(response)
+		else:
+			urls=response.xpath('//a/@href').extract()
+			for href in urls:
+				url=response.urljoin(href)
+				if url not in url_list:
+					url_list.add(url)
+					yield scrapy.Request(url, callback=self.parse)
 			# else:
 			# 	pass
