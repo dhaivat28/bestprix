@@ -12,4 +12,3 @@ class infibeam(models.Model):
 	name = models.CharField(max_length=200)
 	url = models.TextField(null=False)
 	price = models.IntegerField(null=False)
-	

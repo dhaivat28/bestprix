@@ -10,6 +10,7 @@ class flipkart(scrapy.Spider):
 	allowed_domains = ["infibeam.com"]
 
 	def db_ops(self, response):
+		#print "\n___________________inside__________db\n"
 		name = response.xpath('//*[@id="title-mob"]/h1/text()').extract_first()
 		price = response.xpath('//*[@id="price-after-discount"]/span[2]/text()').extract_first()
 		price = int(price.replace(',', ''))
@@ -20,20 +21,23 @@ class flipkart(scrapy.Spider):
 		try:
 			cursor.execute(sql)
 			db.commit()
-		except:
+			#print "\n________________________________added________________\n"
+		except Exception:
 			db.rollback()
 		db.close()
 
 	def parse(self, response):
 		global url_list
-		if response.xpath('//*[@id="price-after-discount"]/span[2]') and response.xpath('//*[@id="title-mob"]/h1'):
-			self.db_ops(response)
+		if response.status is 200:
+			if response.xpath('//*[@id="price-after-discount"]/span[2]') and response.xpath('//*[@id="title-mob"]/h1'):
+				self.db_ops(response)
+			else:
+				urls=response.xpath('//a/@href').extract()
+				for href in urls:
+					url=response.urljoin(href)
+					if url not in url_list:
+						url_list.add(url)
+						#print "\n________________________________Q________________\n"
+						yield scrapy.Request(url, callback=self.parse)
 		else:
-			urls=response.xpath('//a/@href').extract()
-			for href in urls:
-				url=response.urljoin(href)
-				if url not in url_list:
-					url_list.add(url)
-					yield scrapy.Request(url, callback=self.parse)
-			# else:
-			# 	pass
+			pass
