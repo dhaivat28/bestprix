@@ -22,7 +22,8 @@ USER_AGENT = 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko
 ROBOTSTXT_OBEY = False
 
 # Configure maximum concurrent requests performed by Scrapy (default: 16)
-CONCURRENT_REQUESTS = 1024
+CONCURRENT_REQUESTS = 100
+REACTOR_THREADPOOL_MAXSIZE = 20
 
 # Configure a delay for requests for the same website (default: 0)
 # See http://scrapy.readthedocs.org/en/latest/topics/settings.html#download-delay
@@ -31,10 +32,14 @@ CONCURRENT_REQUESTS = 1024
 # The download delay setting will honor only one of:
 #CONCURRENT_REQUESTS_PER_DOMAIN = 16
 #CONCURRENT_REQUESTS_PER_IP = 16
+LOG_LEVEL = 'INFO'
 
 # Disable cookies (enabled by default)
-#COOKIES_ENABLED = False
-
+COOKIES_ENABLED = False
+RETRY_ENABLED = False
+REDIRECT_ENABLED = False
+AJAXCRAWL_ENABLED = True
+MEMUSAGE_LIMIT_MB = 10240
 # Disable Telnet Console (enabled by default)
 #TELNETCONSOLE_ENABLED = False
 

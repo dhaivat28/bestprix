@@ -35,9 +35,9 @@ class flipkart(scrapy.Spider):
 				urls=response.xpath('//a/@href').extract()
 				for href in urls:
 					url=response.urljoin(href)
-					if url not in url_list:
-						url_list.add(url)
+					#if url not in url_list:
+					#	url_list.add(url)
 						#print "\n________________________________Q________________\n"
-						yield scrapy.Request(url, callback=self.parse)
+					yield scrapy.Request(url, callback=self.parse)
 		else:
 			pass
