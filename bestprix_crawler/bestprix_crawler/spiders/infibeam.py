@@ -10,7 +10,6 @@ class flipkart(scrapy.Spider):
 	allowed_domains = ["infibeam.com"]
 
 	def db_ops(self, response):
-		#print "\n___________________inside__________db\n"
 		name = response.xpath('//*[@id="title-mob"]/h1/text()').extract_first()
 		price = response.xpath('//*[@id="price-after-discount"]/span[2]/text()').extract_first()
 		price = int(price.replace(',', ''))
@@ -21,7 +20,6 @@ class flipkart(scrapy.Spider):
 		try:
 			cursor.execute(sql)
 			db.commit()
-			#print "\n________________________________added________________\n"
 		except Exception:
 			db.rollback()
 		db.close()
@@ -35,9 +33,6 @@ class flipkart(scrapy.Spider):
 				urls=response.xpath('//a/@href').extract()
 				for href in urls:
 					url=response.urljoin(href)
-					#if url not in url_list:
-					#	url_list.add(url)
-						#print "\n________________________________Q________________\n"
 					yield scrapy.Request(url, callback=self.parse)
 		else:
 			pass
