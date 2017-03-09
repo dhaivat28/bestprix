@@ -1,7 +1,7 @@
 import scrapy
 import MySQLdb
 
-url_list=set()
+#url_list=set()
 class flipkart(scrapy.Spider):
 	name = "infibeam"
 	start_urls = [
@@ -25,7 +25,7 @@ class flipkart(scrapy.Spider):
 		db.close()
 
 	def parse(self, response):
-		global url_list
+		#global url_list
 		if response.status is 200:
 			if response.xpath('//*[@id="price-after-discount"]/span[2]') and response.xpath('//*[@id="title-mob"]/h1'):
 				self.db_ops(response)
