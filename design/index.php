@@ -6,16 +6,16 @@
 		<meta name="description" content="">
 		<meta name="author" content="">
 		<link rel="shortcut icon" href="img/favicon1.png" type="image/x-icon" />
-		
+
 		<title>Best Prix</title>
 		<!-- Bootstrap core CSS -->
 		<link href="css/bootstrap.min.css" rel="stylesheet">
 		<!-- Custom styles for this template -->
 		<link href="css/style.css" rel="stylesheet">
-	
+
 		<link rel="stylesheet" href="css/owl.carousel.css">
 		<link rel="stylesheet" href="css/responsive.css">
-	
+
 		<!---------------- Start for Slider ---------->
 		<script src="sss/ext.js"></script>
 		<script src="sss/sss.min.js"></script>
@@ -26,16 +26,16 @@
 		});
 		</script>
 		<!---------------- End for Slider
-			
+
 	   <script src="js/jquery.tabSlideOut.v1.3.js"></script>
-  
+
 		<script>
 		$(function(){
              $('.slide-out-div').tabSlideOut({
                  tabHandle: '.handle',                              //class of the element that will be your tab
                  pathToTabImage: 'images/contact_tab.gif',          //path to the image for the tab (optionaly can be set using css)
                  imageHeight: '122px',                               //height of tab image
-                 imageWidth: '40px',                               //width of tab image    
+                 imageWidth: '40px',                               //width of tab image
                  tabLocation: 'left',                               //side of screen where tab lives, top, right, bottom, or left
                  speed: 300,                                        //speed of animation
                  action: 'click',                                   //options: 'click' or 'hover', action to trigger animation
@@ -44,8 +44,8 @@
              });
          });
          </script>  ---------->
-  
-   
+
+
    <script type="text/javascript">
 			<!--
 			    function toggle_visibility(id) {
@@ -58,7 +58,7 @@
 			//-->
 		</script>
 
-		
+
 	<script>
 	jQuery(document).ready(function(){
 	jQuery(".menu-trigger").click(function() {
@@ -67,10 +67,10 @@
 	});
 	});
 	});
-	</script>	
-	
+	</script>
 
-		
+
+
 <script>
 
 function suggest(inputString){
@@ -92,23 +92,23 @@ function suggest(inputString){
 		$('#listings').val(thisValue);
 		setTimeout("$('#suggestions').fadeOut();", 100);
 	}
-	
 
-	
-	
+
+
+
 </script>
 </head>
 
 <body>
 
-	
+
 		<div class="top-bar">
-			
+
 			<div class="row">
 			<div class="col-lg-3">
 			<h24>India's Largest Price Comparision Website</24>
 			</div>
-			
+
 			<div class="col-lg-6 col-lg-push-5">
 			<ul class="top-list">
             <li><a href="#">Wishlist</a></li>
@@ -118,33 +118,33 @@ function suggest(inputString){
 			</ul>
 			</div>
 			</div>
-			
+
 		</div>
 
 
 	<div class="navigation">
-	
+
 		<div class="row">
 			<div class="col-lg-3">
 				<div class="logo">
 					<a href="index.php"><img src="img/bag.png" /></a>
 				</div>
 			</div>
-	
+
 			<div class="col-lg-6">
 			<div class="search">
 			<form id="form" action="search_results.php" method="POST" class="new-search">
 			<div class="field" id="searchform">
 			<input type="text" size="25" value="" placeholder="Search Products and brands"		name="search_term" id="listings" onkeyup="suggest(this.value);" class="" />
-			<button type="submit" name="submit" value="submit" id="search">Search</button >  
-			<div class="suggestionsBox" id="suggestions" style="display: none;"> 
+			<button type="submit" name="submit" value="submit" id="search">Search</button >
+			<div class="suggestionsBox" id="suggestions" style="display: none;">
 			<div class="suggestionList" id="suggestionsList"> &nbsp; </div>
 			</div>
 			</div>
 			</form>
 			</div> <!--end of search -->
 			</div>
-			
+
 			<div class="col-lg-3">
 			<!-- <div class="account">
 			<div class="outer">
@@ -155,16 +155,16 @@ function suggest(inputString){
 			<a href="construction.php" class="Login">Login</a><br><p class="acc-con">New User? <span5> Sign Up</span5></p>
 			</div>
 			</div> -->
-			</div>	
-			
+			</div>
+
 		</div><!-- end of row -->
-		
+
 	</div> <!-- end of navigation div -->
-	
-	
-	<span class="menu-trigger">MENU</span>	
-	
-<div class="container">	
+
+
+	<span class="menu-trigger">MENU</span>
+
+<div class="container">
 	<div class="nav-menu">
 		<ul class="clearfix">
 		<li class="active"><a class="list_link" href="construction.php">Home</a></li>
@@ -184,27 +184,27 @@ function suggest(inputString){
 
     <!-- Page Content -->
     <div class="container">
-	
+
         <div class="row">
-		
+
 			<div class="col-lg-9">
 				<div class="slider">
 					<img src="img/new/2.jpg" />
 					<img src="img/new/3.jpg" />
 					<img src="img/new/1.jpg" />
 				</div>
-					
+
 			</div>
-					
+
 			<div class="col-lg-3">
 				<div class="long-box">
-			
-																				
-				</div>		
+
+
+				</div>
 			</div>
-				
+
 		</div>
-		
+
 </div><!-- End Of Main Container -->
 
  <div class="container">
@@ -217,10 +217,10 @@ function suggest(inputString){
 	<div class="title-box">
 	<h12>New Products</h12>
 	</div>
-				
+
 		<div class="latest-product">
 			<div class="product-carousel">
-				
+
 				<div class="single-product">
 					<div class="product-f-image">
 						<img src="img/shoes/1.jpg" alt="">
@@ -231,10 +231,10 @@ function suggest(inputString){
 					</div>
 					<h2><a href="single-product.html">Nike Tech Shoes</a></h2>
 					<div class="product-carousel-price">
-						<ins>₹14000</ins> 
-					</div> 
+						<ins>₹14000</ins>
+					</div>
 				</div>
-								
+
 				<div class="single-product">
 				<div class="product-f-image">
 					<img src="img/shoes/2.jpg" alt="">
@@ -245,10 +245,10 @@ function suggest(inputString){
 				</div>
                <h2><a href="single-product.html">Nike Air Shoes</a></h2>
 				<div class="product-carousel-price">
-					<ins>₹10000</ins> 
-				</div> 
+					<ins>₹10000</ins>
+				</div>
                 </div>
-                           
+
 				<div class="single-product">
 				<div class="product-f-image">
 					<img src="img/shoes/3.jpg" alt="">
@@ -260,9 +260,9 @@ function suggest(inputString){
 				<h2><a href="single-product.html">Vector Air Max</a></h2>
 				<div class="product-carousel-price">
 						<ins>₹7000.00</ins>
-					</div>                                 
+					</div>
 				</div>
-				
+
 				<div class="single-product">
                 <div class="product-f-image">
 					<img src="img/shoes/4.jpg" alt="">
@@ -273,8 +273,8 @@ function suggest(inputString){
 				</div>
 				<h2><a href="single-product.html">Snicker Shoes</a></h2>
 				<div class="product-carousel-price">
-                            <ins>₹23000.00</ins> 
-                                </div>                            
+                            <ins>₹23000.00</ins>
+                                </div>
                        </div>
                             <div class="single-product">
                                 <div class="product-f-image">
@@ -284,12 +284,12 @@ function suggest(inputString){
                                         <a href="single-product.html" class="view-details-link"><i class="fa fa-link"></i> See details</a>
                                     </div>
                                 </div>
-                                
+
                                 <h2>Running Shoes</h2>
 
                                 <div class="product-carousel-price">
                                     <ins>₹12000.00</ins>
-                                </div>                                 
+                                </div>
                             </div>
                             <div class="single-product">
                                 <div class="product-f-image">
@@ -299,23 +299,23 @@ function suggest(inputString){
                                         <a href="single-product.html" class="view-details-link"><i class="fa fa-link"></i> See details</a>
                                     </div>
                                 </div>
-                                
+
                                 <h2><a href="single-product.html">Techno Shoes</a></h2>
 
                                 <div class="product-carousel-price">
                                     <ins>₹4000.00</ins>
-                                </div>                            
+                                </div>
                             </div>
             </div>
         </div>
    </div>		<!-- end of product-view-1  -->
-			
+
 
 			<div class="product-view-1">
 				<div class="title-box">
 				<h12> Popular <span4>Products</span4> </h12>
 				</div>
-				
+
 					<div class="latest-product">
                         <div class="product-carousel">
                             <div class="single-product">
@@ -326,12 +326,12 @@ function suggest(inputString){
                                         <a href="single-product.html" class="view-details-link"><i class="fa fa-link"></i> See details</a>
                                     </div>
                                 </div>
-                                
+
                                 <h2><a href="single-product.html">Samsung Galaxy s4</a></h2>
-                                
+
                                 <div class="product-carousel-price">
-                                    <ins>₹12000.00</ins> 
-                                </div> 
+                                    <ins>₹12000.00</ins>
+                                </div>
                             </div>
                             <div class="single-product">
                                 <div class="product-f-image">
@@ -341,11 +341,11 @@ function suggest(inputString){
                                         <a href="single-product.html" class="view-details-link"><i class="fa fa-link"></i> See details</a>
                                     </div>
                                 </div>
-                                
+
                                 <h2>Nokia Lumia 1320</h2>
                                 <div class="product-carousel-price">
-                                    <ins>₹9000.00</ins> 
-                                </div> 
+                                    <ins>₹9000.00</ins>
+                                </div>
                             </div>
                             <div class="single-product">
                                 <div class="product-f-image">
@@ -355,12 +355,12 @@ function suggest(inputString){
                                         <a href="single-product.html" class="view-details-link"><i class="fa fa-link"></i> See details</a>
                                     </div>
                                 </div>
-                                
+
                                 <h2>LG Leon 2015</h2>
 
                                 <div class="product-carousel-price">
                                     <ins>₹9000.00</ins>
-                                </div>                                 
+                                </div>
                             </div>
                             <div class="single-product">
                                 <div class="product-f-image">
@@ -370,12 +370,12 @@ function suggest(inputString){
                                         <a href="single-product.html" class="view-details-link"><i class="fa fa-link"></i> See details</a>
                                     </div>
                                 </div>
-                                
+
                                 <h2><a href="single-product.html">Sony</a></h2>
 
                                 <div class="product-carousel-price">
-                                    <ins>₹8000.00</ins> 
-                                </div>                            
+                                    <ins>₹8000.00</ins>
+                                </div>
                             </div>
                             <div class="single-product">
                                 <div class="product-f-image">
@@ -385,12 +385,12 @@ function suggest(inputString){
                                         <a href="single-product.html" class="view-details-link"><i class="fa fa-link"></i> See details</a>
                                     </div>
                                 </div>
-                                
+
                                 <h2>iPhone 6</h2>
 
                                 <div class="product-carousel-price">
                                     <ins>₹35000.00</ins>
-                                </div>                                 
+                                </div>
                             </div>
                             <div class="single-product">
                                 <div class="product-f-image">
@@ -400,25 +400,25 @@ function suggest(inputString){
                                         <a href="single-product.html" class="view-details-link"><i class="fa fa-link"></i> See details</a>
                                     </div>
                                 </div>
-                                
+
                                 <h2><a href="single-product.html">Samsung gallaxy note 4</a></h2>
 
                                 <div class="product-carousel-price">
                                     <ins>₹4000.00</ins>
-                                </div>                            
+                                </div>
                             </div>
                         </div>
                     </div>
-              
+
 			</div>		<!-- end of product-view-1  -->
-			
-			
-			
+
+
+
 			<div class="product-view-1">
 				<div class="title-box">
 					<h12> Womens <span4>Clothes</span4> </h12>
 				</div>
-				
+
 					<div class="latest-product">
                         <div class="product-carousel">
                             <div class="single-product">
@@ -429,12 +429,12 @@ function suggest(inputString){
                                         <a href="single-product.html" class="view-details-link"><i class="fa fa-link"></i> See details</a>
                                     </div>
                                 </div>
-                                
+
                                 <h2><a href="single-product.html">Green tshirt</a></h2>
-                                
+
                                 <div class="product-carousel-price">
-                                    <ins>₹1000.00</ins> 
-                                </div> 
+                                    <ins>₹1000.00</ins>
+                                </div>
                             </div>
                             <div class="single-product">
                                 <div class="product-f-image">
@@ -444,11 +444,11 @@ function suggest(inputString){
                                         <a href="single-product.html" class="view-details-link"><i class="fa fa-link"></i> See details</a>
                                     </div>
                                 </div>
-                                
+
                                 <h2>Designer Dress</h2>
                                 <div class="product-carousel-price">
-                                    <ins>₹1500.00</ins> 
-                                </div> 
+                                    <ins>₹1500.00</ins>
+                                </div>
                             </div>
                             <div class="single-product">
                                 <div class="product-f-image">
@@ -458,12 +458,12 @@ function suggest(inputString){
                                         <a href="single-product.html" class="view-details-link"><i class="fa fa-link"></i> See details</a>
                                     </div>
                                 </div>
-                                
+
                                 <h2>zebra One Peice</h2>
 
                                 <div class="product-carousel-price">
                                     <ins>₹2500.00</ins>
-                                </div>                                 
+                                </div>
                             </div>
                             <div class="single-product">
                                 <div class="product-f-image">
@@ -473,12 +473,12 @@ function suggest(inputString){
                                         <a href="single-product.html" class="view-details-link"><i class="fa fa-link"></i> See details</a>
                                     </div>
                                 </div>
-                                
+
                                 <h2><a href="single-product.html">Yellow Dress</a></h2>
 
                                 <div class="product-carousel-price">
-                                    <ins>₹8000.00</ins> 
-                                </div>                            
+                                    <ins>₹8000.00</ins>
+                                </div>
                             </div>
                             <div class="single-product">
                                 <div class="product-f-image">
@@ -488,25 +488,25 @@ function suggest(inputString){
                                         <a href="single-product.html" class="view-details-link"><i class="fa fa-link"></i> See details</a>
                                     </div>
                                 </div>
-                                
+
                                 <h2>Blue Dress</h2>
 
                                 <div class="product-carousel-price">
                                     <ins>₹5000.00</ins>
-                                </div>                                 
+                                </div>
                             </div>
-							
+
                         </div>
                     </div>
-              
+
 			</div>		<!-- end of product-view-1  -->
-			
-			
-			
-			
-			
-			
-			
+
+
+
+
+
+
+
 </div><!-- end of col-lg-9  -->
 
 <div class="col-lg-3">
@@ -530,7 +530,7 @@ function suggest(inputString){
 						</div>
 						</div>
 						</div>
-	
+
 						<div class="brand-box">
 						<div class="row">
 						<div class="col-lg-5">
@@ -541,7 +541,7 @@ function suggest(inputString){
 						</div>
 						</div>
 						</div>
-	
+
 						<div class="brand-box">
 						<div class="row">
 						<div class="col-lg-5">
@@ -552,7 +552,7 @@ function suggest(inputString){
 						</div>
 						</div>
 						</div>
-						
+
 						<div class="brand-box">
 						<div class="row">
 						<div class="col-lg-5">
@@ -563,7 +563,7 @@ function suggest(inputString){
 						</div>
 						</div>
 						</div>
-						
+
 						<div class="brand-box-last">
 						<div class="row">
 						<div class="col-lg-5">
@@ -574,7 +574,7 @@ function suggest(inputString){
 						</div>
 						</div>
 						</div>
-						
+
 					<!--	<div class="brand-box">
 						<div class="row">
 						<div class="col-lg-5">
@@ -585,7 +585,7 @@ function suggest(inputString){
 						</div>
 						</div>
 						</div>
-						
+
 						<div class="brand-box-last">
 						<div class="row">
 						<div class="col-lg-5">
@@ -596,24 +596,24 @@ function suggest(inputString){
 						</div>
 						</div>
 						</div> -->
-	
+
 
 				</div>
 
-     </div>	<!-- end of sidebar -->	
-	 
-	 
-	 
-	 
+     </div>	<!-- end of sidebar -->
+
+
+
+
 	 <div class="best-seller">
 	 <div class="best-seller-title">
 	 <h13>Best Sellers</h13>
 	 </div>
 	 <div class="best-seller-content">
-	 
+
 	       <div class="owl-carousel">
-            
-			
+
+
 			<div class="best-single">
              <img src="img/shoes/4.jpg">
 			 <h17>Nike Air Shoes</h17>
@@ -621,7 +621,7 @@ function suggest(inputString){
 			 <h18>₹ 10,000</h18>
 			 </div>
             </div>
-			
+
 			<div class="best-single">
              <img src="img/shoes/3.jpg">
 			 <h17>Vecto Spike Shoes</h17>
@@ -629,7 +629,7 @@ function suggest(inputString){
 			 <h18>₹ 7,000</h18>
 			 </div>
             </div>
-			
+
 			<div class="best-single">
              <img src="img/shoes/2.jpg">
 			 <h17>snicker Shoes</h17>
@@ -637,8 +637,8 @@ function suggest(inputString){
 			 <h18>₹ 23,000</h18>
 			 </div>
             </div>
-			
-			
+
+
 			<div class="best-single">
              <img src="img/shoes/1.jpg">
 			 <h17>Nike Tech Shoes</h17>
@@ -646,12 +646,12 @@ function suggest(inputString){
 			 <h18>₹ 14,000</h18>
 			 </div>
             </div>
-			
-			
-			
-            
-           
-           
+
+
+
+
+
+
           </div>
             <script>
             $(document).ready(function() {
@@ -664,24 +664,24 @@ function suggest(inputString){
                 autoplayTimeout: 1000,
                 autoplayHoverPause: true
               });
-            
+
             })
           </script>
-    
-	 
+
+
 	 </div>
 	 </div>
-	 
-	 
+
+
 	  <div class="best-seller-2">
 	 <div class="best-seller-title">
 	 <h13>Popular This Week</h13>
 	 </div>
 	 <div class="best-seller-content">
-	 
+
 	       <div class="owl-carousel">
-            
-			
+
+
 			<div class="best-single">
              <img src="img/shoes/4.jpg">
 			 <h17>Nike Air Shoes</h17>
@@ -689,7 +689,7 @@ function suggest(inputString){
 			 <h18>₹ 10,000</h18>
 			 </div>
             </div>
-			
+
 			<div class="best-single">
              <img src="img/shoes/3.jpg">
 			 <h17>Vecto Spike Shoes</h17>
@@ -697,7 +697,7 @@ function suggest(inputString){
 			 <h18>₹ 7,000</h18>
 			 </div>
             </div>
-			
+
 			<div class="best-single">
              <img src="img/shoes/2.jpg">
 			 <h17>snicker Shoes</h17>
@@ -705,8 +705,8 @@ function suggest(inputString){
 			 <h18>₹ 23,000</h18>
 			 </div>
             </div>
-			
-			
+
+
 			<div class="best-single">
              <img src="img/shoes/1.jpg">
 			 <h17>Nike Tech Shoes</h17>
@@ -714,12 +714,12 @@ function suggest(inputString){
 			 <h18>₹ 14,000</h18>
 			 </div>
             </div>
-			
-			
-			
-            
-           
-           
+
+
+
+
+
+
           </div>
             <script>
             $(document).ready(function() {
@@ -732,17 +732,17 @@ function suggest(inputString){
                 autoplayTimeout: 1000,
                 autoplayHoverPause: true
               });
-            
+
             })
           </script>
-    
-	 
-	 </div>
-	 </div>
-	 
 
-	 
-	 
+
+	 </div>
+	 </div>
+
+
+
+
 
 </div>	<!-- end of col-lg-3 -->
 </div><!--End of Main Container -->
@@ -818,18 +818,13 @@ function suggest(inputString){
 <div class="social-icons">
 
 <a href="construction.php"><img alt="Like Us On facebook" src="img/icons/facebook.png" class="facebook" height="30"></a>
+
 <a href="construction.php"><img alt="Follow us on twitter" src="img/icons/twitter.png" class="twitter" height="30"></a>
+
 <a href="construction.php"><img alt="Join us on GooglePlus" src="img/icons/googleplus.png" class="googleplus" height="30"></a>
+
 </div>
 
-<div class="newsletter">
-<h16>Join Our Newsletter</h16><br>
-<form>
-<input type="text" class="news-input" placeholder="What's your email? ">
-<input type="submit" value="Sign Up" class="btn">
-
-</form>
-</div>
 
 
 </div>
@@ -845,23 +840,23 @@ function suggest(inputString){
 <div class="footer-bottom">
 		<div class="container">
 		<div class="row">
-		  
+
 		  <div class="col-lg-3 pull-left">
 		  <div class="copyrights">
           <p>Copyright &copy; BestPrix 2016</p>
 		  </div>
 		  </div>
-		  
+
 		  <div class="col-lg-3 pull-right">
 		  <div class="made">
           Made with <span class="red">❤</span> in &nbsp;<img src="img/indian_flag.gif" class="flag">
           </div>
 		  </div>
-		  
+
 		</div>
 		</div>
 </div>
-	
+
 <!--	<div class="slide-out-div">
 	<a class="handle" href="#">Content</a>
 	<h3>Contact Us</h3>
@@ -876,6 +871,6 @@ function suggest(inputString){
     <!-- Main Script -->
     <script src="js/main.js"></script>
 	 <script src="js/bootstrap.min.js"></script>
-    
+
   </body>
 </html>
