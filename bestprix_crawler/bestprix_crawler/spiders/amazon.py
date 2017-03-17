@@ -9,6 +9,7 @@ class flipkart(scrapy.Spider):
 		 'http://www.amazon.in/',
 	]
 	allowed_domains = ["www.amazon.in"]
+
 	def start_requests(self):
 		for url in self.start_urls:
 			yield SplashRequest(url, self.parse,endpoint='render.html',args={'wait': 1.5},)
@@ -16,7 +17,7 @@ class flipkart(scrapy.Spider):
 	def db_ops(self, response):
 		name = response.xpath('//*[@id="productTitle"]/text()').extract_first().strip()
 		price = response.xpath('//span[contains(@id, "priceblock_")]/text()').extract_first()
-		price = int(float(price.replace(',', '')))
+		price = int(float(price.replace(',', '').replace(' ','')replace('-','')))
 		url = response.url
 		db = MySQLdb.connect("localhost","root","root","bestprix_db" )
 		cursor = db.cursor()
