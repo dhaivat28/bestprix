@@ -7,7 +7,7 @@ class flipkart(scrapy.Spider):
 	start_urls = [
 		'https://www.infibeam.com/Mobiles/',
 	]
-	allowed_domains = ["infibeam.com"]
+	allowed_domains = ["www.infibeam.com"]
 
 	def db_ops(self, response):
 		name = response.xpath('//*[@id="title-mob"]/h1/text()').extract_first()
