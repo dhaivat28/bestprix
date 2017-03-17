@@ -7,7 +7,7 @@ class flipkart(scrapy.Spider):
 	start_urls = [
 		'https://www.snapdeal.com/',
 	]
-	allowed_domains = ["snapdeal.com"]
+	allowed_domains = ["www.snapdeal.com"]
 
 	def db_ops(self, response):
 		name = response.xpath('//*[@id="productOverview"]/div/div/div/div/div/h1/text()').extract_first().strip()
