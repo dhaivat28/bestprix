@@ -8,10 +8,10 @@ class flipkart(scrapy.Spider):
 	start_urls = [
 		 'http://www.amazon.in/',
 	]
-	allowed_domains = ["amazon.in"]
+	allowed_domains = ["www.amazon.in"]
 	def start_requests(self):
 		for url in self.start_urls:
-			yield SplashRequest(url, self.parse,endpoint='render.html',args={'wait': 0.5},)
+			yield SplashRequest(url, self.parse,endpoint='render.html',args={'wait': 1.5},)
 
 	def db_ops(self, response):
 		name = response.xpath('//*[@id="productTitle"]/text()').extract_first().strip()
