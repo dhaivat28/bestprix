@@ -17,7 +17,7 @@ class flipkart(scrapy.Spider):
 	def db_ops(self, response):
 		name = response.xpath('//*[@id="productTitle"]/text()').extract_first().strip()
 		price = response.xpath('//span[contains(@id, "priceblock_")]/text()').extract_first()
-		price = int(float(price.replace(',', '').replace(' ','')replace('-','')))
+		price = int(float(price.replace(',', '').replace(' ','').replace('-','')))
 		url = response.url
 		db = MySQLdb.connect("localhost","root","root","bestprix_db" )
 		cursor = db.cursor()
