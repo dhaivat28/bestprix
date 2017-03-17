@@ -218,18 +218,18 @@ function suggest(inputString){
 	<h12>New Products</h12>
 	</div>
 
-		<div class="latest-product">
+	<div class="latest-product">
 			<div class="product-carousel">
 
 				<div class="single-product">
 					<div class="product-f-image">
 						<img src="img/shoes/1.jpg" alt="">
 						<div class="product-hover">
-							<a href="construction.php" class="add-to-cart-link"><i class="fa fa-shopping-cart"></i> Add to cart</a>
+
 							<a href="single-product.html" class="view-details-link"><i class="fa fa-link"></i> See details</a>
 						</div>
 					</div>
-					<h2><a href="single-product.html">Nike Tech Shoes</a></h2>
+					<h2><a id="prod-name" href="single-product.html">Nike Tech Shoes</a></h2>
 					<div class="product-carousel-price">
 						<ins>₹14000</ins>
 					</div>
@@ -239,11 +239,11 @@ function suggest(inputString){
 				<div class="product-f-image">
 					<img src="img/shoes/2.jpg" alt="">
 					<div class="product-hover">
-						<a href="construction.php" class="add-to-cart-link"><i class="fa fa-shopping-cart"></i> Add to cart</a>
-						<a href="single-product.html" class="view-details-link"><i class="fa fa-link"></i> See details</a>
+
+						<a href="single-product.html" class="view-details-link"><i class="fa fa-link"></i> View Product</a>
 					</div>
 				</div>
-               <h2><a href="single-product.html">Nike Air Shoes</a></h2>
+               <h2><a id="prod-name" href="single-product.html">Nike Air Shoes</a></h2>
 				<div class="product-carousel-price">
 					<ins>₹10000</ins>
 				</div>
@@ -257,55 +257,57 @@ function suggest(inputString){
 						<a href="single-product.html" class="view-details-link"><i class="fa fa-link"></i> See details</a>
 					</div>
 				</div>
-				<h2><a href="single-product.html">Vector Air Max</a></h2>
+				<h2><a id="prod-name" href="single-product.html">Vector Air Max</a></h2>
 				<div class="product-carousel-price">
 						<ins>₹7000.00</ins>
 					</div>
 				</div>
 
 				<div class="single-product">
-                <div class="product-f-image">
-					<img src="img/shoes/4.jpg" alt="">
+					<div class="product-f-image">
+						<img src="img/shoes/1.jpg" alt="">
+						<div class="product-hover">
+							<a href="construction.php" class="add-to-cart-link"><i class="fa fa-shopping-cart"></i> Add to cart</a>
+							<a href="single-product.html" class="view-details-link"><i class="fa fa-link"></i> See details</a>
+						</div>
+					</div>
+					<h2><a id="prod-name" href="single-product.html">Nike Tech Shoes</a></h2>
+					<div class="product-carousel-price">
+						<ins>₹14000</ins>
+					</div>
+				</div>
+
+				<div class="single-product">
+				<div class="product-f-image">
+					<img src="img/shoes/2.jpg" alt="">
 					<div class="product-hover">
 						<a href="construction.php" class="add-to-cart-link"><i class="fa fa-shopping-cart"></i> Add to cart</a>
 						<a href="single-product.html" class="view-details-link"><i class="fa fa-link"></i> See details</a>
 					</div>
 				</div>
-				<h2><a href="single-product.html">Snicker Shoes</a></h2>
+			   <h2><a id="prod-name" href="single-product.html">Nike Air Shoes</a></h2>
 				<div class="product-carousel-price">
-                            <ins>₹23000.00</ins>
-                                </div>
-                       </div>
-                            <div class="single-product">
-                                <div class="product-f-image">
-                                   <img src="img/shoes/5.jpg" alt="">
-                                    <div class="product-hover">
-                                        <a href="construction.php" class="add-to-cart-link"><i class="fa fa-shopping-cart"></i> Add to cart</a>
-                                        <a href="single-product.html" class="view-details-link"><i class="fa fa-link"></i> See details</a>
-                                    </div>
-                                </div>
+					<ins>₹10000</ins>
+				</div>
+				</div>
 
-                                <h2>Running Shoes</h2>
+				<div class="single-product">
+				<div class="product-f-image">
+					<img src="img/shoes/3.jpg" alt="">
+					<div class="product-hover">
+						<a href="construction.php" class="add-to-cart-link"><i class="fa fa-shopping-cart"></i> Add to cart</a>
+						<a href="single-product.html" class="view-details-link"><i class="fa fa-link"></i> See details</a>
+					</div>
+				</div>
+				<h2><a id="prod-name" href="single-product.html">Vector Air Max</a></h2>
+				<div class="product-carousel-price">
+						<ins>₹7000.00</ins>
+					</div>
+				</div>
 
-                                <div class="product-carousel-price">
-                                    <ins>₹12000.00</ins>
-                                </div>
-                            </div>
-                            <div class="single-product">
-                                <div class="product-f-image">
-                                  <img src="img/shoes/6.jpg" alt="">
-                                    <div class="product-hover">
-                                        <a href="construction.php" class="add-to-cart-link"><i class="fa fa-shopping-cart"></i> Add to cart</a>
-                                        <a href="single-product.html" class="view-details-link"><i class="fa fa-link"></i> See details</a>
-                                    </div>
-                                </div>
 
-                                <h2><a href="single-product.html">Techno Shoes</a></h2>
 
-                                <div class="product-carousel-price">
-                                    <ins>₹4000.00</ins>
-                                </div>
-                            </div>
+
             </div>
         </div>
    </div>		<!-- end of product-view-1  -->

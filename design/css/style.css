@@ -33,7 +33,7 @@ input:focus {
 .side-content {
 height:auto;
 margin-top:10px;
-padding:0 0 20px 20px;	
+padding:0 0 20px 20px;
 }
 
 .side-content p{
@@ -43,33 +43,33 @@ font-size:18px;
 
 
 .second-half {
-background:#fff;	
+background:#fff;
 }
 
  @font-face {
 font-family: 'Ovo';
-src:url(../fonts/Ovo-Regular.ttf);	
+src:url(../fonts/Ovo-Regular.ttf);
 }
 
  @font-face {
 font-family: 'Aspex';
-src:url(../fonts/Aspex.ttf);	
+src:url(../fonts/Aspex.ttf);
 }
 
  @font-face {
 font-family: 'Comfortaa_Regular';
-src:url(../fonts/Comfortaa_Regular.ttf);	
+src:url(../fonts/Comfortaa_Regular.ttf);
 }
 
  @font-face {
 font-family: 'Raleway-Regular';
-src:url(../fonts/Raleway-Regular.ttf);	
+src:url(../fonts/Raleway-Regular.ttf);
 }
 
 
  @font-face {
 font-family: 'Raleway-Medium.ttf';
-src:url(../fonts/Raleway-Medium.ttf);	
+src:url(../fonts/Raleway-Medium.ttf);
 }
 
 h13{
@@ -80,7 +80,7 @@ color:white;
 
 
 
-h11 { 
+h11 {
 font-family: 'Ovo';
 font-size:20px;
 }
@@ -114,7 +114,7 @@ h17 {
 	font-family: 'Ovo';
 	font-size:20px;
 	color:#3b3b3b;
-	
+
 }
 
 h18 {
@@ -132,26 +132,26 @@ h19 {
 h20 {
 	color:#cc0000;
 	font-size:26px;
-	font-family: 'ovo';	
+	font-family: 'ovo';
 }
 
 h21 {
 	color:black;
 	font-size:15px;
-	font-family: 'ovo';	
+	font-family: 'ovo';
 }
 
 h22 {
 color:#333;
-font-family: 'ovo';	
-font-size:16px;	
+font-family: 'ovo';
+font-size:16px;
 }
 
 
 h23 {
 color:white;
-font-family: 'ovo';	
-font-size:20px;	
+font-family: 'ovo';
+font-size:20px;
 }
 
 h24 {
@@ -177,7 +177,7 @@ background:#e40046;
 
 .account {
 margin:20px 100px 0 0;
-height:35px;	
+height:35px;
 width:180px;
 float:right;
 position:relative;
@@ -292,7 +292,7 @@ span3 {
 }
 
 .outer-2 {
-	color:#337AB7; 
+	color:#337AB7;
 	float:left;
 	vertical-align:middle;
 	margin-top:7px;
@@ -306,13 +306,13 @@ span2 {
 
 .search {
 margin:12px 5px 0 20px;
-height:50px;	
+height:50px;
 width:80%;
 float:left;
 position:relative;
-}	
+}
 
-  
+
 @import url(http://fonts.googleapis.com/css?family=Montserrat+Alternates);
 
 
@@ -338,7 +338,7 @@ position:relative;
   font:1.2em 'Montserrat Alternates';
    border-top-right-radius:2px;
   border-bottom-right-radius:2px;
- 
+
 }
 
 .field>input[type=text] {
@@ -369,7 +369,7 @@ position:relative;
 	margin-top:10px;
 	height:auto;
 	}
-	
+
 	.add-top {
 		margin-top:10px;
 		border:1px solid #A0A1A4;
@@ -379,28 +379,29 @@ position:relative;
 		margin-top:20px;
 	border:1px solid #A0A1A4;
 	}
-	
+
 	.add-bottom{
 		margin-top:20px;
 		margin-bottom:20px;
 	border:1px solid #A0A1A4;
 	}
-	
+
 	.add-img {
 		height:121px;
 		width:100%;
 	}
-	
+
 .product-view-1 {
 	margin-top:20px;
 	background:#fff;
 	box-shadow:0 2px 4px 0 rgba(0,0,0,.08)
 }
-	
+
 .title-box {
 height:auto;
 border-bottom:1px solid #e3e3e3;
 padding:15px 20px;
+margin-bottom:10px;
 }
 
 @font-face {
@@ -478,7 +479,7 @@ height:80px;
 
 .best-seller-content {
 height:auto;
-background:#fff; 
+background:#fff;
 border-left:2px solid #dfe1e8;
 border-right:2px solid #dfe1e8;
 border-bottom:2px solid #dfe1e8;
@@ -505,42 +506,42 @@ padding-bottom:5px;
 }
 
 
-.footer {	
+.footer {
 margin-top:20px;
 width:100%;
 height:auto;
 border-top:1px solid #dfe1e8;
-}	
+}
 
-	
+
 .footer-top{
 	height:auto;
 	background:#f4f4f4; /* #2f2f2f; */
 	border-bottom:1px solid #dfe1e8;
 }
-	
+
 .footer-box-1{
 	padding:25px 0 0 60px;
 	height:100px;
 	border:1px solid #dfe1e8;
-}	
+}
 .footer-box-2{
 	padding:20px 0 0 60px;
 	height:100px;
 	border:1px solid #dfe1e8;
-}	
+}
 
 .footer-box-3{
 	padding:20px 0 0 60px;
 	height:100px;
 	border:1px solid #dfe1e8;
-}	
+}
 
 .footer-middle {
 	height:auto;
 	background:#fff;
-	
-}	
+
+}
 
 .footer-middle-1{
 list-style:none;
@@ -554,7 +555,7 @@ margin-bottom:30px;
 	height:30px;
 	margin-bottom:15px;
 	margin-top:10px;
-} 
+}
 .facebook{
 	margin-left:10px;
 	margin-right:5px;
@@ -574,7 +575,7 @@ margin-bottom:30px;
 .newsletter {
 border:5px solid #E4E4E4;
 height:100px;
-background:#F5F5F5;	
+background:#F5F5F5;
 margin:10px;
 padding:10px 0 0 30px;
 
@@ -629,7 +630,7 @@ list-style:none;
 
 .footer-middle-1 ul li  a{
 list-style:none;
-color:#a5a5a5;	
+color:#a5a5a5;
 }
 
 .footer-bottom{
@@ -639,7 +640,7 @@ color:#a5a5a5;
 
 	/*     background: linear-gradient(to bottom,#464646,#424242); */
 
-}	
+}
 
 .news-input {
 	margin-top:10px;
@@ -653,9 +654,9 @@ color:#a5a5a5;
 	padding-top:10px;
 	padding-left:20px;
 	border:1px solid #dfe1e8;
-	box-shadow: 0 0 1px 1px rgba(0, 0, 0, 0.3); 
+	box-shadow: 0 0 1px 1px rgba(0, 0, 0, 0.3);
 }
-	
+
 	.partners {
 		padding-top:10px;
 	text-align:center;
@@ -664,21 +665,21 @@ color:#a5a5a5;
 	margin-top:20px;
 	background:#fff;
 	border-top-left-radius:40px;
-	border-bottom-right-radius:40px;	
+	border-bottom-right-radius:40px;
 	border:1px solid #dfe1e8;
-	box-shadow: 0 0 1px 1px rgba(0, 0, 0, 0.3); 
+	box-shadow: 0 0 1px 1px rgba(0, 0, 0, 0.3);
 }
 
 .par-1 {
 	margin-top:15px;
 }
 
-	
+
 	.divider-solid-orange{
 		position:relative;
 		height:1px;
 		background-color:orange;
-		width:100%;	
+		width:100%;
 		margin-top:20px;
 		margin-bottom:20px;
 }
@@ -703,7 +704,7 @@ color:#a5a5a5;
 
 .nav-menu {
 	background:#fff;
-	box-shadow: 0px 0px 3px 0px rgba(0, 0, 0, 0.2); 
+	box-shadow: 0px 0px 3px 0px rgba(0, 0, 0, 0.2);
 }
 .nav-menu ul{
 	padding:0;
@@ -744,7 +745,7 @@ font-size: 13px;
 
 .nav-menu ul li a:hover {
 display:block;
-color:#e40046;	
+color:#e40046;
 }
 
 
@@ -758,7 +759,7 @@ color:#e40046;
 .nav-menu {
 		display:none;
 }
-	
+
 .nav-menu ul li{
 	float: none;
 	border-bottom:2px solid #d5dce4;
@@ -820,10 +821,10 @@ color:white;
     margin-bottom:10px;
 }
 
-	
+
 .test {
 	height:800px;
-	border:1px solid black;	
+	border:1px solid black;
 }
 
 
@@ -847,7 +848,7 @@ height: auto;
 }
 
 */
-	
+
 /*--------------------------------------------------------------------------------------------------------------------------------*/
 /*																																  */
 /*              						 Owl carousel's css Ends HERE                   	<============== 	                       */
@@ -859,8 +860,8 @@ height: auto;
           width: 250px;
           background: #ccc;
           border: 1px solid #29216d;
-      }      
-	  
+      }
+
 .product-f-image {
     position: relative;
 }
@@ -883,30 +884,37 @@ height: auto;
   width: 100%;transition: .4s;
 }
 .product-hover a {
-    background: none repeat scroll 0 0 #5a88ca;
+    background: #e40046;
     border-radius: 5px;
     color: #fff;
     display: block;
-    font-size: 16px;
+    font-size: 14px;
     left: 10%;
     margin: 0;
     padding: 10px;
     position: absolute;
     text-align: center;
-    text-transform: uppercase;
-    border: 1px solid #5a88ca;
-    width: 80%;z-index: 99;transition: .4s;
+    width: 80%;z-index: 99;transition: .7s;
 }
 .product-hover a:hover {
-  background: #000;
-  text-decoration: none;border-color: #444;
+  background: #333;
+  text-decoration: none;
+ 
 }
 .product-carousel-price ins {
-  color: #5a88ca;
+  color: #333;
   font-weight: 700;
   margin-right: 5px;
   text-decoration: none;
+  font-size: 14px;
 }
+
+#prod-name:hover {
+text-decoration: none;
+transition: all 0.2s linear 0s;
+color: #e40046;
+}
+
 .product-hover a i.fa {
     margin-right: 5px;
 }
@@ -914,15 +922,15 @@ height: auto;
 .product-hover a.view-details-link { bottom: -25%;}
 .single-product h2 {
     font-size: 18px;
-    line-height: 25px;
-    margin-bottom: 10px;
-    margin-top: 15px;
 }
 
 
 .single-product h2 a {
-    color: #222;
+    color: #555;
+	font-size:14px;
+	font-family:'Open Sans', sans-serif;
 }
+
 .single-product p {
     color: #5a88ca;
     font-weight: 700;
@@ -942,8 +950,7 @@ height: auto;
 }
 
 .latest-product {
-	padding:0 20px 0 20px;
-
+	padding:0 20px 20px 20px;
 }
 
 .latest-product .owl-nav {
@@ -1020,7 +1027,7 @@ height: auto;
     color: #222;
 }
 .single-wid-product h2 a:hover, .single-product h2 a:hover {
-    color: #5a88ca;
+    color: #555;
 }
 .wid-view-more {
     background: none repeat scroll 0 0 #5a88ca;
@@ -1067,7 +1074,7 @@ height: auto;
 	padding-top:3px;
 	padding-left:50px;
 	}
-	
+
 .top-list li{
     display: inline;
 	color:#fff;
@@ -1086,7 +1093,7 @@ height: auto;
 
 
 .top-text {
-color:#ffffff;	
+color:#ffffff;
 font-size:12px;
 }
 
@@ -1109,7 +1116,7 @@ font-size:12px;
 	color: #fff;
 	height:300px;
 	overflow:hidden;
-    z-index: 99999; 
+    z-index: 99999;
 	border-radius:0 0 2px 2px;
 	border-bottom:1px solid #dfe1e8;
 	border-left:1px solid #dfe1e8;
@@ -1267,7 +1274,7 @@ background:#fbfbfb;
   font-size: 20px;
   padding: 10px 20px 10px 20px;
   text-decoration: none;
- 
+
 }
 
 .btn1:hover {
@@ -1310,7 +1317,7 @@ background:#fbfbfb;
 .result{
 border:1px solid #E5E6E9;
 min-height:360px;
-width:180px;	
+width:180px;
 margin-top:25px;
 }
 
@@ -1333,7 +1340,7 @@ vertical-align:middle;
 }
 
 .inner-img-box {
-height:200px;	
+height:200px;
 }
 
 .result-box {
@@ -1377,8 +1384,8 @@ padding-top:10px;
 	font-weight: bold;
 }
 
-/* --------------------------------------------------------------------------------- 
-*		
+/* ---------------------------------------------------------------------------------
+*
 *							CSS3 Media Queries Below
 *
 ---------------------------------------------------------------------------------- */
@@ -1386,7 +1393,7 @@ padding-top:10px;
 @media only screen and (min-device-width: 993px) {
 
 
-} 
+}
 /* --------------------- End of media queries min-device-width 993 and above ------------- */
 
 
@@ -1403,7 +1410,7 @@ padding-top:10px;
 	margin-top:10px;
 }
 
-} 
+}
 /* --------------------- End of media queries min-width 1201 to 1599 ------------ */
 
 
@@ -1420,7 +1427,5 @@ padding-top:10px;
 	margin-top:10px;
 }
 
-} 
+}
 /* --------------------- End of media queries min-width 1600 and above ------------- */
-
-
