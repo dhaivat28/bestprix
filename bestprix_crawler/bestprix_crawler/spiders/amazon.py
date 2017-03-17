@@ -17,7 +17,10 @@ class flipkart(scrapy.Spider):
 	def db_ops(self, response):
 		name = response.xpath('//*[@id="productTitle"]/text()').extract_first().strip()
 		price = response.xpath('//span[contains(@id, "priceblock_")]/text()').extract_first()
-		price = int(float(price.replace(',', '').replace(' ','').replace('-','')))
+		try:
+			price = int(float(price.replace(',', '').replace(' ','').replace('-','')))
+		except Exception:
+			return
 		url = response.url
 		db = MySQLdb.connect("localhost","root","root","bestprix_db" )
 		cursor = db.cursor()
@@ -38,6 +41,6 @@ class flipkart(scrapy.Spider):
 				urls=response.xpath('//a/@href').extract()
 				for href in urls:
 					url=response.urljoin(href)
-					yield SplashRequest(url, self.parse,endpoint='render.html',args={'wait': 0.5},)
+					yield SplashRequest(url, self.parse,endpoint='render.html',args={'wait': 3},)
 		else:
 			pass
