@@ -2,7 +2,7 @@ import scrapy
 import MySQLdb
 
 #url_list=set()
-class flipkart(scrapy.Spider):
+class infibeam(scrapy.Spider):
 	name = "infibeam"
 	start_urls = [
 		'https://www.infibeam.com/',

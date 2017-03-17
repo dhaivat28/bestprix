@@ -3,7 +3,7 @@ from scrapy_splash import SplashRequest
 import MySQLdb
 
 url_list=set()
-class flipkart(scrapy.Spider):
+class amazon(scrapy.Spider):
 	name = "amazon"
 	start_urls = [
 		 'http://www.amazon.in/',

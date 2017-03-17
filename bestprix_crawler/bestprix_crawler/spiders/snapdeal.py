@@ -2,7 +2,7 @@ import scrapy
 import MySQLdb
 
 # url_list=set()
-class flipkart(scrapy.Spider):
+class snapdeal(scrapy.Spider):
 	name = "snapdeal"
 	start_urls = [
 		'https://www.snapdeal.com/',
