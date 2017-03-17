@@ -12,7 +12,7 @@ class flipkart(scrapy.Spider):
 
 	def start_requests(self):
 		for url in self.start_urls:
-			yield SplashRequest(url, self.parse,endpoint='render.html',args={'wait': 3},)
+			yield SplashRequest(url, self.parse,endpoint='render.html',args={'wait': 1},)
 
 	def db_ops(self, response):
 		name = response.xpath('//*[@id="productTitle"]/text()').extract_first().strip()
@@ -41,6 +41,6 @@ class flipkart(scrapy.Spider):
 				urls=response.xpath('//a/@href').extract()
 				for href in urls:
 					url=response.urljoin(href)
-					yield SplashRequest(url, self.parse,endpoint='render.html',args={'wait': 3},)
+					yield SplashRequest(url, self.parse,endpoint='render.html',args={'wait': 1},)
 		else:
 			pass
