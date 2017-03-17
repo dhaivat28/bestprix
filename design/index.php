@@ -514,7 +514,7 @@ function suggest(inputString){
 <div class="col-lg-3">
 
 
-	<div class="sidebar">
+	<!-- <div class="sidebar">
 
 	<div class="sidebar-title-box ">
 	<h13>Popular Price List</h13>
@@ -576,78 +576,54 @@ function suggest(inputString){
 						</div>
 						</div>
 						</div>
-
-					<!--	<div class="brand-box">
-						<div class="row">
-						<div class="col-lg-5">
-						<img src="img/brands/6.png" height="35" width="80" class="brand-img" />
-				    	</div>
-					    <div class="col-lg-7">
-						<p class="brand">Motorola Mobile Prices</p>
-						</div>
-						</div>
-						</div>
-
-						<div class="brand-box-last">
-						<div class="row">
-						<div class="col-lg-5">
-						<img src="img/brands/7.jpg" height="35" width="80" class="brand-img" />
-				    	</div>
-					    <div class="col-lg-7">
-						<p class="brand">Intex Mobile Prices</p>
-						</div>
-						</div>
-						</div> -->
-
-
 				</div>
 
-     </div>	<!-- end of sidebar -->
-
+     </div>	 -->
 
 
 
 	 <div class="best-seller">
 	 <div class="best-seller-title">
-	 <h13>Best Sellers</h13>
+	 <h13>BEST SELLERS</h13>
 	 </div>
 	 <div class="best-seller-content">
 
 	       <div class="owl-carousel">
 
 
-			<div class="best-single">
-             <img src="img/shoes/4.jpg">
-			 <h17>Nike Air Shoes</h17>
-			 <div class="single-price">
+			<div class="best-single-sidebar">
+             <img src="images/deals/p1.jpg">
+			 <h17>Floral Print buttoned</h17>
+			 <div class="single-price-sidebar">
 			 <h18>₹ 10,000</h18>
 			 </div>
-            </div>
-
-			<div class="best-single">
-             <img src="img/shoes/3.jpg">
-			 <h17>Vecto Spike Shoes</h17>
-			 <div class="single-price">
-			 <h18>₹ 7,000</h18>
+			 <div class="dual-button">
+			 <div class="dual-button-cart">
+			 <img src="images/cart2.png" width="auto" />
 			 </div>
-            </div>
+			 <div class="dual-button-cart-text">
+			 <p>View Product</p>
+			</div>
+			</div>
+			</div>
 
-			<div class="best-single">
-             <img src="img/shoes/2.jpg">
-			 <h17>snicker Shoes</h17>
-			 <div class="single-price">
-			 <h18>₹ 23,000</h18>
+			<div class="best-single-sidebar">
+			 <img src="images/deals/p2.jpg">
+			 <h17>Floral Print buttoned</h17>
+			 <div class="single-price-sidebar">
+			 <h18>₹ 10,000</h18>
 			 </div>
-            </div>
+			</div>
 
-
-			<div class="best-single">
-             <img src="img/shoes/1.jpg">
-			 <h17>Nike Tech Shoes</h17>
-			 <div class="single-price">
-			 <h18>₹ 14,000</h18>
+			<div class="best-single-sidebar">
+			 <img src="images/deals/p3.jpg">
+ 				 <h17>Floral Print buttoned</h17>
+			 <div class="single-price-sidebar">
+			 <h18>₹ 10,000</h18>
 			 </div>
-            </div>
+			</div>
+
+
 
 
 
@@ -663,7 +639,7 @@ function suggest(inputString){
                 loop: true,
                 margin: 10,
                 autoplay: true,
-                autoplayTimeout: 1000,
+                autoplayTimeout: 30000,
                 autoplayHoverPause: true
               });
 
