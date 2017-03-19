@@ -243,9 +243,9 @@ function suggest(inputString){
 						<a href="single-product.html" class="view-details-link"><i class="fa fa-link"></i> View Product</a>
 					</div>
 				</div>
-               <h2><a id="prod-name" href="single-product.html">Nike Air Shoes</a></h2>
+               <h2><a id="prod-name" href="single-product.html">Nike Red Court Boroug</a></h2>
 				<div class="product-carousel-price">
-					<ins>₹10000</ins>
+					<ins>₹2747</ins>
 				</div>
                 </div>
 
@@ -253,39 +253,11 @@ function suggest(inputString){
 				<div class="product-f-image">
 					<img src="img/shoes/3.jpg" alt="">
 					<div class="product-hover">
-						<a href="construction.php" class="add-to-cart-link"><i class="fa fa-shopping-cart"></i> Add to cart</a>
-						<a href="single-product.html" class="view-details-link"><i class="fa fa-link"></i> See details</a>
-					</div>
-				</div>
-				<h2><a id="prod-name" href="single-product.html">Vector Air Max</a></h2>
-				<div class="product-carousel-price">
-						<ins>₹7000.00</ins>
-					</div>
-				</div>
 
-				<div class="single-product">
-					<div class="product-f-image">
-						<img src="img/shoes/1.jpg" alt="">
-						<div class="product-hover">
-							<a href="construction.php" class="add-to-cart-link"><i class="fa fa-shopping-cart"></i> Add to cart</a>
-							<a href="single-product.html" class="view-details-link"><i class="fa fa-link"></i> See details</a>
-						</div>
-					</div>
-					<h2><a id="prod-name" href="single-product.html">Nike Tech Shoes</a></h2>
-					<div class="product-carousel-price">
-						<ins>₹14000</ins>
+						<a href="single-product.html" class="view-details-link"><i class="fa fa-link"></i> View Product</a>
 					</div>
 				</div>
-
-				<div class="single-product">
-				<div class="product-f-image">
-					<img src="img/shoes/2.jpg" alt="">
-					<div class="product-hover">
-						<a href="construction.php" class="add-to-cart-link"><i class="fa fa-shopping-cart"></i> Add to cart</a>
-						<a href="single-product.html" class="view-details-link"><i class="fa fa-link"></i> See details</a>
-					</div>
-				</div>
-			   <h2><a id="prod-name" href="single-product.html">Nike Air Shoes</a></h2>
+			   <h2><a id="prod-name" href="single-product.html">Hrx Air Spector</a></h2>
 				<div class="product-carousel-price">
 					<ins>₹10000</ins>
 				</div>
@@ -293,18 +265,45 @@ function suggest(inputString){
 
 				<div class="single-product">
 				<div class="product-f-image">
-					<img src="img/shoes/3.jpg" alt="">
+					<img src="img/shoes/4.jpg" alt="">
 					<div class="product-hover">
-						<a href="construction.php" class="add-to-cart-link"><i class="fa fa-shopping-cart"></i> Add to cart</a>
-						<a href="single-product.html" class="view-details-link"><i class="fa fa-link"></i> See details</a>
+
+						<a href="single-product.html" class="view-details-link"><i class="fa fa-link"></i> View Product</a>
 					</div>
 				</div>
-				<h2><a id="prod-name" href="single-product.html">Vector Air Max</a></h2>
+			   <h2><a id="prod-name" href="single-product.html">Reebok </a></h2>
 				<div class="product-carousel-price">
-						<ins>₹7000.00</ins>
-					</div>
+					<ins>₹6000</ins>
+				</div>
 				</div>
 
+				<div class="single-product">
+				<div class="product-f-image">
+					<img src="img/shoes/5.jpg" alt="">
+					<div class="product-hover">
+
+						<a href="single-product.html" class="view-details-link"><i class="fa fa-link"></i> View Product</a>
+					</div>
+				</div>
+			   <h2><a id="prod-name" href="single-product.html">Fentacia</a></h2>
+				<div class="product-carousel-price">
+					<ins>₹4000</ins>
+				</div>
+				</div>
+
+				<div class="single-product">
+				<div class="product-f-image">
+					<img src="img/shoes/6.jpg" alt="">
+					<div class="product-hover">
+
+						<a href="single-product.html" class="view-details-link"><i class="fa fa-link"></i> View Product</a>
+					</div>
+				</div>
+			   <h2><a id="prod-name" href="single-product.html">Fila</a></h2>
+				<div class="product-carousel-price">
+					<ins>₹10000</ins>
+				</div>
+				</div>
 
 
 
@@ -320,95 +319,94 @@ function suggest(inputString){
 
 					<div class="latest-product">
                         <div class="product-carousel">
-                            <div class="single-product">
-                                <div class="product-f-image">
-                                    <img src="img/product-1.jpg" alt="">
-                                    <div class="product-hover">
-                                        <a href="construction.php" class="add-to-cart-link"><i class="fa fa-shopping-cart"></i> Add to cart</a>
-                                        <a href="single-product.html" class="view-details-link"><i class="fa fa-link"></i> See details</a>
-                                    </div>
-                                </div>
 
-                                <h2><a href="single-product.html">Samsung Galaxy s4</a></h2>
+							<div class="single-product">
+							<div class="product-f-image">
+							    <img src="img/product-1.jpg" alt="">
+								<div class="product-hover">
 
-                                <div class="product-carousel-price">
-                                    <ins>₹12000.00</ins>
-                                </div>
-                            </div>
-                            <div class="single-product">
-                                <div class="product-f-image">
-                                    <img src="img/product-2.jpg" alt="">
-                                    <div class="product-hover">
-                                        <a href="construction.php" class="add-to-cart-link"><i class="fa fa-shopping-cart"></i> Add to cart</a>
-                                        <a href="single-product.html" class="view-details-link"><i class="fa fa-link"></i> See details</a>
-                                    </div>
-                                </div>
+									<a href="single-product.html" class="view-details-link"><i class="fa fa-link"></i> View Product</a>
+								</div>
+							</div>
+						   <h2><a id="prod-name" href="single-product.html">Samsung Corby</a></h2>
+							<div class="product-carousel-price">
+								<ins>₹5000</ins>
+							</div>
+							</div>
 
-                                <h2>Nokia Lumia 1320</h2>
-                                <div class="product-carousel-price">
-                                    <ins>₹9000.00</ins>
-                                </div>
-                            </div>
-                            <div class="single-product">
-                                <div class="product-f-image">
-                                    <img src="img/product-3.jpg" alt="">
-                                    <div class="product-hover">
-                                        <a href="construction.php" class="add-to-cart-link"><i class="fa fa-shopping-cart"></i> Add to cart</a>
-                                        <a href="single-product.html" class="view-details-link"><i class="fa fa-link"></i> See details</a>
-                                    </div>
-                                </div>
+							<div class="single-product">
+							<div class="product-f-image">
+								<img src="img/product-2.jpg" alt="">
+								<div class="product-hover">
 
-                                <h2>LG Leon 2015</h2>
+									<a href="single-product.html" class="view-details-link"><i class="fa fa-link"></i> View Product</a>
+								</div>
+							</div>
+						   <h2><a id="prod-name" href="single-product.html">Nokia Lumia </a></h2>
+							<div class="product-carousel-price">
+								<ins>₹4000</ins>
+							</div>
+							</div>
 
-                                <div class="product-carousel-price">
-                                    <ins>₹9000.00</ins>
-                                </div>
-                            </div>
-                            <div class="single-product">
-                                <div class="product-f-image">
-                                    <img src="img/product-4.jpg" alt="">
-                                    <div class="product-hover">
-                                        <a href="construction.php" class="add-to-cart-link"><i class="fa fa-shopping-cart"></i> Add to cart</a>
-                                        <a href="single-product.html" class="view-details-link"><i class="fa fa-link"></i> See details</a>
-                                    </div>
-                                </div>
+							<div class="single-product">
+							<div class="product-f-image">
+								<img src="img/product-3.jpg" alt="">
+								<div class="product-hover">
 
-                                <h2><a href="single-product.html">Sony</a></h2>
+									<a href="single-product.html" class="view-details-link"><i class="fa fa-link"></i> View Product</a>
+								</div>
+							</div>
+						   <h2><a id="prod-name" href="single-product.html">Lg Gplus</a></h2>
+							<div class="product-carousel-price">
+								<ins>₹10000</ins>
+							</div>
+							</div>
 
-                                <div class="product-carousel-price">
-                                    <ins>₹8000.00</ins>
-                                </div>
-                            </div>
-                            <div class="single-product">
-                                <div class="product-f-image">
-                                    <img src="img/product-5.jpg" alt="">
-                                    <div class="product-hover">
-                                        <a href="construction.php" class="add-to-cart-link"><i class="fa fa-shopping-cart"></i> Add to cart</a>
-                                        <a href="single-product.html" class="view-details-link"><i class="fa fa-link"></i> See details</a>
-                                    </div>
-                                </div>
+							<div class="single-product">
+							<div class="product-f-image">
+								<img src="img/product-4.jpg" alt="">
+								<div class="product-hover">
 
-                                <h2>iPhone 6</h2>
+									<a href="single-product.html" class="view-details-link"><i class="fa fa-link"></i> View Product</a>
+								</div>
+							</div>
+						   <h2><a id="prod-name" href="single-product.html">Sony Xperia </a></h2>
+							<div class="product-carousel-price">
+								<ins>₹11000</ins>
+							</div>
+							</div>
 
-                                <div class="product-carousel-price">
-                                    <ins>₹35000.00</ins>
-                                </div>
-                            </div>
-                            <div class="single-product">
-                                <div class="product-f-image">
-                                    <img src="img/product-6.jpg" alt="">
-                                    <div class="product-hover">
-                                        <a href="construction.php" class="add-to-cart-link"><i class="fa fa-shopping-cart"></i> Add to cart</a>
-                                        <a href="single-product.html" class="view-details-link"><i class="fa fa-link"></i> See details</a>
-                                    </div>
-                                </div>
 
-                                <h2><a href="single-product.html">Samsung gallaxy note 4</a></h2>
+							<div class="single-product">
+							<div class="product-f-image">
+								<img src="img/product-5.jpg" alt="">
+								<div class="product-hover">
 
-                                <div class="product-carousel-price">
-                                    <ins>₹4000.00</ins>
-                                </div>
-                            </div>
+									<a href="single-product.html" class="view-details-link"><i class="fa fa-link"></i> View Product</a>
+								</div>
+							</div>
+						   <h2><a id="prod-name" href="single-product.html">Sony Xperia</a></h2>
+							<div class="product-carousel-price">
+								<ins>₹8500</ins>
+							</div>
+							</div>
+
+							<div class="single-product">
+							<div class="product-f-image">
+								<img src="img/product-6.jpg" alt="">
+								<div class="product-hover">
+
+									<a href="single-product.html" class="view-details-link"><i class="fa fa-link"></i> View Product</a>
+								</div>
+							</div>
+						   <h2><a id="prod-name" href="single-product.html">Fila</a></h2>
+							<div class="product-carousel-price">
+								<ins>₹10000</ins>
+							</div>
+							</div>
+
+
+
                         </div>
                     </div>
 
@@ -423,80 +421,96 @@ function suggest(inputString){
 
 					<div class="latest-product">
                         <div class="product-carousel">
-                            <div class="single-product">
-                                <div class="product-f-image">
-                                    <img src="img/clothes/1.jpg" alt="">
-                                    <div class="product-hover">
-                                        <a href="construction.php" class="add-to-cart-link"><i class="fa fa-shopping-cart"></i> Add to cart</a>
-                                        <a href="single-product.html" class="view-details-link"><i class="fa fa-link"></i> See details</a>
-                                    </div>
-                                </div>
 
-                                <h2><a href="single-product.html">Green tshirt</a></h2>
 
-                                <div class="product-carousel-price">
-                                    <ins>₹1000.00</ins>
-                                </div>
-                            </div>
-                            <div class="single-product">
-                                <div class="product-f-image">
-                                   <img src="img/clothes/2.jpg" alt="">
-                                    <div class="product-hover">
-                                        <a href="construction.php" class="add-to-cart-link"><i class="fa fa-shopping-cart"></i> Add to cart</a>
-                                        <a href="single-product.html" class="view-details-link"><i class="fa fa-link"></i> See details</a>
-                                    </div>
-                                </div>
+					<div class="single-product">
+					<div class="product-f-image">
+						<img src="img/clothes/5.jpg" alt="">
+						<div class="product-hover">
 
-                                <h2>Designer Dress</h2>
-                                <div class="product-carousel-price">
-                                    <ins>₹1500.00</ins>
-                                </div>
-                            </div>
-                            <div class="single-product">
-                                <div class="product-f-image">
-                                   <img src="img/clothes/3.jpg" alt="">
-                                    <div class="product-hover">
-                                        <a href="construction.php" class="add-to-cart-link"><i class="fa fa-shopping-cart"></i> Add to cart</a>
-                                        <a href="single-product.html" class="view-details-link"><i class="fa fa-link"></i> See details</a>
-                                    </div>
-                                </div>
+							<a href="single-product.html" class="view-details-link"><i class="fa fa-link"></i> View Product</a>
+						</div>
+					</div>
+				   <h2><a id="prod-name" href="single-product.html">Blue Crop Tshirt</a></h2>
+					<div class="product-carousel-price">
+						<ins>₹4500</ins>
+					</div>
+					</div>
 
-                                <h2>zebra One Peice</h2>
+					<div class="single-product">
+					<div class="product-f-image">
+						<img src="img/clothes/4.jpg" alt="">
+						<div class="product-hover">
 
-                                <div class="product-carousel-price">
-                                    <ins>₹2500.00</ins>
-                                </div>
-                            </div>
-                            <div class="single-product">
-                                <div class="product-f-image">
-                                     <img src="img/clothes/4.jpg" alt="">
-                                    <div class="product-hover">
-                                        <a href="construction.php" class="add-to-cart-link"><i class="fa fa-shopping-cart"></i> Add to cart</a>
-                                        <a href="single-product.html" class="view-details-link"><i class="fa fa-link"></i> See details</a>
-                                    </div>
-                                </div>
+							<a href="single-product.html" class="view-details-link"><i class="fa fa-link"></i> View Product</a>
+						</div>
+					</div>
+				   <h2><a id="prod-name" href="single-product.html">Yello Skirt</a></h2>
+					<div class="product-carousel-price">
+						<ins>₹9400</ins>
+					</div>
+					</div>
 
-                                <h2><a href="single-product.html">Yellow Dress</a></h2>
+					<div class="single-product">
+					<div class="product-f-image">
+						<img src="img/clothes/3.jpg" alt="">
+						<div class="product-hover">
 
-                                <div class="product-carousel-price">
-                                    <ins>₹8000.00</ins>
-                                </div>
-                            </div>
-                            <div class="single-product">
-                                <div class="product-f-image">
-                                   <img src="img/clothes/5.jpg" alt="">
-                                    <div class="product-hover">
-                                        <a href="construction.php" class="add-to-cart-link"><i class="fa fa-shopping-cart"></i> Add to cart</a>
-                                        <a href="single-product.html" class="view-details-link"><i class="fa fa-link"></i> See details</a>
-                                    </div>
-                                </div>
+							<a href="single-product.html" class="view-details-link"><i class="fa fa-link"></i> View Product</a>
+						</div>
+					</div>
+				   <h2><a id="prod-name" href="single-product.html">Black One Piece</a></h2>
+					<div class="product-carousel-price">
+						<ins>₹6845</ins>
+					</div>
+					</div>
 
-                                <h2>Blue Dress</h2>
+					<div class="single-product">
+					<div class="product-f-image">
+						<img src="img/clothes/2.jpg" alt="">
+						<div class="product-hover">
 
-                                <div class="product-carousel-price">
-                                    <ins>₹5000.00</ins>
-                                </div>
-                            </div>
+							<a href="single-product.html" class="view-details-link"><i class="fa fa-link"></i> View Product</a>
+						</div>
+					</div>
+				   <h2><a id="prod-name" href="single-product.html">White One Piece</a></h2>
+					<div class="product-carousel-price">
+						<ins>₹10000</ins>
+					</div>
+					</div>
+
+					<div class="single-product">
+					<div class="product-f-image">
+						<img src="img/clothes/1.jpg" alt="">
+						<div class="product-hover">
+
+							<a href="single-product.html" class="view-details-link"><i class="fa fa-link"></i> View Product</a>
+						</div>
+					</div>
+				   <h2><a id="prod-name" href="single-product.html">Green Tshirt</a></h2>
+					<div class="product-carousel-price">
+						<ins>₹10000</ins>
+					</div>
+					</div>
+
+					<div class="single-product">
+					<div class="product-f-image">
+						<img src="img/clothes/5.jpg" alt="">
+						<div class="product-hover">
+
+							<a href="single-product.html" class="view-details-link"><i class="fa fa-link"></i> View Product</a>
+						</div>
+					</div>
+				   <h2><a id="prod-name" href="single-product.html">Blue Tshirt</a></h2>
+					<div class="product-carousel-price">
+						<ins>₹10000</ins>
+					</div>
+					</div>
+
+
+
+
+
 
                         </div>
                     </div>
@@ -608,27 +622,36 @@ function suggest(inputString){
 			</div>
 
 			<div class="best-single-sidebar">
-			 <img src="images/deals/p2.jpg">
-			 <h17>Floral Print buttoned</h17>
+             <img src="images/deals/p2.jpg">
+			 <h17>Adidas Neo Men</h17>
 			 <div class="single-price-sidebar">
 			 <h18>₹ 10,000</h18>
 			 </div>
+			 <div class="dual-button">
+			 <div class="dual-button-cart">
+			 <img src="images/cart2.png" width="auto" />
+			 </div>
+			 <div class="dual-button-cart-text">
+			 <p>View Product</p>
+			</div>
+			</div>
 			</div>
 
 			<div class="best-single-sidebar">
-			 <img src="images/deals/p3.jpg">
- 				 <h17>Floral Print buttoned</h17>
+             <img src="images/deals/p3.jpg">
+			 <h17>Colored Bed Sheet</h17>
 			 <div class="single-price-sidebar">
-			 <h18>₹ 10,000</h18>
+			 <h18>₹ 5,000</h18>
 			 </div>
+			 <div class="dual-button">
+			 <div class="dual-button-cart">
+			 <img src="images/cart2.png" width="auto" />
+			 </div>
+			 <div class="dual-button-cart-text">
+			 <p>View Product</p>
 			</div>
-
-
-
-
-
-
-
+			</div>
+			</div>
 
           </div>
             <script>
@@ -639,7 +662,7 @@ function suggest(inputString){
                 loop: true,
                 margin: 10,
                 autoplay: true,
-                autoplayTimeout: 30000,
+                autoplayTimeout: 1000,
                 autoplayHoverPause: true
               });
 
@@ -649,6 +672,11 @@ function suggest(inputString){
 
 	 </div>
 	 </div>
+
+	 <div class="advertisement">
+		 <img src="images/banner.jpg" />
+	</div>
+
 
 
 	  <div class="best-seller-2">

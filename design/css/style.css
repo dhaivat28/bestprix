@@ -476,6 +476,8 @@ height:80px;
 
 .best-seller {
 	margin-top:21px;
+	margin-bottom:21px;
+
 }
 
 .best-seller-2{
@@ -1453,6 +1455,7 @@ padding-top:10px;
     src:url(../fonts/ro.ttf);
 	font-weight: bold;
 }
+
 
 /* ---------------------------------------------------------------------------------
 *
