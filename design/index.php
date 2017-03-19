@@ -311,6 +311,10 @@ function suggest(inputString){
         </div>
    </div>		<!-- end of product-view-1  -->
 
+   <div class="long-add">
+	   <img src="images/long-add.png" />
+   </div>
+
 
 			<div class="product-view-1">
 				<div class="title-box">
@@ -674,80 +678,102 @@ function suggest(inputString){
 	 </div>
 
 	 <div class="advertisement">
-		 <img src="images/banner.jpg" />
+		 <img src="images/b.jpg" />
 	</div>
 
+	<div class="best-seller">
+	<div class="best-seller-title">
+	<h13>BEST SELLERS</h13>
+	</div>
+	<div class="best-seller-content">
+
+		  <div class="owl-carousel">
 
 
-	  <div class="best-seller-2">
-	 <div class="best-seller-title">
-	 <h13>Popular This Week</h13>
-	 </div>
-	 <div class="best-seller-content">
+		   <div class="best-single-sidebar">
+			<img src="images/deals/p1.jpg">
+			<h17>Floral Print buttoned</h17>
+			<div class="single-price-sidebar">
+			<h18>₹ 10,000</h18>
+			</div>
+			<div class="dual-button">
+			<div class="dual-button-cart">
+			<img src="images/cart2.png" width="auto" />
+			</div>
+			<div class="dual-button-cart-text">
+			<p>View Product</p>
+		   </div>
+		   </div>
+		   </div>
 
-	       <div class="owl-carousel">
+		   <div class="best-single-sidebar">
+			<img src="images/deals/p2.jpg">
+			<h17>Adidas Neo Men</h17>
+			<div class="single-price-sidebar">
+			<h18>₹ 10,000</h18>
+			</div>
+			<div class="dual-button">
+			<div class="dual-button-cart">
+			<img src="images/cart2.png" width="auto" />
+			</div>
+			<div class="dual-button-cart-text">
+			<p>View Product</p>
+		   </div>
+		   </div>
+		   </div>
 
+		   <div class="best-single-sidebar">
+			<img src="images/deals/p3.jpg">
+			<h17>Colored Bed Sheet</h17>
+			<div class="single-price-sidebar">
+			<h18>₹ 5,000</h18>
+			</div>
+			<div class="dual-button">
+			<div class="dual-button-cart">
+			<img src="images/cart2.png" width="auto" />
+			</div>
+			<div class="dual-button-cart-text">
+			<p>View Product</p>
+		   </div>
+		   </div>
+		   </div>
 
-			<div class="best-single">
-             <img src="img/shoes/4.jpg">
-			 <h17>Nike Air Shoes</h17>
-			 <div class="single-price">
-			 <h18>₹ 10,000</h18>
-			 </div>
-            </div>
+		 </div>
+		   <script>
+		   $(document).ready(function() {
+			 var owl = $('.owl-carousel');
+			 owl.owlCarousel({
+			   items: 1,
+			   loop: true,
+			   margin: 10,
+			   autoplay: true,
+			   autoplayTimeout: 1000,
+			   autoplayHoverPause: true
+			 });
 
-			<div class="best-single">
-             <img src="img/shoes/3.jpg">
-			 <h17>Vecto Spike Shoes</h17>
-			 <div class="single-price">
-			 <h18>₹ 7,000</h18>
-			 </div>
-            </div>
-
-			<div class="best-single">
-             <img src="img/shoes/2.jpg">
-			 <h17>snicker Shoes</h17>
-			 <div class="single-price">
-			 <h18>₹ 23,000</h18>
-			 </div>
-            </div>
-
-
-			<div class="best-single">
-             <img src="img/shoes/1.jpg">
-			 <h17>Nike Tech Shoes</h17>
-			 <div class="single-price">
-			 <h18>₹ 14,000</h18>
-			 </div>
-            </div>
-
-
-
-
-
-
-          </div>
-            <script>
-            $(document).ready(function() {
-              var owl = $('.owl-carousel');
-              owl.owlCarousel({
-                items: 1,
-                loop: true,
-                margin: 10,
-                autoplay: true,
-                autoplayTimeout: 1000,
-                autoplayHoverPause: true
-              });
-
-            })
-          </script>
-
-
-	 </div>
-	 </div>
+		   })
+		 </script>
 
 
+	</div>
+	</div>
 
+	<div class="subscribe">
+		<div class="subscribe-title">
+			<h13>NEWSLETTERS</h13>
+		</div>
+		<div class="subscribe-body">
+			<p>Sign Up for Our Newsletter!</p>
+			<input type="email" class="form-control" id="subs" placeholder="Subscribe to our newsletter">
+			<input type="button" class="subs-input" value="Subscribe">
+			<br /><br />
+		</div>
+
+	</div>
+
+	<div class="advertisement-1">
+		<img src="images/b1.jpg" />
+   </div>
 
 
 </div>	<!-- end of col-lg-3 -->
