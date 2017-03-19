@@ -1516,11 +1516,52 @@ transition: all 0.2s linear 0s;
 
 
 .advertisement-1 img{
-
 	width: 260px;
 }
 
+.products-from-title {
+	background: #fff;
+    height: 53px;
+    padding: 15px 20px;
+    border-bottom: 1px solid #e3e3e3;
+}
 
+.products-from-body {
+	background: #fff;
+	padding-top: 13px;
+	padding-left: 20px;
+	padding-bottom:10px;
+	padding-right: 10px;
+	box-shadow:0 2px 4px 0 rgba(0,0,0,.08);
+}
+
+.p-img {
+	max-width: 150px;
+	opacity: 0.7;
+}
+
+
+.a-img {
+	max-width: 120px;
+	opacity: 0.7;
+	margin-top: 10px;
+}
+
+.j-img {
+	margin-top: 5px;
+	max-width: 140px;
+	height: 35px;
+	opacity: 0.8;
+}
+
+.s-img {
+	margin-top: 5px;
+	max-width: 140px;
+	height: 35px;
+	opacity: 0.7;
+}
+
+.
 /* ---------------------------------------------------------------------------------
 *
 *							CSS3 Media Queries Below
@@ -1546,6 +1587,7 @@ transition: all 0.2s linear 0s;
 	height:35px;
 	margin-top:10px;
 }
+
 
 }
 /* --------------------- End of media queries min-width 1201 to 1599 ------------ */

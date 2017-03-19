@@ -776,10 +776,54 @@ function suggest(inputString){
    </div>
 
 
-</div>	<!-- end of col-lg-3 -->
-</div><!--End of Main Container -->
+</div>	<!-- end of  main col-lg-3 -->
+
+</div><!--End of Main Container's row -->
 
 </div><!--End of Main Container -->
+
+<div class="container">
+	<!-- <div class="products-from-title">
+		<h13>GET PRODUCTS FROM</h13>
+	</div> -->
+
+	<div class="products-from-body">
+		<div class="row">
+
+			<div class="col-lg-2">
+				<img class="p-img" src="images/products_from/f1.jpg"  />
+			</div>
+
+			<div class="col-lg-2">
+				<img class="s-img" src="images/products_from/s1.jpg"  />
+			</div>
+
+			<div class="col-lg-2">
+				<img class="p-img" src="images/products_from/i3.png"  />
+			</div>
+
+
+			<div class="col-lg-2">
+				<img class="a-img" src="images/products_from/a4.png"  />
+			</div>
+
+			<!-- <div class="col-lg-2">
+				<img class="p-img" src="images/products_from/h5.png"  />
+			</div> -->
+
+			<div class="col-lg-2">
+				<img class="j-img" src="images/products_from/j6.png"  />
+			</div>
+
+			<div class="col-lg-2">
+				<img class="j-img" src="images/products_from/m7.jpg"  />
+			</div>
+
+		</div>
+	</div>
+
+
+</div> <!-- End of container -->
 
 
 <div class="footer">
