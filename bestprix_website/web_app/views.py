@@ -46,8 +46,6 @@ def search(request):
 		r = requests.get(request_url)
 		print 'Response code: %d\n' % r.status_code
 		root = lxml.etree.fromstring(r.text.encode('utf-8'))
-		# for child in root:
-		# 	print child.tag
 		items = root.find('{http://webservices.amazon.com/AWSECommerceService/2011-08-01}Items')
 		item_set = items.findall('{http://webservices.amazon.com/AWSECommerceService/2011-08-01}Item')
 		for item in item_set:
