@@ -41,7 +41,7 @@ def search(request):
 			'Service':'AWSECommerceService'
 		}
 		request_url = aws_signed_request('in',m_params,access_key,secret_key,'bestprix09-21')
-		print '\nBEGIN REQUEST++++++++++++++++++++++++++++++++++++'
+		print '\nBEGIN REQUEST====AMAZON=====>'
 		print 'Request URL = ' + request_url
 		r = requests.get(request_url)
 		print 'Response code: %d\n' % r.status_code
