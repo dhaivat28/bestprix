@@ -481,7 +481,7 @@ height:80px;
 .best-seller {
 	margin-top:21px;
 	margin-bottom:21px;
-
+box-shadow: 0 2px 4px 0 rgba(0,0,0,.08);
 }
 
 .best-seller-2{
@@ -1074,13 +1074,13 @@ color: #e40046;
 }
 
 .latest-product .owl-nav div, .related-products-wrapper .owl-nav div {
-  background:#fa8072;
+  background:#e40046;
   color:#FFF;
   display: inline-block;
   margin-left: 15px;
   padding: 1px 10px;
 }
-.latest-product .owl-nav div:hover, .brand-wrapper .owl-nav div:hover, .related-products-wrapper .owl-nav div:hover {color: #FFF; background:#f95f5f;}
+.latest-product .owl-nav div:hover, .brand-wrapper .owl-nav div:hover, .related-products-wrapper .owl-nav div:hover {color: #FFF; background:#c7003d;}
 .brand-list {padding-top: 40px;}
 .brand-list .owl-nav {
   position: absolute;
@@ -1217,6 +1217,7 @@ font-size:12px;
 	background:#fff;
 	height:347px;
 	border:1px #e5e5e5 solid;
+	box-shadow: 0 2px 4px 0 rgba(0,0,0,.08);
 }
 
 .suggestionsBox {
@@ -1274,6 +1275,9 @@ background-repeat:no-repeat;
 	position:relative;
 }
 
+.long-add {
+	box-shadow: 0 2px 4px 0 rgba(0,0,0,.08);
+}
 /* --------------------------------------- Search Results ---------------------------- */
 
 .search-sidebar{
@@ -1501,6 +1505,7 @@ padding-top:10px;
 .subscribe {
 	height: auto;
 	margin-bottom: 20px;
+	box-shadow: 0 2px 4px 0 rgba(0,0,0,.08);
 }
 
 .subscribe-title {
@@ -1550,9 +1555,13 @@ border: none;
 transition: all 0.2s linear 0s;
 }
 
+.advertisement {
+	box-shadow: 0 2px 4px 0 rgba(0,0,0,.08);
 
+}
 .advertisement-1 img{
 	width: 260px;
+	box-shadow: 0 2px 4px 0 rgba(0,0,0,.08);
 }
 
 .products-from-title {
