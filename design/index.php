@@ -783,9 +783,6 @@ function suggest(inputString){
 </div><!--End of Main Container -->
 
 <div class="container">
-	<!-- <div class="products-from-title">
-		<h13>GET PRODUCTS FROM</h13>
-	</div> -->
 
 	<div class="products-from-body">
 		<div class="row">
@@ -828,79 +825,83 @@ function suggest(inputString){
 
 <div class="footer">
 
-<div class="footer-top">
-<div class="container">
-<div class="row">
-
-<div class="col-lg-4">
-<div class="footer-box-1">
-<img src="img/ruppee.png" height="55"><h14>Cash On Delivery</h14>
-</div>
-</div>
-
-
-<div class="col-lg-4">
-<div class="footer-box-2">
-<img src="img/easy.png" height="60"><h14>&nbsp;&nbsp;&nbsp;Easy Returns</h14>
-</div>
-</div>
-
-
-<div class="col-lg-4">
-<div class="footer-box-3">
-<img src="img/truck.png" height="60"><h14>&nbsp;&nbsp;&nbsp;Free Shipping</h14>
-</div>
-</div>
-
-
-
-</div>
-</div>
-</div>
-
 <div class="footer-middle">
 <div class="container">
 <div class="row">
 
-<div class="col-lg-4">
+<div class="col-lg-3">
 <div class="footer-middle-1">
-<h15>Other Links</h15>
-<ul class="links">
-<li><a href="construction.php">Home</a></li>
-<li><a href="construction.php">About Us</a></li>
-<li><a href="construction.php">Feedback</a></li>
-<li><a href="construction.php">FAQ</a></li>
-<li><a href="construction.php">Contact US</a></li>
-<li><a href="construction.php">Disclaimer</a></li>
-<li><a href="construction.php">Privacy Policy</a></li>
+<h15>CONTACT US</h15>
+
+<div class="single-box">
+	<div class="icon-box-outer">
+		<img src="images/footer/l.png" class="icon-box-img" />
+	</div>
+	<div class="icon-box-content">
+		Themesstock, 789 Main rd,<br /> Anytown, CA 12345 USA
+	</div>
+</div>
+
+<div class="single-box">
+	<div class="icon-box-outer">
+		<img src="images/footer/p.png" class="icon-box-img" />
+	</div>
+	<div class="icon-box-content">
+	+(888) 123-4567 <br />
+	+(888) 456-7890
+	</div>
+</div>
+
+<div class="single-box">
+	<div class="icon-box-outer">
+		<img src="images/footer/m3.png" class="icon-box-img" />
+	</div>
+	<div class="icon-box-content sps">
+		info@bestprix.com
+	</div>
+</div>
+
+</div>
+</div>
+
+<div class="col-lg-3">
+<div class="footer-middle-1">
+<h15>CUSTOMER SERVICE</h15>
+<ul>
+	<li><a href="#" title="Contact us">My Account</a></li>
+    <li><a href="#" title="About us">Order History</a></li>
+    <li><a href="#" title="faq">FAQ</a></li>
+    <li><a href="#" title="Popular Searches">Specials</a></li>
+    <li><a href="#">Help Center</a></li>
 </ul>
 
 </div>
 </div>
 
-
-<div class="col-lg-4">
+<div class="col-lg-3">
 <div class="footer-middle-1">
-<h15>Other Links</h15>
-
+<h15>CORPORATION</h15>
+<ul>
+		   <li><a title="Your Account" href="#">About us</a></li>
+		   <li><a title="Information" href="#">Customer Service</a></li>
+		   <li><a title="Addresses" href="#">Company</a></li>
+		   <li><a title="Addresses" href="#">Investor Relations</a></li>
+		   <li><a title="Orders History" href="#">Advanced Search</a></li>
+</ul>
 </div>
 </div>
 
 
-<div class="col-lg-4">
+<div class="col-lg-3">
 <div class="footer-middle-1">
-&nbsp;<h15>Stay Connnected</h15><br>
-
-<div class="social-icons">
-
-<a href="construction.php"><img alt="Like Us On facebook" src="img/icons/facebook.png" class="facebook" height="30"></a>
-
-<a href="construction.php"><img alt="Follow us on twitter" src="img/icons/twitter.png" class="twitter" height="30"></a>
-
-<a href="construction.php"><img alt="Join us on GooglePlus" src="img/icons/googleplus.png" class="googleplus" height="30"></a>
-
-</div>
-
+<h15>WHY CHOOSE US</h15>
+<ul>
+<li><a href="#" title="About us">Shopping Guide</a></li>
+			<li><a href="#" title="Blog">Blog</a></li>
+			<li><a href="#" title="Company">Company</a></li>
+			<li><a href="#" title="Investor Relations">Investor Relations</a></li>
+<li><a href="contact-us.html" title="Suppliers">Contact Us</a></li>
+</ul>
 
 
 </div>
@@ -919,7 +920,7 @@ function suggest(inputString){
 
 		  <div class="col-lg-3 pull-left">
 		  <div class="copyrights">
-          <p>Copyright &copy; BestPrix 2016</p>
+          <p>Copyright &copy; BestPrix 2017</p>
 		  </div>
 		  </div>
 
