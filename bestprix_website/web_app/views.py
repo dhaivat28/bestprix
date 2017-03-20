@@ -57,12 +57,7 @@ def search(request):
 				if title is not None and list_price is not None:
 					price = list_price.find('{http://webservices.amazon.com/AWSECommerceService/2011-08-01}FormattedPrice')
 					print price.text,"\t====>\t",title.text
-				# for attr in sub_item:
-				# 	print attr.tag
-		# for e in items:
-		# 	print e.tag
-			# for item in e:
-			# 	print item.tag
+		
 		return HttpResponse(r.text,content_type='text/xml')
 	else:
 		return HttpResponse("please enter something")
