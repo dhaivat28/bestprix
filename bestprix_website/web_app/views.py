@@ -28,19 +28,23 @@ def index(request):
 	return render(request, 'index.html')
 
 def search(request):
-	access_key = 'AKIAIBV3ZSCMXLX5DY6A'
-	secret_key = '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'
-	m_params={
-		'Keywords':'iphone 6s',
-		'Operation':'ItemSearch',
-		'ResponseGroup':'Images,ItemAttributes,Offers',
-		'SearchIndex':'All',
-		'Service':'AWSECommerceService'
-	}
-	request_url = aws_signed_request('in',m_params,access_key,secret_key,'bestprix09-21')
-	print '\nBEGIN REQUEST++++++++++++++++++++++++++++++++++++'
-	print 'Request URL = ' + request_url
-	r = requests.get(request_url)
-	print '\nRESPONSE++++++++++++++++++++++++++++++++++++'
-	print 'Response code: %d\n' % r.status_code
-	return HttpResponse(r.text,content_type='text/xml')
+	key = request.GET['search_key']
+	if key.strip():
+		access_key = 'AKIAIBV3ZSCMXLX5DY6A'
+		secret_key = '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'
+		m_params={
+			'Keywords':key,
+			'Operation':'ItemSearch',
+			'ResponseGroup':'Images,ItemAttributes,Offers',
+			'SearchIndex':'All',
+			'Service':'AWSECommerceService'
+		}
+		request_url = aws_signed_request('in',m_params,access_key,secret_key,'bestprix09-21')
+		print '\nBEGIN REQUEST++++++++++++++++++++++++++++++++++++'
+		print 'Request URL = ' + request_url
+		r = requests.get(request_url)
+		print '\nRESPONSE++++++++++++++++++++++++++++++++++++'
+		print 'Response code: %d\n' % r.status_code
+		return HttpResponse(r.text,content_type='text/xml')
+	else:
+		return HttpResponse("please enter something")
