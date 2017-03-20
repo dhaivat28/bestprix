@@ -43,4 +43,4 @@ def search(request):
 	r = requests.get(request_url)
 	print '\nRESPONSE++++++++++++++++++++++++++++++++++++'
 	print 'Response code: %d\n' % r.status_code
-	return HttpResponse(r.text)
+	return HttpResponse(r.text,content_type='text/xml')
