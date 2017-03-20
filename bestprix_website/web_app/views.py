@@ -6,6 +6,7 @@ import base64
 import hmac
 import hashlib
 import requests
+import lxml.etree
 
 def aws_signed_request(region, params, public_key, private_key, associate_tag=None):
 	method = 'GET'
@@ -44,6 +45,18 @@ def search(request):
 		print 'Request URL = ' + request_url
 		r = requests.get(request_url)
 		print 'Response code: %d\n' % r.status_code
+		root = lxml.etree.fromstring(r.text.encode('utf-8'))
+		# for child in root:
+		# 	print child.tag
+		items = root.find('{http://webservices.amazon.com/AWSECommerceService/2011-08-01}Items')
+		item_set = items.findall('{http://webservices.amazon.com/AWSECommerceService/2011-08-01}Item')
+		for item in item_set:
+			for attr in item:
+				print attr.tag
+		# for e in items:
+		# 	print e.tag
+			# for item in e:
+			# 	print item.tag
 		return HttpResponse(r.text,content_type='text/xml')
 	else:
 		return HttpResponse("please enter something")
