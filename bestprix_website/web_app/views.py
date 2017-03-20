@@ -51,8 +51,14 @@ def search(request):
 		items = root.find('{http://webservices.amazon.com/AWSECommerceService/2011-08-01}Items')
 		item_set = items.findall('{http://webservices.amazon.com/AWSECommerceService/2011-08-01}Item')
 		for item in item_set:
-			for attr in item:
-				print attr.tag
+			for sub_item in item:
+				title = sub_item.find('{http://webservices.amazon.com/AWSECommerceService/2011-08-01}Title')
+				list_price = sub_item.find('{http://webservices.amazon.com/AWSECommerceService/2011-08-01}ListPrice')
+				if title is not None and list_price is not None:
+					price = list_price.find('{http://webservices.amazon.com/AWSECommerceService/2011-08-01}FormattedPrice')
+					print price.text,"\t====>\t",title.text
+				# for attr in sub_item:
+				# 	print attr.tag
 		# for e in items:
 		# 	print e.tag
 			# for item in e:
