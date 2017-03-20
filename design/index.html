@@ -46,17 +46,7 @@
          </script>  ---------->
 
 
-   <script type="text/javascript">
-			<!--
-			    function toggle_visibility(id) {
-			       var e = document.getElementById(id);
-			       if(e.style.display == 'block')
-			          e.style.display = 'none';
-			       else
-			          e.style.display = 'block';
-			    }
-			//-->
-		</script>
+
 
 
 	<script>
@@ -69,34 +59,6 @@
 	});
 	</script>
 
-
-
-<script>
-
-function suggest(inputString){
-		if(inputString.length == 0 || inputString==" ") {
-			$('#suggestions').fadeOut();
-		} else {
-		$('#listings').addClass('load');
-			$.post("autosuggest.php", {queryString: ""+inputString+""}, function(data){
-				if(data.length > 0) {
-					$('#suggestions').fadeIn();
-					$('#suggestionsList').html(data);
-					$('#listings').removeClass('load');
-				}
-			});
-		}
-	}
-
-	function fill(thisValue) {
-		$('#listings').val(thisValue);
-		setTimeout("$('#suggestions').fadeOut();", 100);
-	}
-
-
-
-
-</script>
 </head>
 
 <body>
@@ -681,7 +643,7 @@ function suggest(inputString){
 		<div class="subscribe-title">
 			<h13>NEWSLETTERS</h13>
 		</div>
-		<div class="subscribe-body">
+	<div class="subscribe-body">
 			<p>Sign Up for Our Newsletter!</p>
 			<input type="email" class="form-control" id="subs" placeholder="Subscribe to our newsletter">
 			<input type="button" class="subs-input" value="Subscribe">
