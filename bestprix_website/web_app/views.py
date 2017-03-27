@@ -31,8 +31,8 @@ def index(request):
 def search(request):
 	key = request.GET['search_key']
 	if key.strip():
-		access_key = 'AKIAIBV3ZSCMXLX5DY6A'
-		secret_key = '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'
+		AWS_access_key = 'AKIAIBV3ZSCMXLX5DY6A'
+		AWS_secret_key = '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'
 		m_params={
 			'Keywords':key,
 			'Operation':'ItemSearch',
@@ -40,7 +40,7 @@ def search(request):
 			'SearchIndex':'All',
 			'Service':'AWSECommerceService'
 		}
-		request_url = aws_signed_request('in',m_params,access_key,secret_key,'bestprix09-21')
+		request_url = aws_signed_request('in',m_params,AWS_access_key,AWS_secret_key,'bestprix09-21')
 		print '\nBEGIN REQUEST====AMAZON=====>'
 		print 'Request URL = ' + request_url
 		r = requests.get(request_url)
@@ -55,6 +55,7 @@ def search(request):
 				if title is not None and list_price is not None:
 					price = list_price.find('{http://webservices.amazon.com/AWSECommerceService/2011-08-01}FormattedPrice')
 					print price.text,"\t====>\t",title.text
+
 
 		return render(request, 'search/index.html')
 	else:
