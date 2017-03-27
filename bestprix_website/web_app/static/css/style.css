@@ -4,7 +4,6 @@ padding:0;
 background:#f7f7f7;
 /* backgrbackground:#f2f3f5;ound:#F7F5EE;*/
 overflow-x:hidden;
-min-width:1024px;
 }
 
 
@@ -173,6 +172,13 @@ font-size:11px;
 color:#fff;
 margin-left:60px;
 font-family:'Open Sans', sans-serif;
+}
+
+h25 {
+	font-family: 'mon';
+	font-size: 13px;
+	font-weight: bold;
+	color: #333;
 }
 
 .top-border {
@@ -1275,9 +1281,118 @@ background-repeat:no-repeat;
 	position:relative;
 }
 
-.long-add {
+.sort-filter {
 	box-shadow: 0 2px 4px 0 rgba(0,0,0,.08);
+	height: auto;
+	background: white;
+	margin-bottom: 20px;
+
 }
+
+.sort-filter-title {
+	background: #fff;
+	height: 53px;
+	padding: 15px 20px;
+	border-bottom: 1px solid #e3e3e3;
+}
+
+.sort-filter-body {
+	padding-top: 15px;
+	padding-left: 15px;
+	padding-right: 15px;
+}
+
+.sort-filter-body ul li{
+list-style-type: none;
+
+}
+
+.sort-filter-body ul {
+margin-top: 10px;
+margin-left:-30px;
+}
+
+.sort-by{
+	background-color: #f5f5f5;
+	color:#666666;
+	padding: 3px;
+	font-family: 'Open Sans', sans-serif;
+	font-size:14px;
+	border: 1px solid #ABB2B9;
+}
+
+
+.all-products-title
+ {
+	 background: #fff;
+ 	height: 53px;
+ 	padding: 15px 20px;
+ 	border-bottom: 1px solid #e3e3e3;
+ }
+ .all-products-body {
+ 	 background: #fff;
+	 padding: 15px;
+
+  }
+
+.product-one{
+	/*box-shadow: 0 2px 4px 0 rgba(0,0,0,.08);*/
+	height: auto;
+	background: white;
+	text-align: center;
+}
+
+.product-one img{
+width: 220px;
+
+}
+
+
+.product-tags{
+	box-shadow: 0 2px 4px 0 rgba(0,0,0,.08);
+	height: auto;
+	background: white;
+	border: 1px solid green;
+}
+
+.product-tags-title{
+	background: #fff;
+	height: 53px;
+	padding: 15px 20px;
+	border-bottom: 1px solid #e3e3e3;
+}
+.product-tags-body{
+	padding-top: 15px;
+	padding-left: 15px;
+	padding-right: 15px;
+	padding-bottom: 30px;
+	height: 200px;
+}
+
+.product-tags-body-single {
+	background-color: #f5f5f5;
+	color:#666666;
+	padding:6px 12px;
+	font-family: 'Open Sans', sans-serif;
+	font-size:14px;
+	float: left;
+	margin-left: 10px;
+	margin-top: 10px;
+	position: relative;
+}
+
+.product-tags-body-single:hover {
+text-decoration: none;
+cursor: pointer;
+color: #fff;
+background-color:#e40046;
+border: none;
+-webkit-transition: all ease 0.8s;
+-moz-transition: all ease 0.8s;
+transition: all ease 0.8s;
+}
+
+
 /* --------------------------------------- Search Results ---------------------------- */
 
 .search-sidebar{

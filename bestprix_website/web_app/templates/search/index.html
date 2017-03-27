@@ -59,6 +59,24 @@
 	});
 	});
 	</script>
+	<script>
+	  $( function() {
+	    $( "#slider-range" ).slider({
+	      range: true,
+	      min: 0,
+	      max: 500,
+	      values: [ 75, 300 ],
+	      slide: function( event, ui ) {
+	        $( "#amount" ).val( "$" + ui.values[ 0 ] + " - $" + ui.values[ 1 ] );
+	      }
+	    });
+	    $( "#amount" ).val( "$" + $( "#slider-range" ).slider( "values", 0 ) +
+	      " - $" + $( "#slider-range" ).slider( "values", 1 ) );
+	  } );
+	  </script>
+		<link rel="stylesheet" href="{% static 'css/price_slider.css' %}" rel="stylesheet">
+	  	<script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+ 		<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
 
 </head>
 
@@ -151,559 +169,123 @@
 
         <div class="row">
 
-			<div class="col-lg-9">
-				<div class="slider">
-					<img src="{% static 'img/new/2.jpg' %}" />
-					<img src="{% static 'img/new/3.jpg' %}" />
-					<img src="{% static 'img/new/1.jpg' %}" />
-				</div>
-
-			</div>
-
 			<div class="col-lg-3">
-				<div class="long-box">
+				<div class="sort-filter">
+					<div class="sort-filter-title">
+						<h13>SHOP BY</h13>
+					</div>
+					<div class="sort-filter-body">
+						<!-- <select>
+  						<option value="volvo">Popularity</option>
+  						<option value="saab">Low to High Price</option>
+  						<option value="mercedes">High To Low Price</option>
+					</select> -->
+					<h25>Category</h25>
+					<ul>
+						<li>Camera</li>
+						<li>Desktop</li>
+						<li>Office</li>
+						<li>Camera</li>
+						<li>Desktop</li>
+						<li>Office</li>
+						<li>Kids</li>
+					</ul>
+
+					<br />
 
 
+
+					</div>
+				</div>
+
+				<div class="sort-filter">
+					<div class="sort-filter-title">
+						<h13>SORT BY</h13>
+					</div>
+					<div class="sort-filter-body">
+					 <select class="sort-by">
+						<option value="volvo">Popularity</option>
+						<option value="saab">Low to High Price</option>
+						<option value="mercedes">High To Low Price</option>
+					</select>
+
+					<br /><br />
+
+					<p>
+					<label for="amount">Price range:</label>
+					<input type="text" id="amount" readonly style="border:0; color:#f6931f; font-weight:bold;">
+					</p>
+
+					<div id="slider-range"></div>
+					<br /><br />
+					</div>
+				</div>
+
+			<div class="product-tags">
+				<div class="product-tags-title">
+						<h13>PRODUCT TAGS</h13>
+				</div>
+				<div class="product-tags-body">
+					<a href="#" class="product-tags-body-single">Footwear</a>
+					<a href="#" class="product-tags-body-single">Furniture</a>
+					<a href="#" class="product-tags-body-single">Smartphone</a>
+					<a href="#" class="product-tags-body-single">Toys</a>
+					<a href="#" class="product-tags-body-single">Footwear</a>
+					<a href="#" class="product-tags-body-single">Furniture</a>
+					<a href="#" class="product-tags-body-single">Smartphone</a>
+					<a href="#" class="product-tags-body-single">Toys</a>
 				</div>
 			</div>
+
+
+
+			</div>
+
+			<div class="col-lg-9">
+
+				<div class="all-products-title">
+					<h13>You Searched for:</h13>
+				</div>
+				<div class="all-products-body">
+					<div class="row">
+						<div class="col-lg-4">
+							<div class="product-one">
+									<img src="{% static 'img/shoes/7.jpg' %}" alt="">
+								<div class="product-one-title">
+								</div>
+
+							</div>
+						</div>
+
+						<div class="col-lg-4">
+							<div class="product-one">
+									<img src="{% static 'img/shoes/7.jpg' %}" alt="">
+								<div class="product-one-title">
+
+								</div>
+
+							</div>
+						</div>
+
+						<div class="col-lg-4">
+							<div class="product-one">
+									<img src="{% static 'img/shoes/7.jpg' %}" alt="">
+								<div class="product-one-title">
+
+								</div>
+
+							</div>
+						</div>
+
+					</div>
+				</div>
+			</div>
+
+
 
 		</div>
 
 </div><!-- End Of Main Container -->
-
- <div class="container">
-<div class="row">
-
-
-<div class="col-lg-9">
-
-	<div class="product-view-1">
-	<div class="title-box">
-	<h12>New Products</h12>
-	</div>
-
-	<div class="latest-product">
-			<div class="product-carousel">
-
-				<div class="single-product">
-					<div class="product-f-image">
-						<img src="{% static 'img/shoes/1.jpg' %}" alt="">
-						<div class="product-hover">
-
-							<a href="#" class="view-details-link"><i class="fa fa-link"></i> See details</a>
-						</div>
-					</div>
-					<h2><a id="prod-name" href="#">Nike Tech Shoes</a></h2>
-					<div class="product-carousel-price">
-						<ins>₹14000</ins>
-					</div>
-				</div>
-
-				<div class="single-product">
-				<div class="product-f-image">
-					<img src="{% static 'img/shoes/2.jpg' %}" alt="">
-					<div class="product-hover">
-
-						<a href="#" class="view-details-link"><i class="fa fa-link"></i> View Product</a>
-					</div>
-				</div>
-               <h2><a id="prod-name" href="#">Nike Red Court Boroug</a></h2>
-				<div class="product-carousel-price">
-					<ins>₹2747</ins>
-				</div>
-                </div>
-
-				<div class="single-product">
-				<div class="product-f-image">
-					<img src="{% static 'img/shoes/3.jpg' %}" alt="">
-					<div class="product-hover">
-
-						<a href="#" class="view-details-link"><i class="fa fa-link"></i> View Product</a>
-					</div>
-				</div>
-			   <h2><a id="prod-name" href="#">Hrx Air Spector</a></h2>
-				<div class="product-carousel-price">
-					<ins>₹10000</ins>
-				</div>
-				</div>
-
-				<div class="single-product">
-				<div class="product-f-image">
-					<img src="{% static 'img/shoes/4.jpg' %}" alt="">
-					<div class="product-hover">
-
-						<a href="#" class="view-details-link"><i class="fa fa-link"></i> View Product</a>
-					</div>
-				</div>
-			   <h2><a id="prod-name" href="#">Reebok </a></h2>
-				<div class="product-carousel-price">
-					<ins>₹6000</ins>
-				</div>
-				</div>
-
-				<div class="single-product">
-				<div class="product-f-image">
-					<img src="{% static 'img/shoes/5.jpg' %}" alt="">
-					<div class="product-hover">
-
-						<a href="#" class="view-details-link"><i class="fa fa-link"></i> View Product</a>
-					</div>
-				</div>
-			   <h2><a id="prod-name" href="#">Fentacia</a></h2>
-				<div class="product-carousel-price">
-					<ins>₹4000</ins>
-				</div>
-				</div>
-
-				<div class="single-product">
-				<div class="product-f-image">
-					<img src="{% static 'img/shoes/6.jpg' %}" alt="">
-					<div class="product-hover">
-
-						<a href="#" class="view-details-link"><i class="fa fa-link"></i> View Product</a>
-					</div>
-				</div>
-			   <h2><a id="prod-name" href="#">Fila</a></h2>
-				<div class="product-carousel-price">
-					<ins>₹10000</ins>
-				</div>
-				</div>
-
-
-
-            </div>
-        </div>
-   </div>		<!-- end of product-view-1  -->
-
-   <div class="long-add">
-	   <img src="{% static 'images/long-add.png' %}" />
-   </div>
-
-
-			<div class="product-view-1">
-				<div class="title-box">
-				<h12> Popular <span4>Products</span4> </h12>
-				</div>
-
-					<div class="latest-product">
-                        <div class="product-carousel">
-
-							<div class="single-product">
-							<div class="product-f-image">
-							    <img src="{% static 'img/product-1.jpg' %}" alt="">
-								<div class="product-hover">
-
-									<a href="{% static '#' %}" class="view-details-link"><i class="fa fa-link"></i> View Product</a>
-								</div>
-							</div>
-						   <h2><a id="prod-name" href="#">Samsung Corby</a></h2>
-							<div class="product-carousel-price">
-								<ins>₹5000</ins>
-							</div>
-							</div>
-
-							<div class="single-product">
-							<div class="product-f-image">
-								<img src="{% static 'img/product-2.jpg' %}" alt="">
-								<div class="product-hover">
-
-									<a href="#" class="view-details-link"><i class="fa fa-link"></i> View Product</a>
-								</div>
-							</div>
-						   <h2><a id="prod-name" href="#">Nokia Lumia </a></h2>
-							<div class="product-carousel-price">
-								<ins>₹4000</ins>
-							</div>
-							</div>
-
-							<div class="single-product">
-							<div class="product-f-image">
-								<img src="{% static 'img/product-3.jpg' %}" alt="">
-								<div class="product-hover">
-
-									<a href="#" class="view-details-link"><i class="fa fa-link"></i> View Product</a>
-								</div>
-							</div>
-						   <h2><a id="prod-name" href="#">Lg Gplus</a></h2>
-							<div class="product-carousel-price">
-								<ins>₹10000</ins>
-							</div>
-							</div>
-
-							<div class="single-product">
-							<div class="product-f-image">
-								<img src="{% static 'img/product-4.jpg' %}" alt="">
-								<div class="product-hover">
-
-									<a href="#" class="view-details-link"><i class="fa fa-link"></i> View Product</a>
-								</div>
-							</div>
-						   <h2><a id="prod-name" href="#">Sony Xperia </a></h2>
-							<div class="product-carousel-price">
-								<ins>₹11000</ins>
-							</div>
-							</div>
-
-
-							<div class="single-product">
-							<div class="product-f-image">
-								<img src="{% static 'img/product-5.jpg' %}" alt="">
-								<div class="product-hover">
-
-									<a href="#" class="view-details-link"><i class="fa fa-link"></i> View Product</a>
-								</div>
-							</div>
-						   <h2><a id="prod-name" href="#">Sony Xperia</a></h2>
-							<div class="product-carousel-price">
-								<ins>₹8500</ins>
-							</div>
-							</div>
-
-							<div class="single-product">
-							<div class="product-f-image">
-								<img src="{% static 'img/product-6.jpg' %}" alt="">
-								<div class="product-hover">
-
-									<a href="#" class="view-details-link"><i class="fa fa-link"></i> View Product</a>
-								</div>
-							</div>
-						   <h2><a id="prod-name" href="#">Fila</a></h2>
-							<div class="product-carousel-price">
-								<ins>₹10000</ins>
-							</div>
-							</div>
-
-
-
-                        </div>
-                    </div>
-
-			</div>		<!-- end of product-view-1  -->
-
-
-
-			<div class="product-view-1">
-				<div class="title-box">
-					<h12> Womens <span4>Clothes</span4> </h12>
-				</div>
-
-					<div class="latest-product">
-                        <div class="product-carousel">
-
-
-					<div class="single-product">
-					<div class="product-f-image">
-						<img src="{% static 'img/clothes/5.jpg' %}" alt="">
-						<div class="product-hover">
-
-							<a href="#" class="view-details-link"><i class="fa fa-link"></i> View Product</a>
-						</div>
-					</div>
-				   <h2><a id="prod-name" href="#">Blue Crop Tshirt</a></h2>
-					<div class="product-carousel-price">
-						<ins>₹4500</ins>
-					</div>
-					</div>
-
-					<div class="single-product">
-					<div class="product-f-image">
-						<img src="{% static 'img/clothes/4.jpg' %}" alt="">
-						<div class="product-hover">
-
-							<a href="#" class="view-details-link"><i class="fa fa-link"></i> View Product</a>
-						</div>
-					</div>
-				   <h2><a id="prod-name" href="#">Yello Skirt</a></h2>
-					<div class="product-carousel-price">
-						<ins>₹9400</ins>
-					</div>
-					</div>
-
-					<div class="single-product">
-					<div class="product-f-image">
-						<img src="{% static 'img/clothes/3.jpg' %}" alt="">
-						<div class="product-hover">
-
-							<a href="#" class="view-details-link"><i class="fa fa-link"></i> View Product</a>
-						</div>
-					</div>
-				   <h2><a id="prod-name" href="#">Black One Piece</a></h2>
-					<div class="product-carousel-price">
-						<ins>₹6845</ins>
-					</div>
-					</div>
-
-					<div class="single-product">
-					<div class="product-f-image">
-						<img src="{% static 'img/clothes/2.jpg' %}" alt="">
-						<div class="product-hover">
-
-							<a href="#" class="view-details-link"><i class="fa fa-link"></i> View Product</a>
-						</div>
-					</div>
-				   <h2><a id="prod-name" href="#">White One Piece</a></h2>
-					<div class="product-carousel-price">
-						<ins>₹10000</ins>
-					</div>
-					</div>
-
-					<div class="single-product">
-					<div class="product-f-image">
-						<img src="{% static 'img/clothes/1.jpg' %}" alt="">
-						<div class="product-hover">
-
-							<a href="#" class="view-details-link"><i class="fa fa-link"></i> View Product</a>
-						</div>
-					</div>
-				   <h2><a id="prod-name" href="#">Green Tshirt</a></h2>
-					<div class="product-carousel-price">
-						<ins>₹10000</ins>
-					</div>
-					</div>
-
-					<div class="single-product">
-					<div class="product-f-image">
-						<img src="{% static 'img/clothes/5.jpg' %}" alt="">
-						<div class="product-hover">
-
-							<a href="#" class="view-details-link"><i class="fa fa-link"></i> View Product</a>
-						</div>
-					</div>
-				   <h2><a id="prod-name" href="#">Blue Tshirt</a></h2>
-					<div class="product-carousel-price">
-						<ins>₹10000</ins>
-					</div>
-					</div>
-            </div>
-                    </div>
-
-			</div>		<!-- end of product-view-1  -->
-
-</div><!-- end of col-lg-9  -->
-
-<div class="col-lg-3">
-
-	 <div class="best-seller">
-	 <div class="best-seller-title">
-	 <h13>BEST SELLERS</h13>
-	 </div>
-	 <div class="best-seller-content">
-
-	       <div class="owl-carousel">
-
-
-			<div class="best-single-sidebar">
-             <img src="{% static 'images/deals/p1.jpg' %}">
-			 <h17>Floral Print buttoned</h17>
-			 <div class="single-price-sidebar">
-			 <h18>₹ 10,000</h18>
-			 </div>
-			 <div class="dual-button">
-			 <div class="dual-button-cart">
-			 <img src="{% static 'images/cart2.png' %}" width="auto" />
-			 </div>
-			 <div class="dual-button-cart-text">
-			 <p>View Product</p>
-			</div>
-			</div>
-			</div>
-
-			<div class="best-single-sidebar">
-             <img src="{% static 'images/deals/p2.jpg' %}">
-			 <h17>Adidas Neo Men</h17>
-			 <div class="single-price-sidebar">
-			 <h18>₹ 10,000</h18>
-			 </div>
-			 <div class="dual-button">
-			 <div class="dual-button-cart">
-			 <img src="{% static 'images/cart2.png' %}" width="auto" />
-			 </div>
-			 <div class="dual-button-cart-text">
-			 <p>View Product</p>
-			</div>
-			</div>
-			</div>
-
-			<div class="best-single-sidebar">
-             <img src="{% static 'images/deals/p3.jpg' %}">
-			 <h17>Colored Bed Sheet</h17>
-			 <div class="single-price-sidebar">
-			 <h18>₹ 5,000</h18>
-			 </div>
-			 <div class="dual-button">
-			 <div class="dual-button-cart">
-			 <img src="{% static 'images/cart2.png' %}" width="auto" />
-			 </div>
-			 <div class="dual-button-cart-text">
-			 <p>View Product</p>
-			</div>
-			</div>
-			</div>
-
-          </div>
-            <script>
-            $(document).ready(function() {
-              var owl = $('.owl-carousel');
-              owl.owlCarousel({
-                items: 1,
-                loop: true,
-                margin: 10,
-                autoplay: true,
-                autoplayTimeout: 1000,
-                autoplayHoverPause: true
-              });
-
-            })
-          </script>
-
-
-	 </div>
-	 </div>
-
-	 <div class="advertisement">
-		 <img src="{% static 'images/b.jpg' %}" />
-	</div>
-
-	<div class="best-seller">
-	<div class="best-seller-title">
-	<h13>BEST SELLERS</h13>
-	</div>
-	<div class="best-seller-content">
-
-		  <div class="owl-carousel">
-
-
-		   <div class="best-single-sidebar">
-			<img src="{% static 'images/deals/p1.jpg' %}">
-			<h17>Floral Print buttoned</h17>
-			<div class="single-price-sidebar">
-			<h18>₹ 10,000</h18>
-			</div>
-			<div class="dual-button">
-			<div class="dual-button-cart">
-			<img src="{% static 'images/cart2.png' %}" width="auto" />
-			</div>
-			<div class="dual-button-cart-text">
-			<p>View Product</p>
-		   </div>
-		   </div>
-		   </div>
-
-		   <div class="best-single-sidebar">
-			<img src="{% static 'images/deals/p2.jpg' %}">
-			<h17>Adidas Neo Men</h17>
-			<div class="single-price-sidebar">
-			<h18>₹ 10,000</h18>
-			</div>
-			<div class="dual-button">
-			<div class="dual-button-cart">
-			<img src="{% static 'images/cart2.png' %}" width="auto" />
-			</div>
-			<div class="dual-button-cart-text">
-			<p>View Product</p>
-		   </div>
-		   </div>
-		   </div>
-
-		   <div class="best-single-sidebar">
-			<img src="{% static 'images/deals/p3.jpg' %}">
-			<h17>Colored Bed Sheet</h17>
-			<div class="single-price-sidebar">
-			<h18>₹ 5,000</h18>
-			</div>
-			<div class="dual-button">
-			<div class="dual-button-cart">
-			<img src="{% static 'images/cart2.png' %}" width="auto" />
-			</div>
-			<div class="dual-button-cart-text">
-			<p>View Product</p>
-		   </div>
-		   </div>
-		   </div>
-
-		 </div>
-		   <script>
-		   $(document).ready(function() {
-			 var owl = $('.owl-carousel');
-			 owl.owlCarousel({
-			   items: 1,
-			   loop: true,
-			   margin: 10,
-			   autoplay: true,
-			   autoplayTimeout: 1000,
-			   autoplayHoverPause: true
-			 });
-
-		   })
-		 </script>
-
-
-	</div>
-	</div>
-
-	<div class="subscribe">
-		<div class="subscribe-title">
-			<h13>NEWSLETTERS</h13>
-		</div>
-	<div class="subscribe-body">
-			<p>Sign Up for Our Newsletter!</p>
-			<input type="email" class="form-control" id="subs" placeholder="Subscribe to our newsletter">
-			<input type="button" class="subs-input" value="Subscribe">
-			<br /><br />
-		</div>
-
-	</div>
-
-	<div class="advertisement-1">
-		<img src="{% static 'images/b1.jpg' %}" />
-   </div>
-
-
-</div>	<!-- end of  main col-lg-3 -->
-
-</div><!--End of Main Container's row -->
-
-</div><!--End of Main Container -->
-
-<div class="container">
-
-	<div class="products-from-body">
-		<div class="row">
-
-			<div class="col-lg-2">
-				<img class="p-img" src="{% static 'images/products_from/f1.jpg' %}"  />
-			</div>
-
-			<div class="col-lg-2">
-				<img class="s-img" src="{% static 'images/products_from/s1.jpg' %}"  />
-			</div>
-
-			<div class="col-lg-2">
-				<img class="p-img" src="{% static 'images/products_from/i3.png' %}"  />
-			</div>
-
-
-			<div class="col-lg-2">
-				<img class="a-img" src="{% static 'images/products_from/a4.png' %}"  />
-			</div>
-
-			<!-- <div class="col-lg-2">
-				<img class="p-img" src="images/products_from/h5.png"  />
-			</div> -->
-
-			<div class="col-lg-2">
-				<img class="j-img" src="{% static 'images/products_from/j6.png' %}"  />
-			</div>
-
-			<div class="col-lg-2">
-				<img class="j-img" src="{% static 'images/products_from/m7.jpg' %}"  />
-			</div>
-
-		</div>
-	</div>
-
-
-</div> <!-- End of container -->
 
 
 <div class="footer">
