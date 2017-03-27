@@ -8,7 +8,7 @@ import hashlib
 import requests
 import lxml.etree
 
-def aws_signed_request(region, params, public_key, private_key, associate_tag=None):
+def amazon_signed_request(region, params, public_key, private_key, associate_tag=None):
 	method = 'GET'
 	host = 'webservices.amazon.' + region
 	uri = '/onca/xml'
@@ -31,8 +31,9 @@ def index(request):
 def search(request):
 	key = request.GET['search_key']
 	if key.strip():
-		AWS_access_key = 'AKIAIBV3ZSCMXLX5DY6A'
-		AWS_secret_key = '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'
+		#amzon block
+		amazon_access_key = 'AKIAIBV3ZSCMXLX5DY6A'
+		amazon_secret_key = '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'
 		m_params={
 			'Keywords':key,
 			'Operation':'ItemSearch',
@@ -40,7 +41,7 @@ def search(request):
 			'SearchIndex':'All',
 			'Service':'AWSECommerceService'
 		}
-		request_url = aws_signed_request('in',m_params,AWS_access_key,AWS_secret_key,'bestprix09-21')
+		request_url = amazon_signed_request('in',m_params,amazon_access_key,amazon_secret_key,'bestprix09-21')
 		print '\nBEGIN REQUEST====AMAZON=====>'
 		print 'Request URL = ' + request_url
 		r = requests.get(request_url)
@@ -56,7 +57,7 @@ def search(request):
 					price = list_price.find('{http://webservices.amazon.com/AWSECommerceService/2011-08-01}FormattedPrice')
 					print price.text,"\t====>\t",title.text
 
-
+		#flipkart block
 		return render(request, 'search/index.html')
 	else:
 		return HttpResponse("please enter something")
