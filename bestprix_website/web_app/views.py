@@ -56,6 +56,6 @@ def search(request):
 					price = list_price.find('{http://webservices.amazon.com/AWSECommerceService/2011-08-01}FormattedPrice')
 					print price.text,"\t====>\t",title.text
 
-		return HttpResponse(r.text,content_type='text/xml')
+		return render(request, 'search/index.html')
 	else:
 		return HttpResponse("please enter something")
