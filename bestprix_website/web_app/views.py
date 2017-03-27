@@ -7,6 +7,7 @@ import hmac
 import hashlib
 import requests
 import lxml.etree
+import json
 
 def amazon_signed_request(region, params, public_key, private_key, associate_tag=None):
 	method = 'GET'
@@ -41,12 +42,12 @@ def search(request):
 			'SearchIndex':'All',
 			'Service':'AWSECommerceService'
 		}
-		request_url = amazon_signed_request('in',m_params,amazon_access_key,amazon_secret_key,'bestprix09-21')
+		amazon_request_url = amazon_signed_request('in',m_params,amazon_access_key,amazon_secret_key,'bestprix09-21')
 		print '\nBEGIN REQUEST====AMAZON=====>'
-		print 'Request URL = ' + request_url
-		r = requests.get(request_url)
-		print 'Response code: %d\n' % r.status_code
-		root = lxml.etree.fromstring(r.text.encode('utf-8'))
+		print '\nRequest URL = ' + amazon_request_url
+		amazon_r = requests.get(amazon_request_url)
+		print '\nAMAZON===>Response code: %d\n' % amazon_r.status_code
+		root = lxml.etree.fromstring(amazon_r.text.encode('utf-8'))
 		items = root.find('{http://webservices.amazon.com/AWSECommerceService/2011-08-01}Items')
 		item_set = items.findall('{http://webservices.amazon.com/AWSECommerceService/2011-08-01}Item')
 		for item in item_set:
@@ -58,6 +59,25 @@ def search(request):
 					print price.text,"\t====>\t",title.text
 
 		#flipkart block
-		return render(request, 'search/index.html')
+		flipkart_aff_id='viraj2196'
+		flipkart_token='c3636ff662bb4e6d9143a0b54df41c61'
+		headers = {
+		'Fk-Affiliate-Id': flipkart_aff_id,
+		'Fk-Affiliate-Token' : flipkart_token,
+		}
+		flipkart_request_url='https://affiliate-api.flipkart.net/affiliate/search/json?query='+key+'&resultCount=10'
+		flipkart_r = requests.get(flipkart_request_url, headers=headers)
+		print '\nRequest URL = ' + flipkart_request_url
+		print '\n\n\nFLIPKART===>Response code: %d\n' % flipkart_r.status_code
+		jsonResponse=json.loads(flipkart_r.text)
+		# for p in jsonResponse["productInfoList"]:
+		# 	print p
+		# title = jsonResponse["productInfoList"][0]["productBaseInfo"]["productAttributes"]["title"]
+		# print title
+		# return render(request, 'search/index.html')
+		for i in xrange(0,len(jsonResponse["productInfoList"])):
+			print "INR",jsonResponse["productInfoList"][i]["productBaseInfo"]["productAttributes"]["sellingPrice"]["amount"],"\t====>\t",jsonResponse["productInfoList"][i]["productBaseInfo"]["productAttributes"]["title"]
+
+		return HttpResponse(flipkart_r.text,content_type="application/json")
 	else:
 		return HttpResponse("please enter something")
