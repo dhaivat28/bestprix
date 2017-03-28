@@ -4,7 +4,6 @@ padding:0;
 background:#f7f7f7;
 /* backgrbackground:#f2f3f5;ound:#F7F5EE;*/
 overflow-x:hidden;
-min-width:1024px;
 }
 
 
@@ -175,6 +174,21 @@ margin-left:60px;
 font-family:'Open Sans', sans-serif;
 }
 
+h25 {
+	font-family: 'mon';
+	font-size: 13px;
+	font-weight: bold;
+	color: #333;
+}
+
+h26 {
+	font-family:'Open Sans', sans-serif;
+	color: #333;
+	float: left;
+	font-weight: 700;
+    font-size: 14px;
+    line-height: 30px;
+}
 .top-border {
 height:5px;
 background: #3dc4e4;
@@ -537,6 +551,8 @@ margin-top: 3px;
 	height: 34px;
 	width: auto;
 	margin-top: 5px;
+
+	position: relative;
 }
 
 .dual-button-cart {
@@ -552,7 +568,14 @@ margin-top: 3px;
 	  transition: all 0.3s linear 0s;
 	  border-top-left-radius: 2px;
 	  border-bottom-left-radius: 2px;
+	  	position: relative;
 }
+
+.dual-button-cart img {
+width: 26px;
+}
+
+
 
 .dual-button-cart:hover {
 	background:#e40046;
@@ -560,6 +583,7 @@ margin-top: 3px;
 	  -moz-transition: all 0.3s linear 0s;
 	  -o-transition: all 0.3s linear 0s;
 	  transition: all 0.3s linear 0s;
+	  	position: relative;
 }
 
 
@@ -573,6 +597,7 @@ margin-top: 3px;
 	cursor: pointer;
 	border-top-right-radius: 2px;
 	border-bottom-right-radius: 2px;
+		position: relative;
 }
 
 .dual-button-cart-text p {
@@ -580,6 +605,7 @@ margin-top: 3px;
 	font-family: 'Montserrat', sans-serif;
 	font-size: 13px;
 	font-weight: 500;
+		position: relative;
 }
 
 .footer {
@@ -1275,9 +1301,138 @@ background-repeat:no-repeat;
 	position:relative;
 }
 
-.long-add {
+.sort-filter {
+	box-shadow: 0 2px 4px 0 rgba(0,0,0,.08);
+	height: auto;
+	background: white;
+	margin-bottom: 20px;
+
+}
+
+.sort-filter-title {
+	background: #fff;
+	height: 53px;
+	padding: 15px 20px;
+	border-bottom: 1px solid #e3e3e3;
+}
+
+.sort-filter-body {
+	padding-top: 15px;
+	padding-left: 15px;
+	padding-right: 15px;
+}
+
+.sort-filter-body ul li{
+list-style-type: none;
+
+}
+
+.sort-filter-body ul {
+margin-top: 10px;
+margin-left:-30px;
+}
+
+.sort-by{
+	background-color: #f5f5f5;
+	color:#666666;
+	padding: 3px;
+	font-family: 'Open Sans', sans-serif;
+	font-size:14px;
+	border: 1px solid #ABB2B9;
+}
+
+.all-products {
 	box-shadow: 0 2px 4px 0 rgba(0,0,0,.08);
 }
+
+.all-products-title
+ {
+	 background: #fff;
+ 	height: 53px;
+ 	padding: 15px 20px;
+ 	border-bottom: 1px solid #e3e3e3;
+ }
+ .all-products-body {
+ 	 background: #fff;
+	 padding: 15px;
+
+  }
+
+.product-one{
+	/*box-shadow: 0 2px 4px 0 rgba(0,0,0,.08);*/
+	height: auto;
+	background: white;
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+.product-one img{
+width: 250px;
+
+}
+.product-one-title {
+	padding-top: 10px;
+
+}
+
+.product-one-title a {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 14px;
+	color: #555;
+	text-decoration: none;
+	float: left;
+}
+
+.product-one-title a:hover {
+	color: #e40046;
+	text-decoration: none;
+}
+
+
+.product-tags{
+	box-shadow: 0 2px 4px 0 rgba(0,0,0,.08);
+	height: auto;
+	background: white;
+}
+
+.product-tags-title{
+	background: #fff;
+	height: 53px;
+	padding: 15px 20px;
+	border-bottom: 1px solid #e3e3e3;
+}
+.product-tags-body{
+	padding-top: 15px;
+	padding-left: 15px;
+	padding-right: 15px;
+	padding-bottom: 30px;
+	height: 200px;
+}
+
+.product-tags-body-single {
+	background-color: #f5f5f5;
+	color:#666666;
+	padding:6px 12px;
+	font-family: 'Open Sans', sans-serif;
+	font-size:14px;
+	float: left;
+	margin-left: 10px;
+	margin-top: 10px;
+	position: relative;
+}
+
+.product-tags-body-single:hover {
+text-decoration: none;
+cursor: pointer;
+color: #fff;
+background-color:#e40046;
+border: none;
+-webkit-transition: all ease 0.8s;
+-moz-transition: all ease 0.8s;
+transition: all ease 0.8s;
+}
+
+
 /* --------------------------------------- Search Results ---------------------------- */
 
 .search-sidebar{
@@ -1553,6 +1708,22 @@ border: none;
 -ms-transition: all 0.2s linear 0s;
 -o-transition: all 0.2s linear 0s;
 transition: all 0.2s linear 0s;
+}
+
+#v-pr {
+	margin-top: 10px;
+	background: #e40046;
+	color: #fff;
+	padding: 6px 12px;
+	font-size: 13px;
+	text-align: center;
+	border: none;
+	-webkit-transition: all 0.2s linear 0s;
+	-moz-transition: all 0.2s linear 0s;
+	-ms-transition: all 0.2s linear 0s;
+	-o-transition: all 0.2s linear 0s;
+	transition: all 0.2s linear 0s;
+	border-radius: 2px;
 }
 
 .advertisement {
