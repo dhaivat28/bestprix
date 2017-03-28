@@ -32,7 +32,7 @@ def index(request):
 def search(request):
 	key = request.GET['search_key']
 	if key.strip():
-		#amzon block
+		#amzon block====================================================================================================>
 		amazon_access_key = 'AKIAIBV3ZSCMXLX5DY6A'
 		amazon_secret_key = '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'
 		m_params={
@@ -58,7 +58,7 @@ def search(request):
 					price = list_price.find('{http://webservices.amazon.com/AWSECommerceService/2011-08-01}FormattedPrice')
 					print price.text,"\t====>\t",title.text
 
-		#flipkart block
+		#flipkart block====================================================================================================>
 		flipkart_aff_id='viraj2196'
 		flipkart_token='c3636ff662bb4e6d9143a0b54df41c61'
 		headers = {
