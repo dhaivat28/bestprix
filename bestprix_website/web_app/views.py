@@ -30,7 +30,7 @@ def index(request):
 	return render(request, 'index.html')
 
 def search(request):
-	key = request.GET['search_key']
+	key = request.GET['q']
 	if key.strip():
 		#amzon block====================================================================================================>
 		amazon_access_key = 'AKIAIBV3ZSCMXLX5DY6A'

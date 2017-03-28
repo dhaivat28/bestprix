@@ -112,11 +112,10 @@
 
 			<div class="col-lg-6">
 				<div class="search">
-					<form id="form" action="{% url 'search' %}/" method="GET" class="new-search">
-					{% csrf_token %}
+					<form id="form" action="{% url 'search' %}" method="GET" class="new-search">
 						<div class="field" id="searchform">
-							<input type="text" size="25" value="" placeholder="Search Products and brands" name="search_key" id="listings" onkeyup="suggest(this.value);" class="" />
-							<button type="submit" name="submit" value="submit" id="search">Search</button >
+							<input type="text" size="25" value="" placeholder="Search Products and brands" name="q" id="listings" class="" />
+							<button type="submit" id="search">Search</button >
 							<div class="suggestionsBox" id="suggestions" style="display: none;">
 								<div class="suggestionList" id="suggestionsList"> &nbsp; </div>
 							</div>
