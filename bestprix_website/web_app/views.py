@@ -59,6 +59,7 @@ def search(request):
 					print price.text,"\t====>\t",title.text
 
 		#flipkart block====================================================================================================>
+		print "_____________________________________________________________________________________________________________"
 		flipkart_aff_id='viraj2196'
 		flipkart_token='c3636ff662bb4e6d9143a0b54df41c61'
 		headers = {
@@ -66,9 +67,10 @@ def search(request):
 		'Fk-Affiliate-Token' : flipkart_token,
 		}
 		flipkart_request_url='https://affiliate-api.flipkart.net/affiliate/search/json?query='+key+'&resultCount=10'
+		print '\nBEGIN REQUEST====FLIPKART=====>'
 		flipkart_r = requests.get(flipkart_request_url, headers=headers)
 		print '\nRequest URL = ' + flipkart_request_url
-		print '\n\n\nFLIPKART===>Response code: %d\n' % flipkart_r.status_code
+		print '\nFLIPKART===>Response code: %d\n' % flipkart_r.status_code
 		jsonResponse=json.loads(flipkart_r.text)
 		# for p in jsonResponse["productInfoList"]:
 		# 	print p
@@ -77,8 +79,9 @@ def search(request):
 		# return render(request, 'search/index.html')
 		for i in xrange(0,len(jsonResponse["productInfoList"])):
 			print "INR",jsonResponse["productInfoList"][i]["productBaseInfo"]["productAttributes"]["sellingPrice"]["amount"],"\t====>\t",jsonResponse["productInfoList"][i]["productBaseInfo"]["productAttributes"]["title"]
-
-		return render(request, 'search/index.html')
+		print "\n"
+		context = {'key':key}
+		return render(request, 'search/index.html',context)
 		# return HttpResponse(flipkart_r.text,content_type="application/json")
 	else:
 		return HttpResponse("please enter something")
