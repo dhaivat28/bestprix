@@ -78,6 +78,7 @@ def search(request):
 		for i in xrange(0,len(jsonResponse["productInfoList"])):
 			print "INR",jsonResponse["productInfoList"][i]["productBaseInfo"]["productAttributes"]["sellingPrice"]["amount"],"\t====>\t",jsonResponse["productInfoList"][i]["productBaseInfo"]["productAttributes"]["title"]
 
-		return HttpResponse(flipkart_r.text,content_type="application/json")
+		return render(request, 'search/index.html')
+		# return HttpResponse(flipkart_r.text,content_type="application/json")
 	else:
 		return HttpResponse("please enter something")
