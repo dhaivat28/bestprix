@@ -31,6 +31,8 @@ def index(request):
 
 def search(request):
 	key = request.GET['q']
+	amazon_set=[]
+	flipkart_set=[]
 	if key.strip():
 		#amzon block====================================================================================================>
 		amazon_access_key = 'AKIAIBV3ZSCMXLX5DY6A'
@@ -51,13 +53,22 @@ def search(request):
 		items = root.find('{http://webservices.amazon.com/AWSECommerceService/2011-08-01}Items')
 		item_set = items.findall('{http://webservices.amazon.com/AWSECommerceService/2011-08-01}Item')
 		for item in item_set:
+			asin = item.find('{http://webservices.amazon.com/AWSECommerceService/2011-08-01}ASIN')
+			product_url = item.find('{http://webservices.amazon.com/AWSECommerceService/2011-08-01}DetailPageURL')
+			img = item.find('{http://webservices.amazon.com/AWSECommerceService/2011-08-01}LargeImage')
+			if img is not None:
+				large_img_url = img.find('{http://webservices.amazon.com/AWSECommerceService/2011-08-01}URL').text
+			else:
+				large_img_url = None
+			# print img
 			for sub_item in item:
 				title = sub_item.find('{http://webservices.amazon.com/AWSECommerceService/2011-08-01}Title')
 				list_price = sub_item.find('{http://webservices.amazon.com/AWSECommerceService/2011-08-01}ListPrice')
 				if title is not None and list_price is not None:
-					price = list_price.find('{http://webservices.amazon.com/AWSECommerceService/2011-08-01}FormattedPrice')
-					print price.text,"\t====>\t",title.text
-
+					price = int(list_price.find('{http://webservices.amazon.com/AWSECommerceService/2011-08-01}Amount').text)/100
+					# print price,"\t====>\t",title.text
+					amazon_set.append({'p_id':asin.text,'title':title.text,'price':price,'url':product_url.text,'img_url':large_img_url,'seller':'amazon','logo':'a.png'})
+		print "amazon product count:",len(amazon_set)
 		#flipkart block====================================================================================================>
 		print "_____________________________________________________________________________________________________________"
 		flipkart_aff_id='viraj2196'
@@ -78,9 +89,20 @@ def search(request):
 		# print title
 		# return render(request, 'search/index.html')
 		for i in xrange(0,len(jsonResponse["productInfoList"])):
-			print "INR",jsonResponse["productInfoList"][i]["productBaseInfo"]["productAttributes"]["sellingPrice"]["amount"],"\t====>\t",jsonResponse["productInfoList"][i]["productBaseInfo"]["productAttributes"]["title"]
+			p_id = jsonResponse["productInfoList"][i]["productBaseInfo"]["productIdentifier"]["productId"]
+			price = jsonResponse["productInfoList"][i]["productBaseInfo"]["productAttributes"]["sellingPrice"]["amount"]
+			title = jsonResponse["productInfoList"][i]["productBaseInfo"]["productAttributes"]["title"]
+			product_url = jsonResponse["productInfoList"][i]["productBaseInfo"]["productAttributes"]["productUrl"]
+			img = jsonResponse["productInfoList"][i]["productBaseInfo"]["productAttributes"]["imageUrls"]["400x400"]
+			flipkart_set.append({'p_id':p_id,'title':str(title),'price':int(price),'url':product_url,'img_url':img,'seller':'flipkart','logo':"{% static 'images/sites/f.jpg' %}"})
+			# print "INR",jsonResponse["productInfoList"][i]["productBaseInfo"]["productAttributes"]["sellingPrice"]["amount"],"\t====>\t",jsonResponse["productInfoList"][i]["productBaseInfo"]["productAttributes"]["title"]
+		print "flipkart product count:",len(flipkart_set)
 		print "\n"
-		context = {'key':key}
+		product_set = amazon_set + flipkart_set
+		sorted_product_set = sorted(product_set, key=lambda k: k['price'])
+		for p in sorted_product_set:
+			print p["price"],'===>',p["seller"]
+		context = {'key':key,'product_set':sorted_product_set}
 		return render(request, 'search/index.html',context)
 		# return HttpResponse(flipkart_r.text,content_type="application/json")
 	else:
