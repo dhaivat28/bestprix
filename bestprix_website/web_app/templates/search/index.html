@@ -243,18 +243,19 @@
 					<div class="all-products-body">
 						<div class="row">
 							<!-- Code to display a single product ---------->
+						{% for item in product_set %}
 							<div class="col-lg-4">
 								<div class="product-one">
-									<img src="{% static 'img/shoes/7.jpg' %}" alt="">
+									<img src="{{ item.img_url }}" alt="">
 									<div class="product-one-title">
 										<div class="row">
 											<div class="col-lg-12">
-												<a href="#">Floral Print Buttoned</a>
+												<a href="#">{{ item.title }}</a>
 											</div>
 											<div class="col-lg-12">
 												<div class="row">
 												<div class="col-lg-6">
-												<h25>₹6000</h25>
+												<h25>₹&nbsp;{{ item.price }}</h25>
 												</div>
 												<div class="col-lg-6">
 												<img id="sites" src="{% static 'images/sites/a.png' %}" alt="">
@@ -268,7 +269,7 @@
 												</div>
 												<div class="col-lg-6">
 													<div class="sp1">
-														<a id="buy-now" href="#">Buy Now!</a>
+														<a id="buy-now" href="{{ item.url }}">Buy Now!</a>
 
 													</div>
 												</div>
@@ -280,85 +281,7 @@
 								</div>
 							</div>
 							<!-------------------- End  --------------------->
-
-							<!-- Code to display a single product ---------->
-							<div class="col-lg-4">
-								<div class="product-one">
-									<img src="{% static 'img/shoes/7.jpg' %}" alt="">
-									<div class="product-one-title">
-										<div class="row">
-											<div class="col-lg-12">
-												<a href="#">Floral Print Buttoned</a>
-											</div>
-											<div class="col-lg-12">
-												<div class="row">
-												<div class="col-lg-6">
-												<h25>₹6000</h25>
-												</div>
-												<div class="col-lg-6">
-												<img id="sites-f" src="{% static 'images/sites/f.jpg' %}" alt="">
-												</div>
-												</div>
-											</div>
-											<div class="col-lg-12">
-												<div class="row">
-												<div class="col-lg-6">
-												<a id="v-pr" href="#">View Product</a>
-												</div>
-												<div class="col-lg-6">
-													<div class="sp1">
-														<a id="buy-now" href="#">Buy Now!</a>
-
-													</div>
-												</div>
-												</div>
-
-											</div>
-										</div>
-									</div>
-								</div>
-							</div>
-							<!-------------------- End  --------------------->
-
-							<!-- Code to display a single product ---------->
-							<div class="col-lg-4">
-								<div class="product-one">
-									<img src="{% static 'img/shoes/7.jpg' %}" alt="">
-									<div class="product-one-title">
-										<div class="row">
-											<div class="col-lg-12">
-												<a href="#">Floral Print Buttoned</a>
-											</div>
-											<div class="col-lg-12">
-												<div class="row">
-												<div class="col-lg-6">
-												<h25>₹6000</h25>
-												</div>
-												<div class="col-lg-6">
-												<img id="sites-s" src="{% static 'images/sites/s.jpg' %}" alt="">
-												</div>
-												</div>
-											</div>
-											<div class="col-lg-12">
-												<div class="row">
-												<div class="col-lg-6">
-												<a id="v-pr" href="#">View Product</a>
-												</div>
-												<div class="col-lg-6">
-													<div class="sp1">
-														<a id="buy-now" href="#">Buy Now!</a>
-
-													</div>
-												</div>
-												</div>
-
-											</div>
-										</div>
-									</div>
-								</div>
-							</div>
-							<!-------------------- End  --------------------->
-
+						{% endfor %}
 
 
 						</div> <!-- End of row -->
