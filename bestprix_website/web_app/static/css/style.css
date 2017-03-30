@@ -1380,12 +1380,29 @@ margin-left:-30px;
 	text-align: center;
 	margin-bottom: 20px;
 	border: 1px solid #e3e3e3;
+	max-height: 365px;
+	min-height: 365px;
+}
+#product-one-link {
+	width: 240px;
+	height: 20px;
+	overflow: hidden;
+	margin-bottom: 7px;
+}
 
+.product-one-img-box{
+min-height: 250px;
+padding-left: 5px;
+padding-right: 5px;
+padding-top: 5px;
+vertical-align: middle;
+text-align: center;
+position: relative;
 }
 
 .product-one img{
-width: 250px;
-
+max-width: 240px;
+max-height: 240px;
 }
 
 .sp1 {
