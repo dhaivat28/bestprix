@@ -56,6 +56,10 @@ def search(request):
 			asin = item.find('{http://webservices.amazon.com/AWSECommerceService/2011-08-01}ASIN')
 			product_url = item.find('{http://webservices.amazon.com/AWSECommerceService/2011-08-01}DetailPageURL')
 			img = item.find('{http://webservices.amazon.com/AWSECommerceService/2011-08-01}LargeImage')
+			offer_price = item.find('{http://webservices.amazon.com/AWSECommerceService/2011-08-01}OfferSummary')
+			LowestNewPrice = offer_price.find('{http://webservices.amazon.com/AWSECommerceService/2011-08-01}LowestNewPrice')
+			list_price = LowestNewPrice.find('{http://webservices.amazon.com/AWSECommerceService/2011-08-01}Amount')
+			print "this------>",list_price
 			if img is not None:
 				large_img_url = img.find('{http://webservices.amazon.com/AWSECommerceService/2011-08-01}URL').text
 			else:
@@ -63,9 +67,9 @@ def search(request):
 			# print img
 			for sub_item in item:
 				title = sub_item.find('{http://webservices.amazon.com/AWSECommerceService/2011-08-01}Title')
-				list_price = sub_item.find('{http://webservices.amazon.com/AWSECommerceService/2011-08-01}ListPrice')
+				# list_price = sub_item.find('{http://webservices.amazon.com/AWSECommerceService/2011-08-01}ListPrice')
 				if title is not None and list_price is not None:
-					price = int(list_price.find('{http://webservices.amazon.com/AWSECommerceService/2011-08-01}Amount').text)/100
+					price = int(list_price.text)/100
 					# print price,"\t====>\t",title.text
 					amazon_set.append({'p_id':asin.text,'title':title.text,'price':price,'url':product_url.text,'img_url':large_img_url,'seller':'amazon','logo':'a.png'})
 		print "amazon product count:",len(amazon_set)
