@@ -192,6 +192,19 @@ h26 {
     line-height: 30px;
 }
 
+h27 {
+
+	font-family:'Open Sans', sans-serif;
+	color: #333;
+	font-size: 30px;
+}
+
+h28 {
+	color: #ff7878;
+	font-size: 30px;
+    font-weight: 700;
+    line-height: 50px;
+}
 
 #sites {
 width: 60px;
@@ -1472,6 +1485,29 @@ border: none;
 -moz-transition: all ease 0.8s;
 transition: all ease 0.8s;
 }
+
+/* --------------------------------------- final-product ---------------------------- */
+
+.final-product-showcase {
+	background:#fff;
+	box-shadow: 0 2px 4px 0 rgba(0,0,0,.08);
+	padding: 25px;
+}
+
+.final-product-showcase-left {
+	text-align: center;
+	border: 1px solid;
+}
+
+.final-product-showcase-left img {
+	max-width: 250px;
+}
+
+
+.final-product-showcase-right {
+border: 1px solid;
+}
+
 
 
 /* --------------------------------------- Search Results ---------------------------- */
