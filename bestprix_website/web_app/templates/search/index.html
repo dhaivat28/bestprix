@@ -258,7 +258,11 @@
 												<h25>₹&nbsp;{{ item.price }}</h25>
 												</div>
 												<div class="col-lg-6">
+												{% if item.seller == "amazon" %}
 												<img id="sites" src="{% static 'images/sites/a.png' %}" alt="">
+												{% elif item.seller == "flipkart" %}
+												<img id="sites-f" src="{% static 'images/sites/f.jpg' %}" alt="">
+												{% endif %}
 												</div>
 												</div>
 											</div>
