@@ -107,3 +107,5 @@ def search(request):
 		# return HttpResponse(flipkart_r.text,content_type="application/json")
 	else:
 		return HttpResponse("please enter something")
+def product(request):
+	return render(request, 'product/index.html')
