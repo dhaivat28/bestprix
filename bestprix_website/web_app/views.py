@@ -59,7 +59,6 @@ def search(request):
 			offer_price = item.find('{http://webservices.amazon.com/AWSECommerceService/2011-08-01}OfferSummary')
 			LowestNewPrice = offer_price.find('{http://webservices.amazon.com/AWSECommerceService/2011-08-01}LowestNewPrice')
 			list_price = LowestNewPrice.find('{http://webservices.amazon.com/AWSECommerceService/2011-08-01}Amount')
-			print "this------>",list_price
 			if img is not None:
 				large_img_url = img.find('{http://webservices.amazon.com/AWSECommerceService/2011-08-01}URL').text
 			else:
@@ -97,8 +96,12 @@ def search(request):
 			price = jsonResponse["productInfoList"][i]["productBaseInfo"]["productAttributes"]["sellingPrice"]["amount"]
 			title = jsonResponse["productInfoList"][i]["productBaseInfo"]["productAttributes"]["title"]
 			product_url = jsonResponse["productInfoList"][i]["productBaseInfo"]["productAttributes"]["productUrl"]
-			img = jsonResponse["productInfoList"][i]["productBaseInfo"]["productAttributes"]["imageUrls"]["400x400"]
-			flipkart_set.append({'p_id':p_id,'title':str(title),'price':int(price),'url':product_url,'img_url':img,'seller':'flipkart','logo':"{% static 'images/sites/f.jpg' %}"})
+			try:
+				img = jsonResponse["productInfoList"][i]["productBaseInfo"]["productAttributes"]["imageUrls"]["400x400"]
+			except:
+				img = "None"
+			#print title,"---->",img
+			flipkart_set.append({'p_id':p_id,'title':str(title),'price':int(price),'url':product_url,'img_url':str(img),'seller':'flipkart','logo':"{% static 'images/sites/f.jpg' %}"})
 			# print "INR",jsonResponse["productInfoList"][i]["productBaseInfo"]["productAttributes"]["sellingPrice"]["amount"],"\t====>\t",jsonResponse["productInfoList"][i]["productBaseInfo"]["productAttributes"]["title"]
 		print "flipkart product count:",len(flipkart_set)
 		print "\n"
