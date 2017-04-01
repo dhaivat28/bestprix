@@ -30,6 +30,8 @@ def amazon_signed_request(region, params, public_key, private_key, associate_tag
 def index(request):
 	return render(request, 'index.html')
 
+def login(request):
+	return render(request, 'login/index.html')
 def signup(request):
 	if request.method == 'POST':
 		fname = request.POST['fname']
