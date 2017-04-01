@@ -31,7 +31,24 @@ def index(request):
 	return render(request, 'index.html')
 
 def login(request):
-	return render(request, 'login/index.html')
+	if request.method == 'POST':
+		email = request.POST['email']
+		password = request.POST['pass']
+		db = MySQLdb.connect("localhost","root","root","bestprix_db" )
+		cursor = db.cursor()
+		sql = "SELECT * FROM web_app_user_detail WHERE email_id='%s' AND password='%s'" % (email,password)
+		flag = False
+		try:
+			cursor.execute(sql)
+			results = cursor.fetchall()
+			if results is not None:
+				flag=True
+		except Exception:
+			print "Error"
+		db.close()
+		return HttpResponse(flag)
+	else:
+		return render(request, 'login/index.html')
 def signup(request):
 	if request.method == 'POST':
 		fname = request.POST['fname']
