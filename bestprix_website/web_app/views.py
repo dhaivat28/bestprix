@@ -29,6 +29,9 @@ def amazon_signed_request(region, params, public_key, private_key, associate_tag
 def index(request):
 	return render(request, 'index.html')
 
+def signup(request):
+	return render(request, 'signup/index.html')
+	
 def search(request):
 	key = request.GET['q']
 	amazon_set=[]
