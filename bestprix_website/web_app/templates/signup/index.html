@@ -236,20 +236,21 @@
 
 			<div class="col-lg-9">
 				<div class="singup">
-					<form action="/action_page.php"><br>
-  				Fullname: <input type="text" name="fname"><br><br>
-  				Email Address: <input type="text" name="lname"><br><br>
-			 	Password: <input type="password" name="lname"><br><br>
-				Confirm Password: <input type="password" name="lname"><br><br>
-				Select Security Question:- <select name="cars">
-				<option value="volvo">Volvo</option>
-				<option value="saab">Saab</option>
-				<option value="fiat">Fiat</option>
-				<option value="audi">Audi</option>
-				</select><br><br>
-				Security Answer: <input type="text" name="fname"><br><br>
-				<input type="submit" value="Submit">
-				</form>
+					<form action="{% url 'signup' %}" method="POST"><br>
+						{% csrf_token %}
+  						Fullname: <input type="text" name="fname"><br><br>
+  						Email Address: <input type="text" name="email"><br><br>
+			 			Password: <input type="password" name="pass"><br><br>
+						Confirm Password: <input type="password" name="con_pass"><br><br>
+						Select Security Question:- <select name="sq">
+							<option value="volvo">Volvo</option>
+							<option value="saab">Saab</option>
+							<option value="fiat">Fiat</option>
+							<option value="audi">Audi</option>
+						</select><br><br>
+						Security Answer: <input type="text" name="sa"><br><br>
+						<input type="submit" value="Submit">
+					</form>
 
 				</div>
 

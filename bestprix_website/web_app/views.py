@@ -8,6 +8,7 @@ import hashlib
 import requests
 import lxml.etree
 import json
+import MySQLdb
 
 def amazon_signed_request(region, params, public_key, private_key, associate_tag=None):
 	method = 'GET'
@@ -30,8 +31,28 @@ def index(request):
 	return render(request, 'index.html')
 
 def signup(request):
-	return render(request, 'signup/index.html')
-	
+	if request.method == 'POST':
+		fname = request.POST['fname']
+		email = request.POST['email']
+		password = request.POST['pass']
+		sq = request.POST['sq']
+		sa = request.POST['sa']
+
+		db = MySQLdb.connect("localhost","root","root","bestprix_db" )
+		cursor = db.cursor()
+		sql = "INSERT INTO web_app_user_detail (id, email_id, name, password, s_q, s_a) VALUES (NULL, '%s', '%s', '%s', '%s', '%s')" % (email,fname,password,sq,sa)
+		flag = False
+		try:
+			cursor.execute(sql)
+			db.commit()
+			flag = True
+		except Exception:
+			db.rollback()
+		db.close()
+		return HttpResponse(flag)
+	else:
+		return render(request, 'signup/index.html')
+
 def search(request):
 	key = request.GET['q']
 	amazon_set=[]
