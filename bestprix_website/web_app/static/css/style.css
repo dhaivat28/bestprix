@@ -1872,7 +1872,14 @@ transition: all 0.2s linear 0s;
 	opacity: 0.7;
 }
 
-.
+.accounts  {
+	margin-top: 15px;
+}
+
+.accounts a {
+	text-decoration: none;
+	color: white;
+}
 /* ---------------------------------------------------------------------------------
 *
 *							CSS3 Media Queries Below
