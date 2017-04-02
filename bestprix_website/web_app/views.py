@@ -96,12 +96,18 @@ def search(request):
 		items = root.find('{http://webservices.amazon.com/AWSECommerceService/2011-08-01}Items')
 		item_set = items.findall('{http://webservices.amazon.com/AWSECommerceService/2011-08-01}Item')
 		for item in item_set:
+			# for c in item :
+			# 	for a in item.find('{http://webservices.amazon.com/AWSECommerceService/2011-08-01}OfferSummary'):
+			# 		print a
 			asin = item.find('{http://webservices.amazon.com/AWSECommerceService/2011-08-01}ASIN')
 			product_url = item.find('{http://webservices.amazon.com/AWSECommerceService/2011-08-01}DetailPageURL')
 			img = item.find('{http://webservices.amazon.com/AWSECommerceService/2011-08-01}LargeImage')
 			offer_price = item.find('{http://webservices.amazon.com/AWSECommerceService/2011-08-01}OfferSummary')
 			LowestNewPrice = offer_price.find('{http://webservices.amazon.com/AWSECommerceService/2011-08-01}LowestNewPrice')
-			list_price = LowestNewPrice.find('{http://webservices.amazon.com/AWSECommerceService/2011-08-01}Amount')
+			try:
+				list_price = LowestNewPrice.find('{http://webservices.amazon.com/AWSECommerceService/2011-08-01}Amount')
+			except Exception:
+				list_price = None
 			if img is not None:
 				large_img_url = img.find('{http://webservices.amazon.com/AWSECommerceService/2011-08-01}URL').text
 			else:
