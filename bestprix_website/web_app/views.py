@@ -49,6 +49,7 @@ def login(request):
 		return HttpResponse(flag)
 	else:
 		return render(request, 'login/index.html')
+
 def signup(request):
 	if request.method == 'POST':
 		fname = request.POST['fname']
@@ -56,7 +57,6 @@ def signup(request):
 		password = request.POST['pass']
 		sq = request.POST['sq']
 		sa = request.POST['sa']
-
 		db = MySQLdb.connect("localhost","root","root","bestprix_db" )
 		cursor = db.cursor()
 		sql = "INSERT INTO web_app_user_detail (id, email_id, name, password, s_q, s_a) VALUES (NULL, '%s', '%s', '%s', '%s', '%s')" % (email,fname,password,sq,sa)
@@ -70,7 +70,7 @@ def signup(request):
 		db.close()
 		return HttpResponse(flag)
 	else:
-		return render(request, 'signup/index.html')
+		return HttpResponse("error")
 
 def search(request):
 	key = request.GET['q']
@@ -159,3 +159,4 @@ def search(request):
 		return HttpResponse("please enter something")
 def product(request):
 	return render(request, 'product/index.html')
+	
