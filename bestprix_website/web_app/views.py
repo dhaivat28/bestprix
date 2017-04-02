@@ -148,15 +148,14 @@ def search(request):
 			# print "INR",jsonResponse["productInfoList"][i]["productBaseInfo"]["productAttributes"]["sellingPrice"]["amount"],"\t====>\t",jsonResponse["productInfoList"][i]["productBaseInfo"]["productAttributes"]["title"]
 		print "flipkart product count:",len(flipkart_set)
 		print "\n"
-		product_set = amazon_set + flipkart_set
-		sorted_product_set = sorted(product_set, key=lambda k: k['price'])
-		for p in sorted_product_set:
-			print p["price"],'===>',p["seller"]
-		context = {'key':key,'product_set':sorted_product_set}
+		# product_set = amazon_set + flipkart_set
+		# sorted_product_set = sorted(product_set, key=lambda k: k['price'])
+		# for p in sorted_product_set:
+		# 	print p["price"],'===>',p["seller"]
+		context = {'key':key,'amazon_set':amazon_set,'flipkart_set':flipkart_set}
 		return render(request, 'search/index.html',context)
 		# return HttpResponse(flipkart_r.text,content_type="application/json")
 	else:
 		return HttpResponse("please enter something")
 def product(request):
 	return render(request, 'product/index.html')
-	
