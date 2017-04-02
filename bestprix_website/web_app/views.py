@@ -105,7 +105,17 @@ def search(request):
 			if img is not None:
 				large_img_url = img.find('{http://webservices.amazon.com/AWSECommerceService/2011-08-01}URL').text
 			else:
-				large_img_url = None
+				img_sets = item.find('{http://webservices.amazon.com/AWSECommerceService/2011-08-01}ImageSets')
+				img_set = img_sets.find('{http://webservices.amazon.com/AWSECommerceService/2011-08-01}ImageSet')
+				large = img_set.find('{http://webservices.amazon.com/AWSECommerceService/2011-08-01}LargeImage')
+				t_img = large.find('{http://webservices.amazon.com/AWSECommerceService/2011-08-01}URL')
+				# print
+				# for img_set in img_sets:
+				# 	for c in img_set:
+				# 		for cc in c:
+				# 			pass
+				# 			# print cc
+				large_img_url = t_img.text
 			# print img
 			for sub_item in item:
 				title = sub_item.find('{http://webservices.amazon.com/AWSECommerceService/2011-08-01}Title')
