@@ -242,53 +242,164 @@
 					</div>
 					<div class="all-products-body">
 						<div class="row">
-							<!-- Code to display a single product ---------->
-						{% for item in product_set %}
+
+							<!--Begin Column 1 for Amazon Products -->
 							<div class="col-lg-4">
-								<div class="product-one">
-									<div class="product-one-img-box">
-										<img src="{{ item.img_url }}" alt="">
-									</div>
-									<div class="product-one-title">
-										<div class="row">
-											<div class="col-lg-12">
-											<a  id="product-one-link" href="#">{{ item.title }}</a>
-											</div>
-											<div class="col-lg-12">
-												<div class="row">
-												<div class="col-lg-6">
-												<h25>₹&nbsp;{{ item.price }}</h25>
-												</div>
-												<div class="col-lg-6">
-												{% if item.seller == "amazon" %}
-												<img id="sites" src="{% static 'images/sites/a.png' %}" alt="">
-												{% elif item.seller == "flipkart" %}
-												<img id="sites-f" src="{% static 'images/sites/f.jpg' %}" alt="">
-												{% endif %}
-												</div>
-												</div>
-											</div>
-											<div class="col-lg-12">
-												<div class="row">
-												<div class="col-lg-6">
-												<a id="v-pr" href="{% url 'product' %}">View Product</a>
-												</div>
-												<div class="col-lg-6">
-													<div class="sp1">
-														<a id="buy-now" target="_blank" href="{{ item.url }}">Buy Now!</a>
+								<div class="row">
 
-													</div>
-												</div>
-												</div>
+									{% for item in product_set %}
+									   <div class="col-lg-12">
+										   <div class="product-one">
+											   <div class="product-one-img-box">
+												   <img src="{{ item.img_url }}" alt="">
+											   </div>
+											   <div class="product-one-title">
+												   <div class="row">
+													   <div class="col-lg-12">
+													   <a  id="product-one-link" href="#">{{ item.title }}</a>
+													   </div>
+													   <div class="col-lg-12">
+														   <div class="row">
+														   <div class="col-lg-6">
+														   <h25>₹&nbsp;{{ item.price }}</h25>
+														   </div>
+														   <div class="col-lg-6">
+														   {% if item.seller == "amazon" %}
+														   <img id="sites" src="{% static 'images/sites/a.png' %}" alt="">
+														   {% elif item.seller == "flipkart" %}
+														   <img id="sites-f" src="{% static 'images/sites/f.jpg' %}" alt="">
+														   {% endif %}
+														   </div>
+														   </div>
+													   </div>
+													   <div class="col-lg-12">
+														   <div class="row">
+														   <div class="col-lg-6">
+														   <a id="v-pr" href="{% url 'product' %}">View Product</a>
+														   </div>
+														   <div class="col-lg-6">
+															   <div class="sp1">
+																   <a id="buy-now" target="_blank" href="{{ item.url }}">Buy Now!</a>
 
-											</div>
-										</div>
-									</div>
+															   </div>
+														   </div>
+														   </div>
+
+													   </div>
+												   </div>
+											   </div>
+										   </div>
+									   </div>
+								   {% endfor %}
+
+
 								</div>
 							</div>
-							<!-------------------- End  --------------------->
-						{% endfor %}
+						<!-- End of Column 1 for Amazon Products -->
 
+						<!-- Begin Column 2 for Flipkart Products -->
+						<div class="col-lg-4">
+							<div class="row">
+								{% for item in product_set %}
+								   <div class="col-lg-12">
+									   <div class="product-one">
+										   <div class="product-one-img-box">
+											   <img src="{{ item.img_url }}" alt="">
+										   </div>
+										   <div class="product-one-title">
+											   <div class="row">
+												   <div class="col-lg-12">
+												   <a  id="product-one-link" href="#">{{ item.title }}</a>
+												   </div>
+												   <div class="col-lg-12">
+													   <div class="row">
+													   <div class="col-lg-6">
+													   <h25>₹&nbsp;{{ item.price }}</h25>
+													   </div>
+													   <div class="col-lg-6">
+													   {% if item.seller == "amazon" %}
+													   <img id="sites" src="{% static 'images/sites/a.png' %}" alt="">
+													   {% elif item.seller == "flipkart" %}
+													   <img id="sites-f" src="{% static 'images/sites/f.jpg' %}" alt="">
+													   {% endif %}
+													   </div>
+													   </div>
+												   </div>
+												   <div class="col-lg-12">
+													   <div class="row">
+													   <div class="col-lg-6">
+													   <a id="v-pr" href="{% url 'product' %}">View Product</a>
+													   </div>
+													   <div class="col-lg-6">
+														   <div class="sp1">
+															   <a id="buy-now" target="_blank" href="{{ item.url }}">Buy Now!</a>
+
+														   </div>
+													   </div>
+													   </div>
+
+												   </div>
+											   </div>
+										   </div>
+									   </div>
+								   </div>
+							   {% endfor %}
+
+							</div>
+						</div>
+						<!-- End of Column 2 for Flipkart Products -->
+
+						<!-- Begin Column 2 for Snapdeal Products -->
+						<div class="col-lg-4">
+							<div class="row">
+								{% for item in product_set %}
+								   <div class="col-lg-12">
+									   <div class="product-one">
+										   <div class="product-one-img-box">
+											   <img src="{{ item.img_url }}" alt="">
+										   </div>
+										   <div class="product-one-title">
+											   <div class="row">
+												   <div class="col-lg-12">
+												   <a  id="product-one-link" href="#">{{ item.title }}</a>
+												   </div>
+												   <div class="col-lg-12">
+													   <div class="row">
+													   <div class="col-lg-6">
+													   <h25>₹&nbsp;{{ item.price }}</h25>
+													   </div>
+													   <div class="col-lg-6">
+													   {% if item.seller == "amazon" %}
+													   <img id="sites" src="{% static 'images/sites/a.png' %}" alt="">
+													   {% elif item.seller == "flipkart" %}
+													   <img id="sites-f" src="{% static 'images/sites/f.jpg' %}" alt="">
+													   {% endif %}
+													   </div>
+													   </div>
+												   </div>
+												   <div class="col-lg-12">
+													   <div class="row">
+													   <div class="col-lg-6">
+													   <a id="v-pr" href="{% url 'product' %}">View Product</a>
+													   </div>
+													   <div class="col-lg-6">
+														   <div class="sp1">
+															   <a id="buy-now" target="_blank" href="{{ item.url }}">Buy Now!</a>
+
+														   </div>
+													   </div>
+													   </div>
+
+												   </div>
+											   </div>
+										   </div>
+									   </div>
+								   </div>
+							   {% endfor %}
+
+							</div>
+						</div>
+						<!-- End of Column 2 for Snapdeal Products -->
 
 						</div> <!-- End of row -->
 					</div>
