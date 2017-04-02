@@ -162,96 +162,131 @@
 	</div>
 
 	<!-- Page Content -->
-	<div class="container">
 
-		<div class="row">
+			<div class="container">
+			<div class="sts">
 
-			<div class="col-lg-3">
-				<div class="sort-filter">
-					<div class="sort-filter-title">
-						<h13>SHOP BY</h13>
-					</div>
-					<div class="sort-filter-body">
-							<!-- <select>
-							<option value="volvo">Popularity</option>
-							<option value="saab">Low to High Price</option>
-							<option value="mercedes">High To Low Price</option>
-						</select> -->
-						<h25>Category</h25>
-						<ul>
-							<li>Camera</li>
-							<li>Desktop</li>
-							<li>Office</li>
-							<li>Camera</li>
-							<li>Desktop</li>
-							<li>Office</li>
-							<li>Kids</li>
-						</ul>
-						<br />
-					</div>
+					<div class="row">
+
+						<div class="col-lg-6 col-md-6 col-sm-6">
+							<div class="login-form">
+								<div class="row">
+										<div class ="col-lg-12">
+										<div class="sts-title">
+										<h29>Sign in</h29>
+										</div>
+										</div>
+
+										<div class ="col-lg-12">
+										<div id="single-input">
+										<form action="{% url 'login' %}" method="POST">
+										{% csrf_token %}
+										<label>
+										Email Address <span>*</span>
+										</label> <br /><input type="text" name="email">
+										</div>
+										</div>
+
+										<div class ="col-lg-12">
+										<div id="single-input">
+										Password <br/><input type="password" name="pass">
+										</div>
+										</div>
+
+										<div class ="col-lg-4 col-lg-push-7">
+										<div id="single-input">
+										<a href="#" class="forgot">Forgot Your Password ?</a>
+										</div>
+										</div>
+
+										<div class ="col-lg-12">
+										<div class="form-group">
+										<input type="submit" class="subs-input" value="LOGIN">
+										</form>
+										</div>
+										</div>
+								</div>
+							</div>
+						</div>
+
+						<div class="col-lg-6 col-md-6 col-sm-6">
+							<div class="signup-form">
+							<div class="row">
+							<div class ="col-lg-12">
+							<div class="sts-title">
+							<h29>Create a new account</h29>
+							</div>
+							</div>
+
+							<div class ="col-lg-12">
+							<div id="single-input">
+							<form action="{% url 'signup' %}" method="POST">
+							{% csrf_token %}
+							<label>Fullname <span>*</span></label> <br/><input type="text" name="fname">
+							</div>
+							</div>
+
+							<div class ="col-lg-12">
+							<div id="single-input">
+							<label>Email Address <span>*</span></label><br/><input type="text" name="email">
+							</div>
+							</div>
+
+							<div class ="col-lg-12">
+							<div id="single-input">
+							<label>Password <span>*</span></label><br/> <input type="password" name="pass"><br><br>
+							</div>
+							</div>
+
+							<div class ="col-lg-12">
+							<div id="single-input">
+							<label>Confirm Password <span>*</span></label> <br/><input type="password" name="con_pass"><br><br>
+								</div>
+							</div>
+
+							<div class ="col-lg-12">
+							<div id="single-input">
+							<label>Security Question <span>*</span></label><br/> <select name="sq">
+							<option value="">What was your favorite place to visit as a child?</option>
+							<option value="">Who is your favorite actor, musician, or artist?</option>
+							<option value="">What is the name of your favorite pet?</option>
+							<option value="">In what city were you born?</option>
+							<option value="">What high school did you attend?</option>
+							<option value="">What is the name of your first school?</option>
+							<option value="">What is your favorite movie?</option>
+							<option value="">What is your mother's maiden name?</option>
+							<option value="">What street did you grow up on?</option>
+							<option value="">What was the make of your first car?</option>
+							<option value="">When is your anniversary?</option>
+							<option value="">What is your favorite color?</option>
+							<option value="">What is your father's middle name?</option>
+							<option value="">What is the name of your first grade teacher?</option>
+							<option value="">What was your high school mascot?</option>
+							<option value="">Which is your favorite web browser?</option>
+							</select>
+							</div>
+							</div>
+
+							<div class ="col-lg-12">
+							<div id="single-input">
+							<label>Security Answer <span>*</span></label><br/> <input type="text" name="sa">
+							</div>
+							</div>
+
+							<div class ="col-lg-12">
+							<div class="form-group">
+							<input type="submit" class="subs-input" value="SiGN UP">
+							</form>
+							</div>
+							</div>
+							</div>
+							</div>
+						</div>
+
+					</div><!-- End Of Main row -->
+
 				</div>
-
-				<div class="sort-filter">
-					<div class="sort-filter-title">
-						<h13>SORT BY</h13>
-					</div>
-					<div class="sort-filter-body">
-						<select class="sort-by">
-							<option value="volvo">Popularity</option>
-							<option value="saab">Low to High Price</option>
-							<option value="mercedes">High To Low Price</option>
-						</select>
-
-						<br /><br />
-
-						<p>
-							<label for="amount">Price range:</label>
-							<input type="text" id="amount" readonly style="border:0; color:#f6931f; font-weight:bold;">
-						</p>
-
-						<div id="slider-range"></div>
-						<br /><br />
-					</div>
-				</div>
-
-				<div class="product-tags">
-					<div class="product-tags-title">
-							<h13>PRODUCT TAGS</h13>
-					</div>
-					<div class="product-tags-body">
-						<a href="#" class="product-tags-body-single">Footwear</a>
-						<a href="#" class="product-tags-body-single">Furniture</a>
-						<a href="#" class="product-tags-body-single">Smartphone</a>
-						<a href="#" class="product-tags-body-single">Toys</a>
-						<a href="#" class="product-tags-body-single">Footwear</a>
-						<a href="#" class="product-tags-body-single">Furniture</a>
-						<a href="#" class="product-tags-body-single">Smartphone</a>
-						<a href="#" class="product-tags-body-single">Toys</a>
-					</div>
-				</div>
-
-
-
-			</div>
-
-			<div class="col-lg-9">
-				<div class="singup">
-					<form action="{% url 'login' %}" method="POST"><br>
-						{% csrf_token %}
-  						Email Address: <input type="text" name="email"><br><br>
-			 			Password: <input type="password" name="pass"><br><br>
-						<input type="submit" value="Submit">
-					</form>
-
-				</div>
-
-
-			</div>
-
-		</div>
-
-	</div><!-- End Of Main Container -->
-
+			</div><!-- End Of Main Container -->
 
 	<div class="footer">
 

@@ -206,6 +206,14 @@ h28 {
     line-height: 50px;
 }
 
+h29 {
+	font-size: 18px;
+font-family: 'Open Sans', sans-serif;
+padding-bottom: 14px;
+line-height: 1.1;
+box-sizing: border-box;
+}
+
 #sites {
 width: 60px;
 }
@@ -1641,6 +1649,74 @@ background:#fbfbfb;
   text-decoration: none;
 }
 
+
+.sts {
+	background: white;
+	box-shadow: 0 2px 4px 0 rgba(0,0,0,.08);
+	padding: 20px;
+}
+
+.sts-title {
+	border-bottom: 1px solid #ddd;
+	padding-bottom: 10px;
+	margin-bottom: 15px;
+	width: 90%;
+}
+
+#single-input {
+	margin-bottom: 20px;
+}
+
+#single-input label{
+	color: #333;
+	font-size: 14px;
+	font-weight: 400;
+	font-family: 'Open Sans', sans-serif;
+}
+
+#single-input label span{
+	color: red;
+	font-size: 16px;
+	font-weight: 400;
+	font-family: 'Open Sans', sans-serif;
+}
+
+#single-input input {
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+  border-color: #eee;
+  -moz-box-shadow: none;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  outline: none;
+  height: auto;
+  padding: 10px 12px;
+  width: 90%;
+border-style:solid;
+}
+
+#single-input input:focus {
+  -moz-box-shadow: none;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  border-color: #d8d8d8;
+}
+
+.forgot {
+	color: #e40046;
+	text-decoration: none;
+	cursor: pointer;
+	font-size: 14px;
+}
+
+
+.forgot:hover {
+	color: #e40046;
+	text-decoration: none;
+	cursor: pointer;
+	font-size: 14px;
+}
 
 /* ------------------------ search results.php ------------------------------------- */
 
