@@ -158,7 +158,9 @@ def search(request):
 			try:
 				img = jsonResponse["productInfoList"][i]["productBaseInfo"]["productAttributes"]["imageUrls"]["400x400"]
 			except:
-				img = "None"
+				t_img = jsonResponse["productInfoList"][i]["productBaseInfo"]["productAttributes"]["imageUrls"]
+				keys = t_img.keys()
+				img = t_img[keys[0]]
 			#print title,"---->",img
 			flipkart_set.append({'p_id':p_id,'title':str(title),'price':int(price),'url':product_url,'img_url':str(img),'seller':'flipkart','logo':"{% static 'images/sites/f.jpg' %}"})
 			# print "INR",jsonResponse["productInfoList"][i]["productBaseInfo"]["productAttributes"]["sellingPrice"]["amount"],"\t====>\t",jsonResponse["productInfoList"][i]["productBaseInfo"]["productAttributes"]["title"]
