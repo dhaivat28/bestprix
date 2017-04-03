@@ -97,11 +97,11 @@ def search(request):
 			print "\nStatus:Error sending request"
 		try:
 			if amazon_r.status_code is 200:
-				try:
-					root = lxml.etree.fromstring(amazon_r.text.encode('utf-8'))
-					items = root.find('{http://webservices.amazon.com/AWSECommerceService/2011-08-01}Items')
-					item_set = items.findall('{http://webservices.amazon.com/AWSECommerceService/2011-08-01}Item')
-					for item in item_set:
+				root = lxml.etree.fromstring(amazon_r.text.encode('utf-8'))
+				items = root.find('{http://webservices.amazon.com/AWSECommerceService/2011-08-01}Items')
+				item_set = items.findall('{http://webservices.amazon.com/AWSECommerceService/2011-08-01}Item')
+				for item in item_set:
+					try:
 						# for c in item :
 						# 	for a in item.find('{http://webservices.amazon.com/AWSECommerceService/2011-08-01}OfferSummary'):
 						# 		print a
@@ -136,8 +136,8 @@ def search(request):
 								price = int(list_price.text)/100
 								# print price,"\t====>\t",title.text
 								amazon_set.append({'p_id':asin.text,'title':title.text,'price':price,'url':product_url.text,'img_url':large_img_url,'seller':'amazon','logo':'a.png'})
-				except Exception:
-					print "\nStatus:fetch Error"
+					except Exception:
+						print "\nStatus: fetch Error"
 				print "amazon product count:",len(amazon_set)
 			else:
 				print "invalid Response"
