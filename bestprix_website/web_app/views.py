@@ -104,5 +104,6 @@ def product(request):
 	if seller == 'amazon':
 		amazon = api.amazon_callby_id(p_id)
 		print amazon['title']
-		# flipkart = flipkart_possible_product(amazon['title'])
+		flipkart = api.flipkart_callby_keyword(amazon['title'])
+		print flipkart
 	return render(request, 'product/index.html')
