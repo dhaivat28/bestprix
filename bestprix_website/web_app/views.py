@@ -191,8 +191,12 @@ def search(request):
 		except Exception:
 			print "\nStatus:Error"
 
-		# product_set = amazon_set + flipkart_set
-		# sorted_product_set = sorted(product_set, key=lambda k: k['price'])
+		product_set = amazon_set + flipkart_set
+		# for i in range(len(product_set)):
+		# 	print product_set[i]["price"]," => ",product_set[i]["title"]," => ",product_set[i]["seller"]
+		sorted_product_set = sorted(product_set, key=lambda k: k['price'],reverse=True)
+		# for i in range(len(sorted_product_set)):
+		# 	print sorted_product_set[i]["price"]," => ",sorted_product_set[i]["title"]," => ",sorted_product_set[i]["seller"]
 		# for p in sorted_product_set:
 		# 	print p["price"],'===>',p["seller"]
 		context = {'key':key,'amazon_set':amazon_set,'flipkart_set':flipkart_set}
