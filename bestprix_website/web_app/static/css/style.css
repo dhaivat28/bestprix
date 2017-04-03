@@ -1396,7 +1396,7 @@ margin-left:-30px;
 
 .product-one{
 	/*box-shadow: 0 2px 4px 0 rgba(0,0,0,.08);*/
-	height: 315px;
+	height: 290px;
 	background: white;
 	text-align: center;
 	margin-bottom: 20px;
@@ -1426,6 +1426,8 @@ margin-left:-30px;
 .prod-title {
 	margin-top: 5px;
 	margin-bottom: 5px;
+	height: 40px;
+	overflow: hidden;
 }
 
 .prod-price {
@@ -1447,7 +1449,7 @@ text-decoration: none;
 
 
 .product-one-img-box{
-min-height: 225px;
+min-height:180px;
 padding-top: 10px;
 padding-left: 5px;
 padding-right: 5px;
@@ -1458,8 +1460,8 @@ position: relative;
 }
 
 .product-one img{
-max-width: 200px;
-max-height: 200px;
+max-width: 170px;
+max-height: 170px;
 }
 
 .sp1 {
