@@ -109,6 +109,9 @@ def search(request):
 						product_url = item.find('{http://webservices.amazon.com/AWSECommerceService/2011-08-01}DetailPageURL')
 						img = item.find('{http://webservices.amazon.com/AWSECommerceService/2011-08-01}LargeImage')
 						offer_price = item.find('{http://webservices.amazon.com/AWSECommerceService/2011-08-01}OfferSummary')
+						item_attributes = item.find('{http://webservices.amazon.com/AWSECommerceService/2011-08-01}ItemAttributes')
+						mrp = item_attributes.find('{http://webservices.amazon.com/AWSECommerceService/2011-08-01}ListPrice')
+						mrp_amount = mrp.find('{http://webservices.amazon.com/AWSECommerceService/2011-08-01}Amount')
 						LowestNewPrice = offer_price.find('{http://webservices.amazon.com/AWSECommerceService/2011-08-01}LowestNewPrice')
 						try:
 							list_price = LowestNewPrice.find('{http://webservices.amazon.com/AWSECommerceService/2011-08-01}Amount')
@@ -134,8 +137,9 @@ def search(request):
 							# list_price = sub_item.find('{http://webservices.amazon.com/AWSECommerceService/2011-08-01}ListPrice')
 							if title is not None and list_price is not None:
 								price = int(list_price.text)/100
+								mrp = int(mrp_amount.text)/100
 								# print price,"\t====>\t",title.text
-								amazon_set.append({'p_id':asin.text,'title':title.text,'price':price,'url':product_url.text,'img_url':large_img_url,'seller':'amazon'})
+								amazon_set.append({'p_id':asin.text,'title':title.text,'price':price,'mrp':mrp,'url':product_url.text,'img_url':large_img_url,'seller':'amazon'})
 					except Exception:
 						print "\nStatus: fetch Error"
 				print "amazon product count:",len(amazon_set)
@@ -171,6 +175,7 @@ def search(request):
 					try:
 						p_id = jsonResponse["productInfoList"][i]["productBaseInfo"]["productIdentifier"]["productId"]
 						price = jsonResponse["productInfoList"][i]["productBaseInfo"]["productAttributes"]["sellingPrice"]["amount"]
+						mrp = jsonResponse["productInfoList"][i]["productBaseInfo"]["productAttributes"]["maximumRetailPrice"]["amount"]
 						title = jsonResponse["productInfoList"][i]["productBaseInfo"]["productAttributes"]["title"]
 						product_url = jsonResponse["productInfoList"][i]["productBaseInfo"]["productAttributes"]["productUrl"]
 						try:
@@ -180,7 +185,7 @@ def search(request):
 							keys = t_img.keys()
 							img = t_img[keys[0]]
 						#print title,"---->",img
-						flipkart_set.append({'p_id':p_id,'title':str(title),'price':int(price),'url':product_url,'img_url':str(img),'seller':'flipkart'})
+						flipkart_set.append({'p_id':p_id,'title':str(title),'price':int(price),'mrp':int(mrp),'url':product_url,'img_url':str(img),'seller':'flipkart'})
 						# print "INR",jsonResponse["productInfoList"][i]["productBaseInfo"]["productAttributes"]["sellingPrice"]["amount"],"\t====>\t",jsonResponse["productInfoList"][i]["productBaseInfo"]["productAttributes"]["title"]
 					except Exception:
 						print "\nStatus:fetch Error in product-->",i
