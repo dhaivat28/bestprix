@@ -135,7 +135,7 @@ def search(request):
 							if title is not None and list_price is not None:
 								price = int(list_price.text)/100
 								# print price,"\t====>\t",title.text
-								amazon_set.append({'p_id':asin.text,'title':title.text,'price':price,'url':product_url.text,'img_url':large_img_url,'seller':'amazon','logo':'a.png'})
+								amazon_set.append({'p_id':asin.text,'title':title.text,'price':price,'url':product_url.text,'img_url':large_img_url,'seller':'amazon'})
 					except Exception:
 						print "\nStatus: fetch Error"
 				print "amazon product count:",len(amazon_set)
@@ -180,7 +180,7 @@ def search(request):
 							keys = t_img.keys()
 							img = t_img[keys[0]]
 						#print title,"---->",img
-						flipkart_set.append({'p_id':p_id,'title':str(title),'price':int(price),'url':product_url,'img_url':str(img),'seller':'flipkart','logo':"{% static 'images/sites/f.jpg' %}"})
+						flipkart_set.append({'p_id':p_id,'title':str(title),'price':int(price),'url':product_url,'img_url':str(img),'seller':'flipkart'})
 						# print "INR",jsonResponse["productInfoList"][i]["productBaseInfo"]["productAttributes"]["sellingPrice"]["amount"],"\t====>\t",jsonResponse["productInfoList"][i]["productBaseInfo"]["productAttributes"]["title"]
 					except Exception:
 						print "\nStatus:fetch Error in product-->",i
