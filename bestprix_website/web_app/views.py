@@ -210,4 +210,78 @@ def search(request):
 	else:
 		return HttpResponse("please enter something")
 def product(request):
+	if request.method == 'GET':
+		p_id = request.GET['p_id']
+		seller = request.GET['seller']
+		print p_id,seller
+	if seller == 'amazon':
+		amazon_access_key = 'AKIAIBV3ZSCMXLX5DY6A'
+		amazon_secret_key = '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'
+		m_params={
+			'ItemId':p_id,
+			'Operation':'ItemLookup',
+			'ResponseGroup':'Images,ItemAttributes,Offers',
+			'IdType':'ASIN',
+			'Service':'AWSECommerceService'
+		}
+		amazon_request_url = amazon_signed_request('in',m_params,amazon_access_key,amazon_secret_key,'bestprix09-21')
+		print '\nBEGIN REQUEST====AMAZON=====>'
+		print '\nRequest URL = ' + amazon_request_url
+		try:
+			amazon_r = requests.get(amazon_request_url)
+			print '\nAMAZON===>Response code: %d\n' % amazon_r.status_code
+		except Exception:
+			print "\nStatus:Error sending request"
+		try:
+			if amazon_r.status_code is 200:
+				root = lxml.etree.fromstring(amazon_r.text.encode('utf-8'))
+				items = root.find('{http://webservices.amazon.com/AWSECommerceService/2011-08-01}Items')
+				item_set = items.findall('{http://webservices.amazon.com/AWSECommerceService/2011-08-01}Item')
+				for item in item_set:
+					try:
+						# for c in item :
+						# 	for a in item.find('{http://webservices.amazon.com/AWSECommerceService/2011-08-01}OfferSummary'):
+						# 		print a
+						asin = item.find('{http://webservices.amazon.com/AWSECommerceService/2011-08-01}ASIN')
+						product_url = item.find('{http://webservices.amazon.com/AWSECommerceService/2011-08-01}DetailPageURL')
+						img = item.find('{http://webservices.amazon.com/AWSECommerceService/2011-08-01}LargeImage')
+						offer_price = item.find('{http://webservices.amazon.com/AWSECommerceService/2011-08-01}OfferSummary')
+						item_attributes = item.find('{http://webservices.amazon.com/AWSECommerceService/2011-08-01}ItemAttributes')
+						mrp = item_attributes.find('{http://webservices.amazon.com/AWSECommerceService/2011-08-01}ListPrice')
+						mrp_amount = mrp.find('{http://webservices.amazon.com/AWSECommerceService/2011-08-01}Amount')
+						LowestNewPrice = offer_price.find('{http://webservices.amazon.com/AWSECommerceService/2011-08-01}LowestNewPrice')
+						try:
+							list_price = LowestNewPrice.find('{http://webservices.amazon.com/AWSECommerceService/2011-08-01}Amount')
+						except Exception:
+							list_price = None
+						if img is not None:
+							large_img_url = img.find('{http://webservices.amazon.com/AWSECommerceService/2011-08-01}URL').text
+						else:
+							img_sets = item.find('{http://webservices.amazon.com/AWSECommerceService/2011-08-01}ImageSets')
+							img_set = img_sets.find('{http://webservices.amazon.com/AWSECommerceService/2011-08-01}ImageSet')
+							large = img_set.find('{http://webservices.amazon.com/AWSECommerceService/2011-08-01}LargeImage')
+							t_img = large.find('{http://webservices.amazon.com/AWSECommerceService/2011-08-01}URL')
+							# print
+							# for img_set in img_sets:
+							# 	for c in img_set:
+							# 		for cc in c:
+							# 			pass
+							# 			# print cc
+							large_img_url = t_img.text
+						# print img
+						for sub_item in item:
+							title = sub_item.find('{http://webservices.amazon.com/AWSECommerceService/2011-08-01}Title')
+							# list_price = sub_item.find('{http://webservices.amazon.com/AWSECommerceService/2011-08-01}ListPrice')
+							if title is not None and list_price is not None:
+								price = int(list_price.text)/100
+								mrp = int(mrp_amount.text)/100
+								print price,"\t====>\t",title.text
+								# amazon_set.append({'p_id':asin.text,'title':title.text,'price':price,'mrp':mrp,'url':product_url.text,'img_url':large_img_url,'seller':'amazon'})
+					except Exception:
+						print "\nStatus: fetch Error"
+				# print "amazon product count:",len(amazon_set)
+			else:
+				print "invalid Response"
+		except Exception:
+			print "\nStatus:Error"
 	return render(request, 'product/index.html')
