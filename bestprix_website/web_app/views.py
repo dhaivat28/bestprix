@@ -204,7 +204,7 @@ def search(request):
 		# 	print sorted_product_set[i]["price"]," => ",sorted_product_set[i]["title"]," => ",sorted_product_set[i]["seller"]
 		# for p in sorted_product_set:
 		# 	print p["price"],'===>',p["seller"]
-		context = {'key':key,'amazon_set':amazon_set,'flipkart_set':flipkart_set}
+		context = {'key':key,'product_set':sorted_product_set}
 		return render(request, 'search/index.html',context)
 		# return HttpResponse(flipkart_r.text,content_type="application/json")
 	else:
