@@ -273,7 +273,7 @@ def amazon_callby_id(p_id):
 							mrp = int(mrp_amount.text)/100
 							print price,"\t====>\t",title.text
 							# amazon_set.append({'p_id':asin.text,'title':title.text,'price':price,'mrp':mrp,'url':product_url.text,'img_url':large_img_url,'seller':'amazon'})
-
+							amazon_product = {'p_id':asin.text,'title':title.text,'price':price,'mrp':mrp,'url':product_url.text,'img_url':large_img_url,'seller':'amazon'}
 				except Exception:
 					print "\nStatus: fetch Error"
 			# print "amazon product count:",len(amazon_set)
@@ -282,11 +282,14 @@ def amazon_callby_id(p_id):
 	except Exception:
 		print "\nStatus:Error"
 
+	return amazon_product
+
 def product(request):
 	if request.method == 'GET':
 		p_id = request.GET['p_id']
 		seller = request.GET['seller']
 		print p_id,seller
 	if seller == 'amazon':
-		amazon_callby_id(p_id)
+		amazon = amazon_callby_id(p_id)
+		flipkart = flipkart_possible_product(amazon['title'])
 	return render(request, 'product/index.html')
