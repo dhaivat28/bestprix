@@ -89,10 +89,11 @@ def amazon_callby_keyword(key):
 							mrp = int(mrp_amount.text)/100
 							# print price,"\t====>\t",title.text
 							amazon_set.append({'p_id':asin.text,'title':title.text,'price':price,'mrp':mrp,'url':product_url.text,'img_url':large_img_url,'seller':'amazon'})
-					return amazon_set
+
 				except Exception:
 					print "\nStatus: fetch Error"
 			print "amazon product count:",len(amazon_set)
+			return amazon_set
 		else:
 			print "invalid Response"
 	except Exception:
