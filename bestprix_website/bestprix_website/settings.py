@@ -32,6 +32,7 @@ ALLOWED_HOSTS = ['127.0.0.1','192.168.1.100',]
 
 INSTALLED_APPS = [
 	'web_app.apps.WebAppConfig',
+	'django.contrib.humanize',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
@@ -118,7 +119,7 @@ USE_L10N = True
 
 USE_TZ = True
 
-
+USE_THOUSAND_SEPARATOR = True
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/1.10/howto/static-files/
 

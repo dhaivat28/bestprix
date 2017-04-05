@@ -269,22 +269,20 @@
 																<div class="row">
 																	<div class="col-lg-4">
 																		<div class="bx-1">
-																		<img class="store-ecom-img" src="{% static 'images/sites/a.png' %}
-																		"/>
+																		<img class="store-ecom-img" src="{% static 'images/sites/a.png' %}"/>
 																		</div>
 																	</div>
-
+																	{% load l10n %}
 																	<div class="col-lg-4">
 																		<div class="bx-2">
-																			<h30><strike>₹ 15,500</strike></h30><BR />
-																			<h28>₹ 13,500</h28>
+																			<h30><strike>₹&nbsp;{{ product.mrp }}</strike></h30><BR />
+																			<h28>₹&nbsp;{{ product.price }}</h28>
 																		</div>
 																	</div>
 
 																	<div class="col-lg-4">
 																		<div class="bx-3">
-																			<a id="go-to" href="#">
-Go To Store ></a> 														</div>
+																			<a id="go-to" href="{{ product.url }}">Go To Store</a> 														</div>
 																	</div>
 
 																</div>
@@ -297,22 +295,20 @@ Go To Store ></a> 														</div>
 																<div class="row">
 																	<div class="col-lg-4">
 																		<div class="bx-1">
-																		<img class="store-ecom-img" src="{% static 'images/sites/f.jpg' %}
-																		"/>
+																		<img class="store-ecom-img" src="{% static 'images/sites/f.jpg' %}"/>
 																		</div>
 																	</div>
 
 																	<div class="col-lg-4">
 																		<div class="bx-2">
-																			<h30><strike>₹ 8,500</strike></h30><BR />
-																			<h28>₹ 5,500</h28>
+																			<h30><strike>₹ {{ match.product.mrp}}</strike></h30><BR />
+																			<h28>₹ {{ match.product.price}}</h28>
 																		</div>
 																	</div>
 
 																	<div class="col-lg-4">
 																		<div class="bx-3">
-																		<a id="go-to" href="#">
-Go To Store ></a> 														</div>
+																		<a id="go-to" href="{{ match.product.url }}">Go To Store</a> 														</div>
 																	</div>
 
 																</div>
