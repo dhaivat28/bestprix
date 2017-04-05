@@ -274,13 +274,14 @@ def flipkart_callby_id(p_id):
 		print "\nStatus:Error"
 
 def find_match(key,p_list):
-	super_set = (key['title'].replace('(','').replace(')','').replace(',','').replace('-','')).split(' ')
+	# print key['title'].replace(' GB','GB')
+	super_set = (key['title'].replace('(','').replace(')','').replace(',','').replace('-','').replace(' GB','GB')).split(' ')
 	mpm = len(super_set) #maximum possible match score
 	cm_set=[]
 	matched_product = None
 	for p in p_list:
 		c_title = p['title']
-		c_set = (c_title.replace('(','').replace(')','').replace(',','').replace('-','')).split(' ')
+		c_set = (c_title.replace('(','').replace(')','').replace(',','').replace('-','').replace(' GB','GB')).split(' ')
 		cm=0 #current match
 		for Keyword in c_set:
 			if Keyword in super_set:

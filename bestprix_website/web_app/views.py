@@ -111,7 +111,7 @@ def product(request):
 			print "match\t===>\t",match['product']['title'],"\t match:",match['match_score']
 		elif seller == 'flipkart':
 			flipkart = api.flipkart_callby_id(p_id)
-			print flipkart['title']
+			# print flipkart['title']
 			amazon = api.amazon_callby_keyword(key)
 			match = api.find_match(flipkart,amazon)
 			print "match\t===>\t",match['product']['title'],"\t match:",match['match_score']
