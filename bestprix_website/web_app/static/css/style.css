@@ -1544,12 +1544,12 @@ transition: all ease 0.8s;
 }
 
 
-#final-product-showcase-right {
+.final-product-showcase-right {
 	border-left:1px solid #e3e3e3;
 	padding-left: 15px;
 	padding-right: 15px;
 	padding-top: 15px;
-	height:400px;
+	padding-bottom: 35px;
 }
 
 .review-box {
