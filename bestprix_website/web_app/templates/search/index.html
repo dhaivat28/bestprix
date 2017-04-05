@@ -249,7 +249,7 @@
 												<div class="product-one-img-box">
 													<div class="row">
 														<div class="col-lg-12">
-														<a href="#"><img src="{{ item.img_url }}" alt=""></a>
+														<a href="{% url 'product' %}?key={{ key }}&p_id={{ item.p_id }}&seller={{ item.seller }}"><img src="{{ item.img_url }}" alt=""></a>
 														</div>
 													</div>
 												</div>
@@ -258,7 +258,7 @@
 													<div class="row">
 														<div class="col-lg-12">
 															<div class="prod-title">
-																<a  id="product-one-link" title="{{ item.title }}" href="#">{{ item.title }}</a>
+																<a  id="product-one-link" title="{{ item.title }}" href="{% url 'product' %}?key={{ key }}&p_id={{ item.p_id }}&seller={{ item.seller }}">{{ item.title }}</a>
 															</div>
 														</div>
 													</div>
@@ -268,7 +268,7 @@
 												<div class="product-one-title">
 													<div class="row">
 															<div class="col-lg-12">
-																<h31><span>₹</span> 10,190</h31>
+																<h31>₹&nbsp;{{ item.price }}</h31>
 															</div>
 													</div>
 												</div>
