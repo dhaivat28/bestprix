@@ -102,35 +102,39 @@ def product(request):
 		p_id = request.GET['p_id']
 		seller = request.GET['seller']
 		key = request.GET['key']
-		print p_id,seller
-	if seller == 'amazon':
-		amazon = api.amazon_callby_id(p_id)
-		# print amazon['title']
-		flipkart = api.flipkart_callby_keyword(key)
-		super_set = (amazon['title'].replace('(','').replace(')','').replace(',','').replace('-','')).split(' ')
-		mpm = len(super_set) #maximum possible match score
-		cm_set=[]
-		matched_product = None
-		for p in flipkart:
-			c_title = p['title']
-			c_set = (c_title.replace('(','').replace(')','').replace(',','').replace('-','')).split(' ')
-			cm=0 #current match
-			for Keyword in c_set:
-				if Keyword in super_set:
-					cm+=1
+		print '\n',p_id,seller,'\n'
+		if seller == 'amazon':
+			amazon = api.amazon_callby_id(p_id)
+			# print amazon['title']
+			flipkart = api.flipkart_callby_keyword(key)
+			super_set = (amazon['title'].replace('(','').replace(')','').replace(',','').replace('-','')).split(' ')
+			mpm = len(super_set) #maximum possible match score
+			cm_set=[]
+			matched_product = None
+			for p in flipkart:
+				c_title = p['title']
+				c_set = (c_title.replace('(','').replace(')','').replace(',','').replace('-','')).split(' ')
+				cm=0 #current match
+				for Keyword in c_set:
+					if Keyword in super_set:
+						cm+=1
 
-			if cm>mpm/3:
-				x=float(cm)*100/float(len(c_set))
-				match_score = float("{0:.2f}".format(x))
-				cm_set.append({'match_score':match_score,'product':p})
-				print "match score:",match_score,'\ttitle:',c_title,'\tmatch:',cm
+				if cm>mpm/3:
+					x=float(cm)*100/float(len(c_set))
+					match_score = float("{0:.2f}".format(x))
+					cm_set.append({'match_score':match_score,'product':p})
+					print "match score:",match_score,'\ttitle:',c_title,'\tmatch:',cm
 
-		cm_set = sorted(cm_set, key=lambda k: k['match_score'],reverse=True)
-		print "\n"
-		try:
-			matched_product = cm_set[0]
-			print "match\t===>\t",cm_set[0]['product']['title'],"\t match:",cm_set[0]['match_score']
-		except Exception:
-			print "match\t===>\tNone"
-
-	return render(request, 'product/index.html')
+			cm_set = sorted(cm_set, key=lambda k: k['match_score'],reverse=True)
+			print "\n"
+			try:
+				matched_product = cm_set[0]
+				print "match\t===>\t",cm_set[0]['product']['title'],"\t match:",cm_set[0]['match_score']
+			except Exception:
+				print "match\t===>\tNone"
+		elif seller == 'flipkart':
+			flipkart = api.flipkart_callby_id(p_id)
+			print flipkart['title']
+		return render(request, 'product/index.html')
+	else:
+		return HttpResponse('Error')
