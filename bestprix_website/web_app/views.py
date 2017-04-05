@@ -103,18 +103,28 @@ def product(request):
 		seller = request.GET['seller']
 		key = request.GET['key']
 		print '\n',p_id,seller,'\n'
+		product = None
+		match = None
 		if seller == 'amazon':
-			amazon = api.amazon_callby_id(p_id)
+			product = api.amazon_callby_id(p_id)
 			# print amazon['title']
-			flipkart = api.flipkart_callby_keyword(key)
-			match = api.find_match(amazon,flipkart)
-			print "match\t===>\t",match['product']['title'],"\t match:",match['match_score']
+			match = api.flipkart_callby_keyword(key)
+			match = api.find_match(product,match)
+			print "match:",match['match_score']
+			print "\nproduct  ===> ",product['price'],product['title']
+			print "match    ===> ",match['product']['price'],match['product']['title']
 		elif seller == 'flipkart':
-			flipkart = api.flipkart_callby_id(p_id)
+			product = api.flipkart_callby_id(p_id)
 			# print flipkart['title']
-			amazon = api.amazon_callby_keyword(key)
-			match = api.find_match(flipkart,amazon)
-			print "match\t===>\t",match['product']['title'],"\t match:",match['match_score']
-		return render(request, 'product/index.html')
+			match = api.amazon_callby_keyword(key)
+			match = api.find_match(product,match)
+			print "match:",match['match_score']
+			print "\nproduct  ===> ",product['price'],product['title']
+			print "match    ===> ",match['product']['price'],match['product']['title']
+		if product is not None and match is not None:
+			context={'product':product,'match':match}
+			return render(request, 'product/index.html',context)
+		else:
+			return HttpResponse('Error')
 	else:
 		return HttpResponse('Error')
