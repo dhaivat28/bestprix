@@ -66,6 +66,7 @@ def amazon_callby_keyword(key):
 						list_price = LowestNewPrice.find('{http://webservices.amazon.com/AWSECommerceService/2011-08-01}Amount')
 					except Exception:
 						list_price = None
+						print "\nError: price is None","\tASIN: ",asin.text,"\n"
 					if img is not None:
 						large_img_url = img.find('{http://webservices.amazon.com/AWSECommerceService/2011-08-01}URL').text
 					else:
@@ -87,7 +88,7 @@ def amazon_callby_keyword(key):
 						if title is not None and list_price is not None:
 							price = int(list_price.text)/100
 							mrp = int(mrp_amount.text)/100
-							# print price,"\t====>\t",title.text
+							print price,"\t====>\t",title.text
 							amazon_set.append({'p_id':asin.text,'title':title.text,'price':price,'mrp':mrp,'url':product_url.text,'img_url':large_img_url,'seller':'amazon'})
 
 				except Exception:
@@ -138,7 +139,7 @@ def flipkart_callby_keyword(key):
 						img = t_img[keys[0]]
 					#print title,"---->",img
 					flipkart_set.append({'p_id':p_id,'title':str(title),'price':int(price),'mrp':int(mrp),'url':product_url,'img_url':str(img),'seller':'flipkart'})
-					# print "INR",jsonResponse["productInfoList"][i]["productBaseInfo"]["productAttributes"]["sellingPrice"]["amount"],"\t====>\t",jsonResponse["productInfoList"][i]["productBaseInfo"]["productAttributes"]["title"]
+					print int(price),"\t====>\t",title
 				except Exception:
 					print "\nStatus:fetch Error in product-->",i
 			print "flipkart product count:",len(flipkart_set)
@@ -216,8 +217,8 @@ def amazon_callby_id(p_id):
 				except Exception:
 					print "\nStatus: fetch Error"
 			# print "amazon product count:",len(amazon_set)
+			return amazon_product
 		else:
 			print "invalid Response"
 	except Exception:
 		print "\nStatus:Error"
-	return amazon_product
