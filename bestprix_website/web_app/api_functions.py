@@ -224,3 +224,51 @@ def amazon_callby_id(p_id):
 			print "invalid Response"
 	except Exception:
 		print "\nStatus:Error"
+
+def flipkart_callby_id(p_id):
+	flipkart_aff_id='viraj2196'
+	flipkart_token='c3636ff662bb4e6d9143a0b54df41c61'
+	headers = {
+	'Fk-Affiliate-Id': flipkart_aff_id,
+	'Fk-Affiliate-Token' : flipkart_token,
+	}
+	flipkart_request_url='https://affiliate-api.flipkart.net/affiliate/product/json?id='+p_id
+	print '\nBEGIN REQUEST====FLIPKART=====>'
+	print '\nRequest URL = ' + flipkart_request_url
+	try:
+		flipkart_r = requests.get(flipkart_request_url, headers=headers)
+		print '\nFLIPKART===>Response code: %d\n' % flipkart_r.status_code
+	except Exception:
+		print "\nStatus:Error sending request"
+	try:
+		if flipkart_r.status_code is 200:
+			jsonResponse=json.loads(flipkart_r.text)
+			# for p in jsonResponse["productInfoList"]:
+			# 	print p
+			# title = jsonResponse["productInfoList"][0]["productBaseInfo"]["productAttributes"]["title"]
+			# print title
+			# return render(request, 'search/index.html')
+			# print jsonResponse
+			try:
+				p_id = jsonResponse["productBaseInfo"]["productIdentifier"]["productId"]
+				price = jsonResponse["productBaseInfo"]["productAttributes"]["sellingPrice"]["amount"]
+				mrp = jsonResponse["productBaseInfo"]["productAttributes"]["maximumRetailPrice"]["amount"]
+				title = jsonResponse["productBaseInfo"]["productAttributes"]["title"]
+				product_url = jsonResponse["productBaseInfo"]["productAttributes"]["productUrl"]
+				try:
+					img = jsonResponse["productBaseInfo"]["productAttributes"]["imageUrls"]["400x400"]
+				except:
+					t_img = jsonResponse["productBaseInfo"]["productAttributes"]["imageUrls"]
+					keys = t_img.keys()
+					img = t_img[keys[0]]
+				#print title,"---->",img
+				print int(price),"\t====>\t",title
+				return {'p_id':p_id,'title':str(title),'price':int(price),'mrp':int(mrp),'url':product_url,'img_url':str(img),'seller':'flipkart'}
+			except Exception:
+				print "\nStatus:fetch Error"
+			print "_____________________________________________________________________________________________________________"
+			print "\n"
+		else:
+			print "invalid Response"
+	except Exception:
+		print "\nStatus:Error"
