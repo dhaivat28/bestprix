@@ -195,11 +195,11 @@ h27 {
 
 	font-family:'Open Sans', sans-serif;
 	color: #333;
-	font-size: 30px;
+	font-size: 20px;
 }
 
 h28 {
-	color:#3d6a8c;
+	color:#3498DB;
 	font-size: 22px;
     font-weight: 700;
 	text-align: center;
@@ -207,11 +207,21 @@ font-family: 'Open Sans', sans-serif;
 }
 
 h29 {
-	font-size: 18px;
+font-size: 18px;
 font-family: 'Open Sans', sans-serif;
 padding-bottom: 14px;
 line-height: 1.1;
 box-sizing: border-box;
+}
+
+
+h30 {
+font-size: 15px;
+font-family: 'Open Sans', sans-serif;
+box-sizing: border-box;
+font-weight: bold;
+line-height: 1.25;
+color: #566573;
 }
 
 #sites {
@@ -1524,11 +1534,13 @@ transition: all ease 0.8s;
 
 .final-product-showcase-left {
 	text-align: center;
+	padding-top: 25px;
 
 }
 
 .final-product-showcase-left img {
-	max-width: 250px;
+	max-width: 200px;
+	max-height: 300px;
 }
 
 
@@ -1536,6 +1548,7 @@ transition: all ease 0.8s;
 	border-left:1px solid #e3e3e3;
 	padding-left: 15px;
 	padding-right: 15px;
+	padding-top: 15px;
 	height:400px;
 }
 
@@ -1550,6 +1563,7 @@ transition: all ease 0.8s;
 .store-ecom {
 	border: 1px solid #e3e3e3;
 	padding: 15px;
+	margin-bottom: 20px;
 }
 
 .store-ecom-img {
@@ -1948,6 +1962,43 @@ transition: all 0.2s linear 0s;
 	-o-transition: all 0.2s linear 0s;
 	transition: all 0.2s linear 0s;
 	border-radius: 2px;
+}
+
+
+#go-to {
+	margin-top: 10px;
+	background:#3498DB;
+	color: #fff;
+	padding: 6px 12px;
+	font-size: 13px;
+	text-align: center;
+	border: none;
+	-webkit-transition: all 0.2s linear 0s;
+	-moz-transition: all 0.2s linear 0s;
+	-ms-transition: all 0.2s linear 0s;
+	-o-transition: all 0.2s linear 0s;
+	transition: all 0.2s linear 0s;
+	border-radius: 2px;
+	text-decoration: none;
+}
+
+#go-to:hover {
+	margin-top: 10px;
+	background:#3498DB;
+	color: #fff;
+	padding: 6px 12px;
+	font-size: 13px;
+	text-align: center;
+	border: none;
+	cursor: pointer;
+	-webkit-transition: all 0.2s linear 0s;
+	-moz-transition: all 0.2s linear 0s;
+	-ms-transition: all 0.2s linear 0s;
+	-o-transition: all 0.2s linear 0s;
+	transition: all 0.2s linear 0s;
+	border-radius: 2px;
+	text-decoration: none;
+
 }
 
 
