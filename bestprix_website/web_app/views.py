@@ -89,7 +89,7 @@ def search(request):
 		# 	print sorted_product_set[i]["price"]," => ",sorted_product_set[i]["title"]," => ",sorted_product_set[i]["seller"]
 		print "Final list:\n"
 		for p in sorted_product_set:
-			print p["price"],'\t====>\t',p["seller"],'    \t===>\t',p["title"]
+			print p["price"],'\t====>\t',p["seller"],'\t===>\t',p["title"]
 		print "\n"
 		context = {'key':key,'product_set':sorted_product_set}
 		return render(request, 'search/index.html',context)
