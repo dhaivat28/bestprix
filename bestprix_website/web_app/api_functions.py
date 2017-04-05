@@ -93,7 +93,8 @@ def amazon_callby_keyword(key):
 
 				except Exception:
 					print "\nStatus: fetch Error"
-			print "amazon product count:",len(amazon_set)
+			print "\namazon product count:",len(amazon_set)
+			print "_____________________________________________________________________________________________________________"
 			return amazon_set
 		else:
 			print "invalid Response"
@@ -142,7 +143,8 @@ def flipkart_callby_keyword(key):
 					print int(price),"\t====>\t",title
 				except Exception:
 					print "\nStatus:fetch Error in product-->",i
-			print "flipkart product count:",len(flipkart_set)
+			print "\nflipkart product count:",len(flipkart_set)
+			print "_____________________________________________________________________________________________________________"
 			print "\n"
 			return flipkart_set
 		else:

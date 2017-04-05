@@ -80,7 +80,6 @@ def search(request):
 	if key.strip():
 		amazon_set = api.amazon_callby_keyword(key)
 		#flipkart block====================================================================================================>
-		print "_____________________________________________________________________________________________________________"
 		flipkart_set = api.flipkart_callby_keyword(key)
 		product_set = amazon_set + flipkart_set
 		# for i in range(len(product_set)):
@@ -88,8 +87,10 @@ def search(request):
 		sorted_product_set = sorted(product_set, key=lambda k: k['title'])
 		# for i in range(len(sorted_product_set)):
 		# 	print sorted_product_set[i]["price"]," => ",sorted_product_set[i]["title"]," => ",sorted_product_set[i]["seller"]
+		print "Final list:\n"
 		for p in sorted_product_set:
 			print p["price"],'\t====>\t',p["seller"],'    \t===>\t',p["title"]
+		print "\n"
 		context = {'key':key,'product_set':sorted_product_set}
 		return render(request, 'search/index.html',context)
 		# return HttpResponse(flipkart_r.text,content_type="application/json")
