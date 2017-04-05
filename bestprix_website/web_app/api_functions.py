@@ -272,3 +272,29 @@ def flipkart_callby_id(p_id):
 			print "invalid Response"
 	except Exception:
 		print "\nStatus:Error"
+
+def find_match(key,p_list):
+	super_set = (key['title'].replace('(','').replace(')','').replace(',','').replace('-','')).split(' ')
+	mpm = len(super_set) #maximum possible match score
+	cm_set=[]
+	matched_product = None
+	for p in p_list:
+		c_title = p['title']
+		c_set = (c_title.replace('(','').replace(')','').replace(',','').replace('-','')).split(' ')
+		cm=0 #current match
+		for Keyword in c_set:
+			if Keyword in super_set:
+				cm+=1
+		if cm>mpm/3:
+			x=float(cm)*100/float(len(c_set))
+			match_score = float("{0:.2f}".format(x))
+			cm_set.append({'match_score':match_score,'product':p})
+			print "match score:",match_score,'\ttitle:',c_title,'\tmatch:',cm
+
+	cm_set = sorted(cm_set, key=lambda k: k['match_score'],reverse=True)
+	print "\n"
+	try:
+		matched_product = cm_set[0]
+		return matched_product
+	except Exception:
+		print "match\t===>\tNone"
