@@ -85,11 +85,11 @@ def search(request):
 		product_set = amazon_set + flipkart_set
 		# for i in range(len(product_set)):
 		# 	print product_set[i]["price"]," => ",product_set[i]["title"]," => ",product_set[i]["seller"]
-		sorted_product_set = sorted(product_set, key=lambda k: k['price'],reverse=True)
+		sorted_product_set = sorted(product_set, key=lambda k: k['title'])
 		# for i in range(len(sorted_product_set)):
 		# 	print sorted_product_set[i]["price"]," => ",sorted_product_set[i]["title"]," => ",sorted_product_set[i]["seller"]
-		# for p in sorted_product_set:
-		# 	print p["price"],'===>',p["seller"]
+		for p in sorted_product_set:
+			print p["price"],'\t====>\t',p["seller"],'    \t===>\t',p["title"]
 		context = {'key':key,'product_set':sorted_product_set}
 		return render(request, 'search/index.html',context)
 		# return HttpResponse(flipkart_r.text,content_type="application/json")
@@ -100,10 +100,14 @@ def product(request):
 	if request.method == 'GET':
 		p_id = request.GET['p_id']
 		seller = request.GET['seller']
+		key = request.GET['key']
 		print p_id,seller
 	if seller == 'amazon':
 		amazon = api.amazon_callby_id(p_id)
 		print amazon['title']
-		flipkart = api.flipkart_callby_keyword(amazon['title'])
-		print flipkart
+		flipkart = api.flipkart_callby_keyword(key)
+
+		for p in flipkart:
+			print p['title']
+
 	return render(request, 'product/index.html')
