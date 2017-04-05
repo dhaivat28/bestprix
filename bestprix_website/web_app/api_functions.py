@@ -299,3 +299,4 @@ def find_match(key,p_list):
 		return matched_product
 	except Exception:
 		print "match\t===>\tNone"
+		return None

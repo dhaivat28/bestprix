@@ -106,25 +106,38 @@ def product(request):
 		product = None
 		match = None
 		if seller == 'amazon':
-			product = api.amazon_callby_id(p_id)
+			try:
+				product = api.amazon_callby_id(p_id)
+			except Exception:
+				print "Status: Error in amazon API call"
 			# print amazon['title']
-			match = api.flipkart_callby_keyword(key)
+			try:
+				match = api.flipkart_callby_keyword(key)
+			except Exception:
+				print "Status: Error in flipkart API call"
 			match = api.find_match(product,match)
-			print "match:",match['match_score']
-			print "\nproduct  ===> ",product['price'],product['title']
-			print "match    ===> ",match['product']['price'],match['product']['title']
+			if match is not None:
+				print "match:",match['match_score']
+				print "\nproduct  ===> ",product['price'],product['title']
+				print "match    ===> ",match['product']['price'],match['product']['title']
 		elif seller == 'flipkart':
-			product = api.flipkart_callby_id(p_id)
+			try:
+				product = api.flipkart_callby_id(p_id)
+			except Exception:
+				print "Status: Error in flipkart API call"
 			# print flipkart['title']
-			match = api.amazon_callby_keyword(key)
+			try:
+				match = api.amazon_callby_keyword(key)
+			except Exception:
+				print "Status: Error in amazon API call"
 			match = api.find_match(product,match)
-			print "match:",match['match_score']
-			print "\nproduct  ===> ",product['price'],product['title']
-			print "match    ===> ",match['product']['price'],match['product']['title']
-		if product is not None and match is not None:
-			context={'product':product,'match':match}
-			return render(request, 'product/index.html',context)
-		else:
-			return HttpResponse('Error')
+			if match is not None:
+				print "match:",match['match_score']
+				print "\nproduct  ===> ",product['price'],product['title']
+				print "match    ===> ",match['product']['price'],match['product']['title']
+
+		context={'product':product,'match':match}
+		return render(request, 'product/index.html',context)
+		# return HttpResponse('Error no match found')
 	else:
 		return HttpResponse('Error')
