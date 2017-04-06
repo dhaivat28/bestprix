@@ -27,28 +27,27 @@
 	$('.slider').sss();
 	});
 	</script>
-	<!-- End for Slider
+	<!-- End for Slider -->
 
-	<script src="js/jquery.tabSlideOut.v1.3.js"></script>
+	<script src="{% static 'js/jquery.tabSlideOut.v1.3.js' %}"></script>
 
-		<script>
-		$(function(){
-			 $('.slide-out-div').tabSlideOut({
-				 tabHandle: '.handle',                              //class of the element that will be your tab
-				 pathToTabImage: 'images/contact_tab.gif',          //path to the image for the tab (optionaly can be set using css)
-				 imageHeight: '122px',                               //height of tab image
-				 imageWidth: '40px',                               //width of tab image
-				 tabLocation: 'left',                               //side of screen where tab lives, top, right, bottom, or left
-				 speed: 300,                                        //speed of animation
-				 action: 'click',                                   //options: 'click' or 'hover', action to trigger animation
-				 topPos: '200px',                                   //position from the top
-				 fixedPosition: false                               //options: true makes it stick(fixed position) on scroll
-			 });
+	<script>
+	 $(function(){
+		 $('.slide-out-div').tabSlideOut({
+			 tabHandle: '.handle',                              //class of the element that will be your tab
+			 pathToTabImage: '{% static "images/new.png" %}',          //path to the image for the tab *required*
+			 imageHeight: '180px',                               //height of tab image *required*
+			 imageWidth: '40px',                               //width of tab image *required*
+			 tabLocation: 'right',                               //side of screen where tab lives, top, right, bottom, or left
+			 speed: 300,                                        //speed of animation
+			 action: 'click',                                   //options: 'click' or 'hover', action to trigger animation
+			 topPos: '200px',                                   //position from the top
+			 fixedPosition: false,                               //options: true makes it stick(fixed position) on scroll
+			 onLoadSlideOut: true
 		 });
-		 </script>  ---------->
+	 });
 
-
-
+	 </script>
 
 
 	<script>
@@ -60,23 +59,6 @@
 	});
 	});
 	</script>
-	<script>
-		$( function() {
-			$( "#slider-range" ).slider({
-			range: true,
-			min: 0,
-			max: 500,
-			values: [ 75, 300 ],
-			slide: function( event, ui ) {
-				$( "#amount" ).val( "$" + ui.values[ 0 ] + " - $" + ui.values[ 1 ] );
-			}
-			});
-			$( "#amount" ).val( "$" + $( "#slider-range" ).slider( "values", 0 ) + " - $" + $( "#slider-range" ).slider( "values", 1 ) );
-		} );
-	</script>
-		<link rel="stylesheet" href="{% static 'css/price_slider.css' %}" rel="stylesheet">
-		<script src="https://code.jquery.com/jquery-1.12.4.js"></script>
-		<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
 
 </head>
 
@@ -262,6 +244,7 @@
 											</div>
 											</div>
 
+
 											<div class="col-lg-12">
 												<div class="row">
 													<div class="col-lg-12 col-md-12 col-sm-12">
@@ -325,7 +308,6 @@
 													{% endif %}
 												</div>
 											</div>
-
 
 											<!-- <img class="store-box-img" src="{% static 'images/sites/a.png' %}
 "/> -->
@@ -467,12 +449,19 @@
 			</div>
 		</div>
 	</div>
-	<!--	<div class="slide-out-div">
-		<a class="handle" href="#">Content</a>
-		<h3>Contact Us</h3>
-		<a href="mailto:bestprix@bestprix.com">bestprix@bestprix.com</a><br /><br />
-		<p>Thanks for checking out our Website. I hope you find this useful.</p>
-		</div> -->
+
+	<div class="slide-out-div">
+               <a class="handle" href="http://link-for-non-js-users.html">Content</a>
+
+               <p>Feedback</p>
+               <p>Were the Search Results accurate ?</p>
+			   <form method="post" action="#">
+			  <input type="radio" name="gender" value="male" checked> Yes<br>
+			  <input type="radio" name="gender" value="female"> No<br><br>
+			  <button class="orange-btn">Submit</button>
+			  </form>
+           </div>
+
 
 	<script src="{% static 'js/owl.carousel.min.js' %}"></script>
 	<script src="{% static 'js/jquery.sticky.js' %}"></script>
