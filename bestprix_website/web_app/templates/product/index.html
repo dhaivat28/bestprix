@@ -37,8 +37,8 @@
 			 tabHandle: '.handle',                              //class of the element that will be your tab
 			 pathToTabImage: '{% static "images/new.png" %}',          //path to the image for the tab *required*
 			 imageHeight: '180px',                               //height of tab image *required*
-			 imageWidth: '40px',                               //width of tab image *required*
-			 tabLocation: 'right',                               //side of screen where tab lives, top, right, bottom, or left
+			 imageWidth: '28px',                               //width of tab image *required*
+			 tabLocation: 'left',                               //side of screen where tab lives, top, right, bottom, or left
 			 speed: 300,                                        //speed of animation
 			 action: 'click',                                   //options: 'click' or 'hover', action to trigger animation
 			 topPos: '200px',                                   //position from the top
@@ -148,75 +148,8 @@
 
 		<div class="row">
 
-			<div class="col-lg-3">
-				<div class="sort-filter">
-					<div class="sort-filter-title">
-						<h13>SHOP BY</h13>
-					</div>
-					<div class="sort-filter-body">
-							<!-- <select>
-							<option value="volvo">Popularity</option>
-							<option value="saab">Low to High Price</option>
-							<option value="mercedes">High To Low Price</option>
-						</select> -->
-						<h25>Category</h25>
-						<ul>
-							<li>Camera</li>
-							<li>Desktop</li>
-							<li>Office</li>
-							<li>Camera</li>
-							<li>Desktop</li>
-							<li>Office</li>
-							<li>Kids</li>
-						</ul>
-						<br />
-					</div>
-				</div>
 
-				<div class="sort-filter">
-					<div class="sort-filter-title">
-						<h13>SORT BY</h13>
-					</div>
-					<div class="sort-filter-body">
-						<select class="sort-by">
-							<option value="volvo">Popularity</option>
-							<option value="saab">Low to High Price</option>
-							<option value="mercedes">High To Low Price</option>
-						</select>
-
-						<br /><br />
-
-						<p>
-							<label for="amount">Price range:</label>
-							<input type="text" id="amount" readonly style="border:0; color:#f6931f; font-weight:bold;">
-						</p>
-
-						<div id="slider-range"></div>
-						<br /><br />
-					</div>
-				</div>
-
-				<div class="product-tags">
-					<div class="product-tags-title">
-							<h13>PRODUCT TAGS</h13>
-					</div>
-					<div class="product-tags-body">
-						<a href="#" class="product-tags-body-single">Footwear</a>
-						<a href="#" class="product-tags-body-single">Furniture</a>
-						<a href="#" class="product-tags-body-single">Smartphone</a>
-						<a href="#" class="product-tags-body-single">Toys</a>
-						<a href="#" class="product-tags-body-single">Footwear</a>
-						<a href="#" class="product-tags-body-single">Furniture</a>
-						<a href="#" class="product-tags-body-single">Smartphone</a>
-						<a href="#" class="product-tags-body-single">Toys</a>
-					</div>
-				</div>
-
-
-
-			</div>
-
-			<div class="col-lg-9">
+			<div class="col-lg-10">
 					<div class="row">
 						<div class="col-lg-12">
 
@@ -454,7 +387,7 @@
                <a class="handle" href="http://link-for-non-js-users.html">Content</a>
 
                <p>Feedback</p>
-               <p>Were the Search Results accurate ?</p>
+               <p>Was this Search Results accurate ?</p>
 			   <form method="post" action="#">
 			  <input type="radio" name="gender" value="male" checked> Yes<br>
 			  <input type="radio" name="gender" value="female"> No<br><br>
