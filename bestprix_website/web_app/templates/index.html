@@ -92,12 +92,18 @@
 			<div class="col-lg-3">
 				<div class="accounts">
 					<div class="row">
-						<div class="col-lg-6">
-							<a href="{% url 'login' %}">Login</a>
+						<div class="col-lg-2">
+							<div class="acc">
+									<img src="{% static 'images/person-icon.png' %}" />
+							</div>
 						</div>
+
 						<div class="col-lg-6">
-							<a href="{% url 'signup' %}">Sign Up!</a>
+							<div class="acc-links">
+								<a href="{% url 'login' %}">Login | Sign Up</a>
+							</div>
 						</div>
+
 					</div>
 				</div>
 			</div>

@@ -1317,7 +1317,7 @@ color: #e40046;
 	color:#909090;
 	 height:38px;
 	 background:white;
-	font-family:Roboto,Arial,sans-serif;
+	font-family:'Open Sans', sans-serif;
 }
 
 .top-bar {
@@ -2147,13 +2147,35 @@ transition: all 0.2s linear 0s;
 	opacity: 0.7;
 }
 
+.acc {
+	background: #ce003f;
+	height:40px;
+	width: 40px;
+	border-radius: 40px;
+	padding:7px 10px 10px 10px;
+	margin-top: 10px;
+}
+
+.acc img {
+	height: 19px;
+}
+
 .accounts  {
-	margin-top: 15px;
+padding-left: 15px;
+height: 66px;
+border-left: 1px solid #d40041;
 }
 
 .accounts a {
 	text-decoration: none;
 	color: white;
+	cursor: pointer;
+	font-family:'Open Sans', sans-serif;
+	font-size: 14px;
+}
+
+.acc-links {
+	padding-top: 19px;
 }
 
 
