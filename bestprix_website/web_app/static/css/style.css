@@ -203,7 +203,7 @@ h28 {
 	font-size: 22px;
     font-weight: 700;
 	text-align: center;
-font-family: 'Open Sans', sans-serif;
+	font-family: 'Open Sans', sans-serif;
 }
 
 h29 {
@@ -239,6 +239,40 @@ font-size: 14px;
 margin-right: -5px;
 }
 
+h32 {
+		font-family:'Open Sans', sans-serif;
+		color: #333;
+		float: left;
+		font-weight: 700;
+	    font-size: 14px;
+	    line-height: 30px;
+		cursor: pointer;
+}
+
+h33 {
+		font-family:'Open Sans', sans-serif;
+		color: #333;
+		float: left;
+		font-weight: 700;
+	    font-size: 14px;
+
+		cursor: pointer;
+}
+
+h33:hover {
+		font-family:'Open Sans', sans-serif;
+		color: #e40046;
+		float: left;
+		font-weight: 700;
+	    font-size: 14px;
+
+		cursor: pointer;
+}
+
+.spotlight {
+	padding-left: 15px;
+	padding-top: 5px;
+}
 
 #sites {
 width: 60px;
@@ -1356,6 +1390,24 @@ font-size:12px;
 	height:347px;
 	border:1px #e5e5e5 solid;
 	box-shadow: 0 2px 4px 0 rgba(0,0,0,.08);
+}
+
+.long-box-title {
+		background:#fff;
+		height:53px;
+		padding:15px 20px;
+		border-bottom:1px solid #e3e3e3;
+}
+
+.long-box-body {
+	padding-top: 5px;
+	padding-left: 15px;
+	padding-right: 15px;
+	text-align: center;
+}
+
+.long-box-body img{
+	width: 110px;
 }
 
 .suggestionsBox {
