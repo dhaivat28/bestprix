@@ -141,3 +141,6 @@ def product(request):
 		# return HttpResponse('Error no match found')
 	else:
 		return HttpResponse('Error')
+
+def wishlist(request):
+	return render(request,'wishlist/index.html')
