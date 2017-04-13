@@ -1,4 +1,4 @@
-from django.shortcuts import render
+from django.shortcuts import render,redirect
 from django.http import HttpResponse
 import time
 import urllib
@@ -20,7 +20,7 @@ def login(request):
 		user = user_detail.objects.get(email_id=request.POST['email'])
 		if user.password == request.POST['password']:
 			request.session['member_id'] = user.email_id
-			return HttpResponse("You're logged in.")
+			return HttpResponse("logged in.")
 		else:
 			return HttpResponse("Your username and password didn't match.")
 	else:
@@ -114,4 +114,8 @@ def wishlist(request):
 		p_id = request.GET['p_id']
 		seller = request.GET['seller']
 		print '\n',p_id,seller,'\n'
-	return render(request,'wishlist/index.html')
+		try:
+			if request.session['member_id'] is not None:
+				return render(request,'wishlist/index.html')
+		except Exception as e:
+			return render(request,'login/index.html')
