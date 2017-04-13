@@ -52,6 +52,23 @@
 			});
 		});
 	</script>
+
+	<script>
+	$(document).ready(
+	function() {
+        $(".status").mouseover(function() {
+            $(".status-body").fadeIn();
+
+        });
+		$('.status-body').mouseleave(function() {
+    	setTimeout(function () {
+        $('.status-body').fadeOut();
+    	}, 100);
+		});
+
+    	});
+	</script>
+
 </head>
 <body>
 	<div class="top-bar">
@@ -90,7 +107,29 @@
 				</div> <!--end of search -->
 			</div>
 			<div class="col-lg-3">
-				<div class="accounts">
+
+
+				<div class="status">
+					<div class="row">
+						<div class="col-lg-2">
+							<div class="st">
+									<img src="{% static 'images/person-icon.png' %}" />
+							</div>
+						</div>
+
+						<div class="col-lg-6">
+							<div class="st-links">
+								<a href="#">My Account</a>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="status-body">
+
+					dssd
+				</div>
+
+				<!-- <div class="accounts">
 					<div class="row">
 						<div class="col-lg-2">
 							<div class="acc">
@@ -103,9 +142,10 @@
 								<a href="{% url 'login' %}">Login | Sign Up</a>
 							</div>
 						</div>
-
 					</div>
-				</div>
+				</div> -->
+
+
 			</div>
 		</div><!-- end of row -->
 	</div> <!-- end of navigation div -->
