@@ -1669,8 +1669,64 @@ transition: all ease 0.8s;
 
 
 
+.wishbox {
+	background:#fff;
+	box-shadow: 0 2px 4px 0 rgba(0,0,0,.08);
+}
 
+.wishbox-title {
+	background:#fff;
+	height:53px;
+	padding:15px 20px;
+	border-bottom:1px solid #e3e3e3;
+}
 
+.wishbox-body {
+background: #fff;
+height: auto;
+padding: 15px 40px 15px 40px;
+}
+
+.wish-img {
+	max-width: 130px;
+	max-height: 130px;
+}
+
+.wish-desc {
+	padding-top: 20px;
+}
+
+.wish-link {
+font-family: 'Open Sans', sans-serif;
+font-size: 16px;
+color: #333;
+text-decoration: none;
+cursor: pointer;
+font-weight: 500;
+margin-bottom: 10px;
+}
+
+.wish-link:hover {
+font-weight: 500;
+color:#e40046;
+text-decoration: none;
+cursor: pointer;
+}
+
+.wish-img-box {
+	text-align: center;
+}
+
+.single-wish-item {
+	padding-bottom: 20px;
+	border-bottom: 1px solid #e3e3e3;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.wish-x {
+	padding-top: 40px;
+}
 /* --------------------------------------- final-product ---------------------------- */
 
 .final-product-showcase {
