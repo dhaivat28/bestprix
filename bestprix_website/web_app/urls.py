@@ -8,5 +8,5 @@ urlpatterns = [
 	url(r'^product',views.product, name='product'),
 	url(r'^login/$',views.login, name="login"),
 	url(r'^signup/$',views.signup, name='signup'),
-	url(r'^wishlist/$',views.wishlist, name='wishlist')
+	url(r'^wishlist',views.wishlist, name='wishlist')
 ]
