@@ -10,44 +10,19 @@ import lxml.etree
 import json
 import MySQLdb
 import api_functions as api
-
-def amazon_signed_request(region, params, public_key, private_key, associate_tag=None):
-	method = 'GET'
-	host = 'webservices.amazon.' + region
-	uri = '/onca/xml'
-	params['Service'] = 'AWSECommerceService'
-	params['AWSAccessKeyId'] = public_key
-	params['Timestamp'] = time.strftime('%Y-%m-%dT%H:%M:%SZ', time.gmtime())
-	if associate_tag:
-		params['AssociateTag'] = associate_tag
-	canonicalized_query = [urllib.quote(param).replace('%7E', '~') + '=' + urllib.quote(params[param]).replace('%7E', '~')
-	for param in sorted(params.keys())]
-	canonicalized_query = '&'.join(canonicalized_query)
-	string_to_sign = method + '\n' + host + '\n' + uri + '\n' + canonicalized_query;
-	signature = base64.b64encode(hmac.new(key=private_key, msg=string_to_sign, digestmod=hashlib.sha256).digest())
-	signature = urllib.quote(signature).replace('%7E', '~')
-	return 'http://' + host + uri + '?' + canonicalized_query + '&Signature=' + signature
+from .models import user_detail
 
 def index(request):
 	return render(request, 'index.html')
 
 def login(request):
 	if request.method == 'POST':
-		email = request.POST['email']
-		password = request.POST['pass']
-		db = MySQLdb.connect("localhost","root","root","bestprix_db" )
-		cursor = db.cursor()
-		sql = "SELECT * FROM web_app_user_detail WHERE email_id='%s' AND password='%s'" % (email,password)
-		flag = False
-		try:
-			cursor.execute(sql)
-			results = cursor.fetchall()
-			if results is not None:
-				flag=True
-		except Exception:
-			print "Error"
-		db.close()
-		return HttpResponse(flag)
+		user = user_detail.objects.get(email_id=request.POST['email'])
+		if user.password == request.POST['password']:
+			request.session['member_id'] = user.email_id
+			return HttpResponse("You're logged in.")
+		else:
+			return HttpResponse("Your username and password didn't match.")
 	else:
 		return render(request, 'login/index.html')
 
@@ -55,21 +30,13 @@ def signup(request):
 	if request.method == 'POST':
 		fname = request.POST['fname']
 		email = request.POST['email']
-		password = request.POST['pass']
+		u_password = request.POST['password']
 		sq = request.POST['sq']
 		sa = request.POST['sa']
-		db = MySQLdb.connect("localhost","root","root","bestprix_db" )
-		cursor = db.cursor()
-		sql = "INSERT INTO web_app_user_detail (id, email_id, name, password, s_q, s_a) VALUES (NULL, '%s', '%s', '%s', '%s', '%s')" % (email,fname,password,sq,sa)
-		flag = False
-		try:
-			cursor.execute(sql)
-			db.commit()
-			flag = True
-		except Exception:
-			db.rollback()
-		db.close()
-		return HttpResponse(flag)
+		user = user_detail(email_id=email,name=fname,password=u_password,s_q=sq,s_a=sa)
+		user.save()
+		request.session['member_id'] = email
+		return HttpResponse("succsesfull")
 	else:
 		return HttpResponse("error")
 
@@ -143,4 +110,8 @@ def product(request):
 		return HttpResponse('Error')
 
 def wishlist(request):
+	if request.method == 'GET':
+		p_id = request.GET['p_id']
+		seller = request.GET['seller']
+		print '\n',p_id,seller,'\n'
 	return render(request,'wishlist/index.html')
