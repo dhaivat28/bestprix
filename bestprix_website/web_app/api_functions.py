@@ -249,6 +249,7 @@ def flipkart_callby_id(p_id):
 			# print title
 			# return render(request, 'search/index.html')
 			# print jsonResponse
+			#------------------- flipkartSellingPrice >>https://affiliate.flipkart.com/api-docs/af_prod_ref.html#get-1-0-product-format
 			try:
 				p_id = jsonResponse["productBaseInfo"]["productIdentifier"]["productId"]
 				price = jsonResponse["productBaseInfo"]["productAttributes"]["sellingPrice"]["amount"]
