@@ -3,6 +3,7 @@ import MySQLdb
 import sys
 counter = 0
 updated_list = []
+none_count = 0
 # url_list=set()
 class snapdeal_update(scrapy.Spider):
 	name = "snapdeal_update"
@@ -25,6 +26,7 @@ class snapdeal_update(scrapy.Spider):
 	def db_queue(self, response):
 		global counter
 		global updated_list
+		global none_count
 		# //*[@id="soldOrDiscontPriceBox"]/div[2]/span/span
 		price = response.xpath('//*[@class="payBlkBig"]/text()').extract_first()
 		# price = response.xpath('//span[contains(@class, "payBlkBig")]/text()').extract()
@@ -40,7 +42,7 @@ class snapdeal_update(scrapy.Spider):
 			counter += 1
 			sys.stdout.write('\r')
 			# the exact output you're looking for:
-			sys.stdout.write("count:"+str(counter))
+			sys.stdout.write("count:"+str(counter)+"\t")
 			sys.stdout.flush()
 			# print "count==>",counter
 			# except Exception:
@@ -49,6 +51,7 @@ class snapdeal_update(scrapy.Spider):
 			updated_list.append({"price":price,"url":response.url})
 		else:
 			print "price ==>",price,"\n",response.url
+			none_count+=1
 
 	def parse(self, response):
 		if response.status is 200:
@@ -60,8 +63,11 @@ class snapdeal_update(scrapy.Spider):
 	def closed(self, reason):
 		print "-"*50
 		global updated_list
+		global none_count
 		t_len = len(updated_list)
-		print "UPDATED LIST:",t_len,"|"
+		print "UPDATED LIST:",t_len,"\t|"
+		print "-"*50
+		print "None count:",none_count,'\t|'
 		print "-"*50
 		db = MySQLdb.connect("localhost","root","root","bestprix_db" )
 		cursor = db.cursor()
@@ -80,4 +86,10 @@ class snapdeal_update(scrapy.Spider):
 				print "Error: unable to update in database"
 		db.commit()
 		db.close()
+
+		print "\n"
+		print "UPDATED LIST:",t_len,"\t|"
+		print "-"*50
+		print "None count:",none_count,'\t|'
+		print "-"*50
 		print "\n"
