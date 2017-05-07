@@ -28,8 +28,8 @@ class snapdeal_update(scrapy.Spider):
 		# //*[@id="soldOrDiscontPriceBox"]/div[2]/span/span
 		price = response.xpath('//*[@class="payBlkBig"]/text()').extract_first()
 		# price = response.xpath('//span[contains(@class, "payBlkBig")]/text()').extract()
-		price = int(price.replace(',', ''))
 		if price is not None:
+			price = int(price.replace(',', ''))
 			# url = response.url
 			# db = MySQLdb.connect("localhost","root","root","bestprix_db" )
 			# cursor = db.cursor()
