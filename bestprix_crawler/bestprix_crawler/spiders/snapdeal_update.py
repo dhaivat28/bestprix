@@ -50,7 +50,7 @@ class snapdeal_update(scrapy.Spider):
 			# db.close()
 			updated_list.append({"price":price,"url":response.url})
 		else:
-			print "price ==>",price,"\n",response.url
+			# print "price ==>",price,"\n",response.url
 			none_count+=1
 
 	def parse(self, response):
