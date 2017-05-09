@@ -10,7 +10,7 @@ class snapdeal_update(scrapy.Spider):
 	start_urls = []
 	db = MySQLdb.connect("localhost","root","root","bestprix_db" )
 	cursor = db.cursor()
-	sql = "SELECT url from web_app_snapdeal ORDER BY id"
+	sql = "SELECT url from web_app_snapdeal ORDER BY id LIMIT 10"
 	try:
 		cursor.execute(sql)
 		results = cursor.fetchall()
@@ -77,7 +77,7 @@ class snapdeal_update(scrapy.Spider):
 			t_len-=1
 			sys.stdout.write('\r')
 			# the exact output you're looking for:
-			sys.stdout.write("left:"+str(t_len)+"\t\t")
+			sys.stdout.write("Left:"+str(t_len)+" "*10)
 			sys.stdout.flush()
 			sql = "UPDATE web_app_snapdeal SET price=%d WHERE url='%s'" % (r['price'],r['url'])
 			try:
