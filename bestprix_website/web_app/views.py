@@ -26,7 +26,7 @@ def login(request):
 				import ast
 				args = ast.literal_eval(call_back)
 				print args
-				url = args[0].strip()+"?key="+args[1].strip()+"&p_id="+args[2].strip()+"&seller="+args[3].strip()
+				url = args[0].strip()+"?next="+args[0].strip()+"&key="+args[1].strip()+"&p_id="+args[2].strip()+"&seller="+args[3].strip()
 				return redirect(url)
 			else:
 				return redirect('/')
@@ -139,3 +139,5 @@ def wishlist(request):
 			print request.GET['next']
 			context={'next':next_url}
 			return render(request,'login/index.html',context)
+	else:
+		return HttpResponse("Error")
