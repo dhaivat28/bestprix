@@ -43,10 +43,18 @@ def signup(request):
 		u_password = request.POST['password']
 		sq = request.POST['sq']
 		sa = request.POST['sa']
+		call_back = request.GET['next']
 		user = user_detail(email_id=email,name=fname,password=u_password,s_q=sq,s_a=sa)
 		user.save()
 		request.session['member_id'] = email
-		return HttpResponse("succsesfull")
+		if call_back != "":
+			import ast
+			args = ast.literal_eval(call_back)
+			print ">>",args
+			url = args[0].strip()+"?next="+args[0].strip()+"&key="+args[1].strip()+"&p_id="+args[2].strip()+"&seller="+args[3].strip()
+			return redirect(url)
+		else:
+			return redirect('/')
 	else:
 		return HttpResponse("error")
 

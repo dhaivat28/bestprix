@@ -220,7 +220,7 @@
 
 							<div class ="col-lg-12">
 							<div id="single-input">
-							<form action="{% url 'signup' %}" method="POST">
+							<form action="{% url 'signup' %}?next={{ next }}" method="POST">
 							{% csrf_token %}
 							<label>Fullname <span>*</span></label> <br/><input type="text" name="fname">
 							</div>
