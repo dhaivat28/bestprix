@@ -18,12 +18,22 @@ def index(request):
 def login(request):
 	if request.method == 'POST':
 		user = user_detail.objects.get(email_id=request.POST['email'])
+		call_back = request.GET['next']
+		# print call_back
 		if user.password == request.POST['password']:
 			request.session['member_id'] = user.email_id
-			return HttpResponse("logged in.")
+			if call_back != "":
+				import ast
+				args = ast.literal_eval(call_back)
+				print args
+				url = args[0].strip()+"?key="+args[1].strip()+"&p_id="+args[2].strip()+"&seller="+args[3].strip()
+				return redirect(url)
+			else:
+				return redirect('/')
 		else:
 			return HttpResponse("Your username and password didn't match.")
 	else:
+
 		return render(request, 'login/index.html')
 
 def signup(request):
@@ -103,7 +113,7 @@ def product(request):
 				print "\nproduct  ===> ",product['price'],product['title']
 				print "match    ===> ",match['product']['price'],match['product']['title']
 
-		context={'product':product,'match':match}
+		context={'product':product,'match':match,'key':key}
 		return render(request, 'product/index.html',context)
 		# return HttpResponse('Error no match found')
 	else:
@@ -113,9 +123,19 @@ def wishlist(request):
 	if request.method == 'GET':
 		p_id = request.GET['p_id']
 		seller = request.GET['seller']
+		next_page = request.GET['next']
+		key = request.GET['key']
+		next_url = []
+		next_url.append(next_page)
+		next_url.append(key)
+		next_url.append(p_id)
+		next_url.append(seller)
+
 		print '\n',p_id,seller,'\n'
 		try:
 			if request.session['member_id'] is not None:
 				return render(request,'wishlist/index.html')
 		except Exception as e:
-			return render(request,'login/index.html')
+			print request.GET['next']
+			context={'next':next_url}
+			return render(request,'login/index.html',context)

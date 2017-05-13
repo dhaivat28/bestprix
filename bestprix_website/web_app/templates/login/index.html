@@ -179,7 +179,7 @@
 
 										<div class ="col-lg-12">
 										<div id="single-input">
-										<form action="{% url 'login' %}" method="POST">
+										<form action="{% url 'login' %}?next={{ next }}" method="POST">
 										{% csrf_token %}
 										<label>
 										Email Address <span>*</span>
