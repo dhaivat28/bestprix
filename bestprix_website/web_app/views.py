@@ -10,7 +10,7 @@ import lxml.etree
 import json
 import MySQLdb
 import api_functions as api
-from .models import user_detail
+from .models import user_detail,wishes
 
 def index(request):
 	return render(request, 'index.html')
@@ -25,7 +25,7 @@ def login(request):
 			if call_back != "":
 				import ast
 				args = ast.literal_eval(call_back)
-				print args
+				print ">>",args
 				url = args[0].strip()+"?next="+args[0].strip()+"&key="+args[1].strip()+"&p_id="+args[2].strip()+"&seller="+args[3].strip()
 				return redirect(url)
 			else:
@@ -121,19 +121,42 @@ def product(request):
 
 def wishlist(request):
 	if request.method == 'GET':
-		p_id = request.GET['p_id']
-		seller = request.GET['seller']
+		mp_id = request.GET['p_id']
+		mseller = request.GET['seller']
 		next_page = request.GET['next']
 		key = request.GET['key']
 		next_url = []
 		next_url.append(next_page)
 		next_url.append(key)
-		next_url.append(p_id)
-		next_url.append(seller)
+		next_url.append(mp_id)
+		next_url.append(mseller)
+		exist = False
 
-		print '\n',p_id,seller,'\n'
+		print '\n',mp_id,mseller,'\n'
 		try:
 			if request.session['member_id'] is not None:
+				email = request.session['member_id']
+				print "HERE"
+				db = MySQLdb.connect("localhost","root","root","bestprix_db")
+				cursor = db.cursor()
+				try:
+					sql = "SELECT * FROM web_app_wishes WHERE email_id='%s' and p_id='%s'" % (email,mp_id)
+					cursor.execute(sql)
+					results = cursor.fetchall()
+					if len(results) == 0:
+						sql = "INSERT INTO web_app_wishes (id,email_id, p_id, seller) VALUES (NULL, '%s', '%s', '%s')" % (email,mp_id,mseller)
+						try:
+							cursor.execute(sql)
+							db.commit()
+
+						except Exception as e:
+							print "EROOR 2"
+					else:
+						return HttpResponse("already exist")
+					db.close()
+				except Exception:
+					print "EROOR 1"
+
 				return render(request,'wishlist/index.html')
 		except Exception as e:
 			print request.GET['next']

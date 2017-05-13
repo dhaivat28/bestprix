@@ -30,7 +30,7 @@ class user_detail(models.Model):
 	s_q = models.CharField(max_length=200)
 	s_a = models.CharField(max_length=100)
 
-class wishlist(models.Model):
+class wishes(models.Model):
 	email_id = models.CharField(max_length=100)
 	p_id = models.CharField(max_length=100)
 	seller = models.CharField(max_length=100)
