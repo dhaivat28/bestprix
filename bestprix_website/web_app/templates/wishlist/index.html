@@ -60,7 +60,7 @@
 	});
 	</script>
 
-	
+
 
 </head>
 
@@ -164,20 +164,20 @@
 								<div class="row">
 									<div class="col-lg-12">
 										<div class="row">
-
+											{% for item in product_set %}
 											<!--- copy paste code below ---->
 											<div class="col-lg-12">
 												<div class="single-wish-item">
 													<div class="row">
 														<div class="col-lg-2">
 															<div class="wish-img-box">
-															<img src="{% static 'img/xolo.jpg' %}" class="wish-img" />
+															<img src="{{ item.img_url }}" class="wish-img" />
 															</div>
 															</div>
 														<div class="col-lg-3">
 															<div class="wish-desc">
-																<a href="#" class="wish-link">Xolo Era 2 (8GB, 4G)</a><br />
-																<h31>₹ 17,300</h31>
+																<a href="#" class="wish-link">{{ item.title }}</a><br />
+																<h31>₹&nbsp;{{ item.price }}</h31>
 															</div>
 														</div>
 
@@ -190,6 +190,7 @@
 													</div>
 												</div>
 											</div>
+											{% endfor%}
 										<!--- copy paste code above ---->
 
 

@@ -128,7 +128,9 @@ def product(request):
 		return HttpResponse('Error')
 
 def wishlist(request):
-	if request.method == 'GET':
+	nopara=request.GET.get('nopara',"False")
+	print nopara
+	if request.method == 'GET' and nopara == "False":
 		mp_id = request.GET['p_id']
 		mseller = request.GET['seller']
 		next_page = request.GET['next']
@@ -160,7 +162,7 @@ def wishlist(request):
 						except Exception as e:
 							print "EROOR 2"
 					else:
-						return HttpResponse("already exist")
+						pass
 					db.close()
 				except Exception:
 					print "EROOR 1"
@@ -170,5 +172,43 @@ def wishlist(request):
 			print request.GET['next']
 			context={'next':next_url}
 			return render(request,'login/index.html',context)
+	elif nopara == "True":
+		try:
+			if request.session['member_id'] is not None:
+				db = MySQLdb.connect("localhost","root","root","bestprix_db")
+				cursor = db.cursor()
+				try:
+					sql = "SELECT * FROM web_app_wishes WHERE email_id='%s'" % (request.session['member_id'])
+					cursor.execute(sql)
+					results = cursor.fetchall()
+					print len(results)
+					p_list=[]
+					for row in results:
+						p_list.append({'p_id':row[2],'seller':row[3]})
+					db.close()
+					product_set=[]
+					for p in p_list:
+						if p["seller"] == 'amazon':
+							try:
+								product = api.amazon_callby_id(p["p_id"])
+								product_set.append(product)
+							except Exception:
+								print "Status: Error in amazon API call"
+							# print amazon['title']
+						elif p["seller"] == 'flipkart':
+							try:
+								product = api.flipkart_callby_id(p["p_id"])
+								product_set.append(product)
+							except Exception:
+								print "Status: Error in flipkart API call"
+					context={'product_set':product_set}
+					return render(request, 'wishlist/index.html',context)
+
+				except Exception:
+					print "EROOR 3"
+				return render(request,'wishlist/index.html')
+		except Exception:
+			print "Error please login"
+			return HttpResponse("Error")
 	else:
 		return HttpResponse("Error")
