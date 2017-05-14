@@ -953,7 +953,8 @@ font-size: 13px;
 .nav-menu ul li a{
 	line-height:20px;
 	padding:16px 15px;
-	transition:all 0.2s linear 0s
+	transition:all 0.2s linear 0s;
+	color: #333;
 }
 
 .nav-menu ul li:last-child{
@@ -1696,7 +1697,7 @@ padding: 15px 40px 15px 40px;
 	padding-top: 20px;
 }
 
-.wish-link {
+#wish-link {
 font-family: 'Open Sans', sans-serif;
 font-size: 16px;
 color: #333;
@@ -1706,14 +1707,24 @@ font-weight: 500;
 margin-bottom: 10px;
 }
 
-.wish-link:hover {
+#wish-link:hover {
 font-weight: 500;
 color:#e40046;
 text-decoration: none;
 cursor: pointer;
 }
 
-.wish-img-box {
+
+#wish-link:visited {
+text-decoration: none;
+}
+
+
+#wish-link:active {
+text-decoration: none;
+}
+
+#wish-img-box {
 	text-align: center;
 }
 
