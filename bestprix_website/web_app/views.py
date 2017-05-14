@@ -58,6 +58,10 @@ def signup(request):
 	else:
 		return HttpResponse("error")
 
+def logout(request):
+	del request.session['member_id']
+	return redirect('/')
+
 def search(request):
 	key = request.GET['q']
 	amazon_set=[]
