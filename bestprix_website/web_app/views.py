@@ -239,3 +239,18 @@ def wishlist(request):
 			return HttpResponse("Error")
 	else:
 		return HttpResponse("Error")
+
+def delete_wish(request):
+	if request.method == 'GET':
+		mp_id = request.GET['p_id']
+		email = request.session['member_id']
+		db = MySQLdb.connect("localhost","root","root","bestprix_db")
+		cursor = db.cursor()
+		try:
+			sql = "DELETE FROM web_app_wishes WHERE email_id = '%s' AND p_id = '%s'" % (email,mp_id)
+			cursor.execute(sql)
+			db.commit()
+		except Exception:
+			print "del Error"
+		db.close()
+		return redirect('/wishlist?nopara=True')
