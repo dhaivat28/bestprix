@@ -78,6 +78,23 @@
 		<script src="https://code.jquery.com/jquery-1.12.4.js"></script>
 		<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
 
+		<script>
+		$(document).ready(
+		function() {
+	        $(".status").mouseover(function() {
+	            $(".status-body").fadeIn();
+
+	        });
+			$('.status-body').mouseleave(function() {
+	    	setTimeout(function () {
+	        $('.status-body').fadeOut();
+	    	}, 100);
+			});
+
+	    	});
+		</script>
+
+
 </head>
 
 <body>
@@ -125,15 +142,57 @@
 			</div>
 
 			<div class="col-lg-3">
-			<!-- <div class="account">
-			<div class="outer">
-			<img src="images/users.png" class="outer-img" height="20">
-			</div>
-			<div class="outer-2">&nbsp;&nbsp;My Account&nbsp; <span3>▼</span3></div>
-			<div class="account-content">
-			<a href="#" class="Login">Login</a><br><p class="acc-con">New User? <span5> Sign Up</span5></p>
-			</div>
-			</div> -->
+
+			{% if request.session.member_id%}
+				<div class="status">
+					<div class="row">
+						<div class="col-lg-2">
+							<div class="st">
+									<img src="{% static 'images/person-icon.png' %}" />
+							</div>
+						</div>
+
+						<div class="col-lg-6">
+							<div class="st-links">
+								<a href="#">My Account</a>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="status-body">
+					<div class="row">
+						<div class="col-lg-12">
+							<div id="link-box">
+							<a href="{% url 'wishlist'%}?nopara=True" id="individual-link">Wishlist</a>
+							</div>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-lg-12">
+							<div class="status-end">
+								<a href="{% url 'logout' %}" id="logout-btn">Logout</a>
+							</div>
+						</div>
+					</div>
+				</div>
+				{% else %}
+				<div class="accounts">
+					<div class="row">
+						<div class="col-lg-2">
+							<div class="acc">
+									<img src="{% static 'images/person-icon.png' %}" />
+							</div>
+						</div>
+						<div class="col-lg-6">
+							<div class="acc-links">
+								<a href="{% url 'login' %}">Login | Sign Up</a>
+							</div>
+						</div>
+					</div>
+				</div>
+				{% endif %}
+
 			</div>
 
 		</div><!-- end of row -->
