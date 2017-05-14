@@ -2478,7 +2478,7 @@ border-left: 1px solid #d40041;
 }
 
 .status-body {
-	height:95px;
+	height:110px;
 	display: none;
 	width: 200px;
 	z-index: 9999;
@@ -2494,21 +2494,23 @@ border-left: 1px solid #d40041;
 	color:#fff;
 	font-family: 'Open Sans', sans-serif;
 	font-size: 14px;
-	padding-left: 15px;
 }
+
 
 #link-box {
-	margin-bottom: 10px;
+	padding-top: 5px;
+	height: 30px;
+	text-align: center;
 }
 
-#link-box: hover {
-	background-color: red;
-	height: 20px;
+#link-box:hover {
+	background-color:#2E2E2E;
 }
 .status-end {
 	border-top: 1px solid rgba(180,180,180,0.2);
 	text-align: center;
 	padding-top:15px;
+	margin-top: 10px;
 }
 
 #logout-btn {
