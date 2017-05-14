@@ -2444,7 +2444,7 @@ border-left: 1px solid #d40041;
 }
 
 .status-body {
-	height:200px;
+	height:95px;
 	display: none;
 	width: 200px;
 	z-index: 9999;
@@ -2452,14 +2452,46 @@ border-left: 1px solid #d40041;
 	background: #333333;
 	border-bottom-left-radius: 4px;
 	border-bottom-right-radius: 4px;
+	padding-top: 10px;
+}
+
+#individual-link {
+	text-decoration: none;
+	color:#fff;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 14px;
+	padding-left: 15px;
+}
+
+#link-box {
+	margin-bottom: 10px;
+}
+
+#link-box: hover {
+	background-color: red;
+	height: 20px;
+}
+.status-end {
+	border-top: 1px solid rgba(180,180,180,0.2);
+	text-align: center;
+	padding-top:15px;
+}
+
+#logout-btn {
+	background: #e40046;
+	color: #fff;
+	padding: 6px 12px;
+	font-size: 14px;
+	text-align: center;
+	border: none;
+	-webkit-transition: all 0.2s linear 0s;
+	-moz-transition: all 0.2s linear 0s;
+	-ms-transition: all 0.2s linear 0s;
+	-o-transition: all 0.2s linear 0s;
+	transition: all 0.2s linear 0s;
+	text-decoration: none;
 }
 /* -------------------------------  status End   ------------------------------------------- */
-
-
-
-
-
-
 
 
 .help-box {
