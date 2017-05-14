@@ -1504,18 +1504,52 @@ background-repeat:no-repeat;
 
 .sort-filter-body {
 	padding-top: 15px;
-	padding-left: 15px;
-	padding-right: 15px;
-}
-
-.sort-filter-body ul li{
-list-style-type: none;
-
+	/* padding-left: 15px;  */
+	/* padding-right: 15px; */
 }
 
 .sort-filter-body ul {
 margin-top: 10px;
 margin-left:-30px;
+}
+
+.sort-filter-body ul li{
+list-style-type: none;
+margin-top: 7px;
+margin-bottom: 7px;
+cursor: pointer;
+padding: 7px 7px 7px 10px;
+display: block;
+margin-left: 3px;
+line-height: 16px;
+height: 30px;
+}
+
+.sort-filter-body ul li:hover{
+top: -2px;
+left:-3px;
+line-height: 16px;
+
+padding: 7px 7px 7px 10px;
+display: block;
+list-style-type: none;
+margin-top: 7px;
+margin-bottom: 7px;
+cursor: pointer;
+background:#FAFAFA;
+border-left: 3px solid #E40046;
+border-top: 1px solid #E5E5E5;
+border-bottom: 1px solid #E5E5E5;
+border-top-left-radius: 3px;
+border-bottom-left-radius:3px;
+padding: 7px 7px 7px 10px;
+}
+
+
+.sort-filter-body ul li:last-child{
+list-style-type: none;
+margin-top: 7px;
+cursor: pointer;
 }
 
 .sort-by{
