@@ -1393,6 +1393,14 @@ font-size:12px;
 	box-shadow: 0 2px 4px 0 rgba(0,0,0,.08);
 }
 
+.long-box-w {
+	width:100%;
+	background:#fff;
+	height:347px;
+	border:1px #e5e5e5 solid;
+	box-shadow: 0 2px 4px 0 rgba(0,0,0,.08);
+}
+
 .long-box-title {
 		background:#fff;
 		height:53px;
@@ -1407,7 +1415,20 @@ font-size:12px;
 	text-align: center;
 }
 
+
+.long-box-body-w {
+	padding-top: 5px;
+	padding-left: 15px;
+	padding-right: 15px;
+	text-align: center;
+	background-color: #fff;
+}
+
 .long-box-body img{
+	width: 110px;
+}
+
+.long-box-body-w img{
 	width: 110px;
 }
 
