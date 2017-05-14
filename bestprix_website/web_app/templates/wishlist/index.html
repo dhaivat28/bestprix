@@ -174,16 +174,32 @@
 															<img src="{{ item.img_url }}" class="wish-img" />
 															</div>
 															</div>
-														<div class="col-lg-3">
+														<div class="col-lg-9">
 															<div class="wish-desc">
-																<a href="#" class="wish-link">{{ item.title }}</a><br />
-																<h31>₹&nbsp;{{ item.price }}</h31>
+																<div class="row">
+																	<div class="col-lg-12">											<a href="#" class="wish-link">{{ item.title }}</a>
+																	</div>
+
+																	<div class="col-lg-12">
+																		<div id="sp-box">
+																			<h31>₹&nbsp;{{ item.price }}</h31>
+																		</div>
+																	</div>
+
+																	<div class="col-lg-12">
+																		<div id="sp-box">
+																			<a href="#" id="wish-btns">View Product</a>			<a href="#" id="go-to">Buy Now</a>
+																		</div>
+																	</div>
+
+																</div>
 															</div>
 														</div>
 
-														<div class="col-lg-1 col-lg-push-6">
+
+														<div class="col-lg-1">
 															<div class="wish-x">
-																x
+																 <a href="#"><img src="{% static 'images/delete-icon.png' %}" class="delete-icon" /></a>
 															</div>
 														</div>
 

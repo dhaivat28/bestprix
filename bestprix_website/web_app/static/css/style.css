@@ -1725,7 +1725,13 @@ cursor: pointer;
 }
 
 .wish-x {
-	padding-top: 40px;
+	padding-top: 50px;
+}
+
+.delete-icon {
+	height: 20px;
+	width: 20px;
+	cursor: pointer;
 }
 /* --------------------------------------- final-product ---------------------------- */
 
@@ -2182,6 +2188,44 @@ border: none;
 -o-transition: all 0.2s linear 0s;
 transition: all 0.2s linear 0s;
 }
+
+#wish-btns {
+margin-right: 10px;
+text-decoration: none;
+background: #e40046;
+color: #fff;
+padding: 6px 12px;
+font-size: 14px;
+text-align: center;
+border: none;
+-webkit-transition: all 0.2s linear 0s;
+-moz-transition: all 0.2s linear 0s;
+-ms-transition: all 0.2s linear 0s;
+-o-transition: all 0.2s linear 0s;
+transition: all 0.2s linear 0s;
+}
+
+#wish-btns-1 {
+margin-left: 20px;
+text-decoration: none;
+background: #e40046;
+color: #fff;
+padding: 6px 12px;
+font-size: 14px;
+text-align: center;
+border: none;
+-webkit-transition: all 0.2s linear 0s;
+-moz-transition: all 0.2s linear 0s;
+-ms-transition: all 0.2s linear 0s;
+-o-transition: all 0.2s linear 0s;
+transition: all 0.2s linear 0s;
+}
+
+#sp-box {
+	margin-top: 7px;
+	margin-bottom:7px;
+}
+
 
 #v-pr {
 	background: #e40046;
