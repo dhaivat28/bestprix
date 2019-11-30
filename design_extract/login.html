@@ -1,0 +1,437 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description" content="">
+	<meta name="author" content="">
+	<link rel="shortcut icon" href="img/favicon1.png" type="image/x-icon" />
+	<title>Best Prix</title>
+	<!-- Bootstrap core CSS -->
+    
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" media="screen" />
+    <link rel="stylesheet" type="text/css" href="css/style.css" media="screen" />
+    <link rel="stylesheet" type="text/css" href="css/owl.carousel.css" media="screen" />
+    <link rel="stylesheet" type="text/css" href="css/responsive.css" media="screen" />
+
+	<!-- Start for Slider ---------->
+	<script src="sss/ext.js"></script>
+	<script src="sss/sss.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="sss/sss.css" media="screen" />
+
+	<script>
+		jQuery(function($) {
+		$('.slider').sss();
+		});
+	</script>
+	<!-- End for Slider
+
+	<script src="js/jquery.tabSlideOut.v1.3.js"></script>
+
+		<script>
+		$(function(){
+			 $('.slide-out-div').tabSlideOut({
+				 tabHandle: '.handle',                              //class of the element that will be your tab
+				 pathToTabImage: 'images/contact_tab.gif',          //path to the image for the tab (optionaly can be set using css)
+				 imageHeight: '122px',                               //height of tab image
+				 imageWidth: '40px',                               //width of tab image
+				 tabLocation: 'left',                               //side of screen where tab lives, top, right, bottom, or left
+				 speed: 300,                                        //speed of animation
+				 action: 'click',                                   //options: 'click' or 'hover', action to trigger animation
+				 topPos: '200px',                                   //position from the top
+				 fixedPosition: false                               //options: true makes it stick(fixed position) on scroll
+			 });
+		 });
+		 </script>  ---------->
+
+
+
+
+
+	<script>
+	jQuery(document).ready(function(){
+	jQuery(".menu-trigger").click(function() {
+	jQuery(".nav-menu").slideToggle(400,function(){
+	jQuery(this).toggleClass("nav-expanded").css('display','');
+	});
+	});
+	});
+	</script>
+
+	<script>
+		$( function() {
+			$( "#slider-range" ).slider({
+			range: true,
+			min: 0,
+			max: 500,
+			values: [ 75, 300 ],
+			slide: function( event, ui ) {
+				$( "#amount" ).val( "$" + ui.values[ 0 ] + " - $" + ui.values[ 1 ] );
+			}
+			});
+			$( "#amount" ).val( "$" + $( "#slider-range" ).slider( "values", 0 ) + " - $" + $( "#slider-range" ).slider( "values", 1 ) );
+		} );
+	</script>
+		<link rel="stylesheet" href="css/price_slider.css" rel="stylesheet">
+		<script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+		<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+
+		<script>
+		$(document).ready(
+		function() {
+	        $(".status").mouseover(function() {
+	            $(".status-body").fadeIn();
+
+	        });
+			$('.status-body').mouseleave(function() {
+	    	setTimeout(function () {
+	        $('.status-body').fadeOut();
+	    	}, 100);
+			});
+
+	    	});
+		</script>
+
+
+</head>
+
+<body>
+
+	<div class="top-bar">
+		<div class="row">
+			<div class="col-lg-3">
+				<h24>India's Largest Price Comparision Website</24>
+			</div>
+
+			<div class="col-lg-6 col-lg-push-5">
+				<ul class="top-list">
+					<li><a href="#">Wishlist</a></li>
+					<li><a href="#">My Cart</a></li>
+					<li><a href="#">Help Center</a></li>
+					<li><a href="#">Sell On Bestprix</a></li>
+				</ul>
+			</div>
+		</div>
+
+	</div>
+
+
+	<div class="navigation">
+
+		<div class="row">
+			<div class="col-lg-3">
+				<div class="logo">
+					<a href="#"><img src="img/bag.png" /></a>
+				</div>
+			</div>
+
+			<div class="col-lg-6">
+				<div class="search">
+					<form id="form" action="{% url 'search' %}" method="GET" class="new-search">
+						<div class="field" id="searchform">
+							<input type="text" size="25" value="" placeholder="Search Products and brands" name="q" id="listings" class="" />
+							<button type="submit" id="search">Search</button >
+							<div class="suggestionsBox" id="suggestions" style="display: none;">
+								<div class="suggestionList" id="suggestionsList"> &nbsp; </div>
+							</div>
+						</div>
+					</form>
+				</div> <!--end of search -->
+			</div>
+
+			<div class="col-lg-3">
+
+				<div class="status">
+					<div class="row">
+						<div class="col-lg-2">
+							<div class="st">
+									<img src="images/person-icon.png" />
+							</div>
+						</div>
+
+						<div class="col-lg-6">
+							<div class="st-links">
+								<a href="#">My Account</a>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="status-body">
+					<div class="row">
+						<div class="col-lg-12">
+							<div id="link-box">
+							<a href="{% url 'wishlist'%}?nopara=True" id="individual-link">Wishlist</a>
+							</div>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-lg-12">
+							<div class="status-end">
+								<a href="{% url 'logout' %}" id="logout-btn">Logout</a>
+							</div>
+						</div>
+					</div>
+				</div>
+				
+			</div>
+
+		</div><!-- end of row -->
+
+	</div> <!-- end of navigation div -->
+
+
+	<span class="menu-trigger">MENU</span>
+
+	<div class="container">
+		<div class="nav-menu">
+			<ul class="clearfix">
+			<li class="active"><a class="list_link" href="#">Home</a></li>
+			<li><a class="list_link" href="#">Mobiles</a></li>
+			<li><a class="list_link" href="#">Laptop & Computers</a></li>
+			<li><a class="list_link" href="#">Gym Equipment</a></li>
+			<li><a class="list_link" href="#">Watches</a></li>
+			<li><a class="list_link" href="#">Baby & Kids</a></li>
+			<li><a class="list_link" href="#">Personal & HealthCare</a></li>
+			<li><a class="list_link" href="#">New Deals</a></li>
+			<li><a class="list_link" href="#">Shoes</a></li>
+			<li><a class="list_link" href="#">Jewellery</a></li>
+			<li><a class="list_link" href="#">Offer Zone</a></li>
+			</ul>
+		</div>
+	</div>
+
+	<!-- Page Content -->
+
+			<div class="container">
+			<div class="sts">
+
+					<div class="row">
+
+						<div class="col-lg-6 col-md-6 col-sm-6">
+							<div class="login-form">
+								<div class="row">
+										<div class ="col-lg-12">
+										<div class="sts-title">
+										<h29>Sign in</h29>
+										</div>
+										</div>
+
+										<div class ="col-lg-12">
+										<div id="single-input">
+										<form action="{% url 'login' %}?next={{ next }}" method="POST">
+										
+										<label>
+										Email Address <span>*</span>
+										</label> <br /><input type="text" name="email">
+										</div>
+										</div>
+
+										<div class ="col-lg-12">
+										<div id="single-input">
+										Password <br/><input type="password" name="password">
+										</div>
+										</div>
+
+										<div class ="col-lg-4 col-lg-push-7">
+										<div id="single-input">
+										<a href="#" class="forgot">Forgot Your Password ?</a>
+										</div>
+										</div>
+
+										<div class ="col-lg-12">
+										<div class="form-group">
+										<input type="submit" class="subs-input" value="LOGIN">
+										</form>
+										</div>
+										</div>
+								</div>
+							</div>
+						</div>
+
+						<div class="col-lg-6 col-md-6 col-sm-6">
+							<div class="signup-form">
+							<div class="row">
+							<div class ="col-lg-12">
+							<div class="sts-title">
+							<h29>Create a new account</h29>
+							</div>
+							</div>
+
+							<div class ="col-lg-12">
+							<div id="single-input">
+							<form action="{% url 'signup' %}?next={{ next }}" method="POST">
+							
+							<label>Fullname <span>*</span></label> <br/><input type="text" name="fname">
+							</div>
+							</div>
+
+							<div class ="col-lg-12">
+							<div id="single-input">
+							<label>Email Address <span>*</span></label><br/><input type="text" name="email">
+							</div>
+							</div>
+
+							<div class ="col-lg-12">
+							<div id="single-input">
+							<label>Password <span>*</span></label><br/> <input type="password" name="password"><br><br>
+							</div>
+							</div>
+
+							<div class ="col-lg-12">
+							<div id="single-input">
+							<label>Confirm Password <span>*</span></label> <br/><input type="password" name="con_pass"><br><br>
+								</div>
+							</div>
+
+							<div class ="col-lg-12">
+							<div id="single-input">
+							<label>Security Question <span>*</span></label><br/> <select name="sq">
+							<option value="What was your favorite place to visit as a child?">What was your favorite place to visit as a child?</option>
+							<option value="Who is your favorite actor, musician, or artist?">Who is your favorite actor, musician, or artist?</option>
+							<option value="What is the name of your favorite pet?">What is the name of your favorite pet?</option>
+							<option value="In what city were you born?">In what city were you born?</option>
+							<option value="What high school did you attend?">What high school did you attend?</option>
+							<option value="What is the name of your first school?">What is the name of your first school?</option>
+							<option value="What is your favorite movie?">What is your favorite movie?</option>
+							<option value="What is your mother's maiden name?">What is your mother's maiden name?</option>
+							<option value="What street did you grow up on?">What street did you grow up on?</option>
+							<option value="What was the make of your first car?">What was the make of your first car?</option>
+							<option value="When is your anniversary?">When is your anniversary?</option>
+							<option value="What is your favorite color?">What is your favorite color?</option>
+							<option value="What is your father's middle name?">What is your father's middle name?</option>
+							<option value="What is the name of your first grade teacher?">What is the name of your first grade teacher?</option>
+							<option value="What was your high school mascot?">What was your high school mascot?</option>
+							<option value="Which is your favorite web browser?">Which is your favorite web browser?</option>
+							</select>
+							</div>
+							</div>
+
+							<div class ="col-lg-12">
+							<div id="single-input">
+							<label>Security Answer <span>*</span></label><br/> <input type="text" name="sa">
+							</div>
+							</div>
+
+							<div class ="col-lg-12">
+							<div class="form-group">
+							<input type="submit" class="subs-input" value="SiGN UP">
+							</form>
+							</div>
+							</div>
+							</div>
+							</div>
+						</div>
+
+					</div><!-- End Of Main row -->
+
+				</div>
+			</div><!-- End Of Main Container -->
+<div class="footer">
+		<div class="footer-middle">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-3">
+						<div class="footer-middle-1">
+							<h15>CONTACT US</h15>
+							<div class="single-box">
+								<div class="icon-box-outer">
+									<img src="images/footer/l.png" class="icon-box-img" />
+								</div>
+								<div class="icon-box-content">
+									Themesstock, 789 Main rd,<br /> Anytown, CA 12345 USA
+								</div>
+							</div>
+							<div class="single-box">
+								<div class="icon-box-outer">
+									<img src="images/footer/p.png" class="icon-box-img" />
+								</div>
+								<div class="icon-box-content">
+								+(888) 123-4567 <br />
+								+(888) 456-7890
+								</div>
+							</div>
+							<div class="single-box">
+								<div class="icon-box-outer">
+									<img src="images/footer/m3.png" class="icon-box-img" />
+								</div>
+								<div class="icon-box-content sps">
+									info@bestprix.com
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-3">
+						<div class="footer-middle-1">
+							<h15>CUSTOMER SERVICE</h15>
+							<ul>
+								<li><a href="#" title="Contact us">My Account</a></li>
+								<li><a href="#" title="About us">Order History</a></li>
+								<li><a href="#" title="faq">FAQ</a></li>
+								<li><a href="#" title="Popular Searches">Specials</a></li>
+								<li><a href="#">Help Center</a></li>
+							</ul>
+						</div>
+					</div>
+					<div class="col-lg-3">
+						<div class="footer-middle-1">
+							<h15>CORPORATION</h15>
+							<ul>
+								<li><a title="Your Account" href="#">About us</a></li>
+								<li><a title="Information" href="#">Customer Service</a></li>
+								<li><a title="Addresses" href="#">Company</a></li>
+								<li><a title="Addresses" href="#">Investor Relations</a></li>
+								<li><a title="Orders History" href="#">Advanced Search</a></li>
+							</ul>
+						</div>
+					</div>
+					<div class="col-lg-3">
+						<div class="footer-middle-1">
+							<h15>WHY CHOOSE US</h15>
+							<ul>
+								<li><a href="#" title="About us">Shopping Guide</a></li>
+								<li><a href="#" title="Blog">Blog</a></li>
+								<li><a href="#" title="Company">Company</a></li>
+								<li><a href="#" title="Investor Relations">Investor Relations</a></li>
+								<li><a href="#" title="Suppliers">Contact Us</a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="footer-bottom">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-3 pull-left">
+						<div class="copyrights">
+						  <p>Copyright &copy; BestPrix 2017</p>
+						</div>
+					</div>
+					<div class="col-lg-3 pull-right">
+						<div class="made">
+							Made with <span class="red">❤</span> in &nbsp;<img src="img/indian_flag.gif" class="flag">
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+<!--	<div class="slide-out-div">
+	<a class="handle" href="#">Content</a>
+	<h3>Contact Us</h3>
+	<a href="mailto:bestprix@bestprix.com">bestprix@bestprix.com</a><br /><br />
+	<p>Thanks for checking out our Website. I hope you find this useful.</p>
+	</div> -->
+
+	<script src="js/owl.carousel.min.js"></script>
+	<script src="js/jquery.sticky.js"></script>
+	<!-- jQuery easing -->
+	<script src="js/jquery.easing.1.3.min.js"></script>
+	<!-- Main Script -->
+	<script src="js/main.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+
+</body>
+</html>
